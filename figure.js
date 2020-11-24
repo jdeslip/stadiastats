@@ -218,6 +218,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverinfo": "x+y+name",
             "hoverlabel": {
                 "namelength": -1
@@ -442,6 +443,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -666,6 +668,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -890,6 +893,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -1114,6 +1118,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -1338,6 +1343,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -1562,6 +1568,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -1786,6 +1793,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -2010,6 +2018,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -2234,6 +2243,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -2458,6 +2468,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -2682,6 +2693,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -2906,6 +2918,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -3130,6 +3143,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -3354,6 +3368,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -3578,6 +3593,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -3802,6 +3818,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -4026,6 +4043,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -4250,6 +4268,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -4474,6 +4493,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -4698,6 +4718,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -4922,6 +4943,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -5143,6 +5165,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -5364,6 +5387,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -5585,6 +5609,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -5806,6 +5831,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -6027,6 +6053,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -6248,6 +6275,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -6469,6 +6497,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -6690,6 +6719,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -6911,6 +6941,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -7132,6 +7163,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -7353,6 +7385,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -7574,6 +7607,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -7795,6 +7829,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -8016,6 +8051,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -8026,7 +8062,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "A",
-                    "y": "O"
+                    "y": "AO"
                 }
             },
             "mode": "markers+lines",
@@ -8135,9 +8171,9 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:babd7c",
+            "ysrc": "jdeslip:346:bac609",
             "y": [
-                "esStadia",
+                "Stadia Talk",
                 "",
                 "",
                 "",
@@ -8192,51 +8228,52 @@ var figure = {
                 "",
                 "",
                 "",
+                "48",
+                "58",
+                "67",
+                "78",
+                "80",
+                "82",
+                "87",
+                "93",
+                "101",
+                "103",
+                "122",
+                "132",
+                "132",
+                "139",
+                "144",
+                "150",
+                "156",
+                "154",
+                "155",
+                "160",
+                "160",
+                "166",
+                "169",
+                "171",
+                "183",
+                "191",
+                "191",
                 "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "1830",
-                "1840",
-                "1840",
-                "1850",
-                "1850",
-                "",
-                "1860",
-                "1860",
-                "1850",
-                "1860",
-                "1870",
-                "1880",
-                "1880",
-                "1900",
-                "1910",
-                "1920",
-                "1940",
-                "1980"
+                "198",
+                "200",
+                "200",
+                "201",
+                "202",
+                "203",
+                "204",
+                "204",
+                "206",
+                "206",
+                "206",
+                "211"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -8453,6 +8490,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -8674,6 +8712,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -8895,6 +8934,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -9116,6 +9156,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -9337,6 +9378,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -9558,6 +9600,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -9779,6 +9822,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -10000,6 +10044,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -10221,6 +10266,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -10442,6 +10488,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -10663,6 +10710,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -10884,6 +10932,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -11105,6 +11154,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -11326,6 +11376,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -11547,6 +11598,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -11768,6 +11820,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -11989,6 +12042,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -12210,6 +12264,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -12431,6 +12486,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -12652,6 +12708,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "hoverlabel": {
                 "namelength": -1
             },
@@ -12674,34 +12731,36 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2020-05-31 16:00",
-                "2020-12-31 16:00"
+                "2020-06-04 14:47:56.6744",
+                "2020-12-03 09:12:03.3256"
             ],
             "title": {
                 "text": "Date"
             },
-            "autorange": false
+            "autorange": true,
+            "showspikes": false
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                0,
-                11000
+                -543.5747663551402,
+                9768.574766355141
             ],
             "title": {
                 "text": "Subscriber Count"
             },
-            "autorange": false
+            "autorange": true,
+            "showspikes": false
         },
         "height": 1400,
         "legend": {
-            "x": -0.020000000000000018,
-            "y": -0.52,
-            "xanchor": "auto",
+            "x": 1,
+            "y": 1,
+            "xanchor": "left",
             "yanchor": "auto",
             "itemsizing": "trace",
             "borderwidth": 0,
-            "orientation": "h"
+            "orientation": "v"
         },
         "margin": {
             "b": 100,
@@ -12713,7 +12772,7 @@ var figure = {
         "modebar": {
             "orientation": "h"
         },
-        "autosize": false,
+        "autosize": true,
         "template": {
             "data": {
                 "bar": [
