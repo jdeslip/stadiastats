@@ -3,14 +3,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "E"
+                    "x": "Date",
+                    "y": "Stadia Cast"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Cast",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -113,7 +113,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:16bcef",
+            "ysrc": "jdeslip:350:a2db31",
             "y": [
                 "Stadia Cast",
                 "6670",
@@ -212,30 +212,23 @@ var figure = {
                 "8540"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverinfo": "x+y+name",
-            "hoverlabel": {
-                "namelength": -1
-            },
+            "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "F"
+                    "x": "Date",
+                    "y": "Sunny Cloud Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "Sunny Cloud Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -338,7 +331,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:296bdc",
+            "ysrc": "jdeslip:350:eccae1",
             "y": [
                 "Sunny Cloud Gaming",
                 "5230",
@@ -437,15 +430,8 @@ var figure = {
                 "9210"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -453,14 +439,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "G"
+                    "x": "Date",
+                    "y": "Generation Stadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "Generation Stadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -563,7 +549,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:546b4f",
+            "ysrc": "jdeslip:350:ff8656",
             "y": [
                 "Generation Stadia",
                 "4260",
@@ -662,15 +648,8 @@ var figure = {
                 "5660"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -678,14 +657,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "H"
+                    "x": "Date",
+                    "y": "Gaming Tonight W/ Bryan"
                 }
             },
             "mode": "markers+lines",
-            "name": "Gaming Tonight w/ Bryan",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -788,7 +767,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:46709c",
+            "ysrc": "jdeslip:350:55c242",
             "y": [
                 "Gaming Tonight W/ Bryan",
                 "",
@@ -887,15 +866,8 @@ var figure = {
                 "3500"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -903,14 +875,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "I"
+                    "x": "Date",
+                    "y": "Caleb Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "Caleb Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1013,7 +985,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:52be31",
+            "ysrc": "jdeslip:350:fb4f0a",
             "y": [
                 "Caleb Gaming",
                 "",
@@ -1112,15 +1084,8 @@ var figure = {
                 "3490"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -1128,14 +1093,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "J"
+                    "x": "Date",
+                    "y": "The Nerf Report"
                 }
             },
             "mode": "markers+lines",
-            "name": "The Nerf Report",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1238,7 +1203,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:5d31a9",
+            "ysrc": "jdeslip:350:be500d",
             "y": [
                 "The Nerf Report",
                 "",
@@ -1337,15 +1302,8 @@ var figure = {
                 "3880"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -1353,14 +1311,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "K"
+                    "x": "Date",
+                    "y": "Stadia Estado"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Estado",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1463,7 +1421,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:52f126",
+            "ysrc": "jdeslip:350:221e0f",
             "y": [
                 "Stadia Estado",
                 "",
@@ -1562,15 +1520,8 @@ var figure = {
                 "2860"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -1578,14 +1529,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "L"
+                    "x": "Date",
+                    "y": "Clive Illenden"
                 }
             },
             "mode": "markers+lines",
-            "name": "Clive Illenden",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1688,7 +1639,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:d27781",
+            "ysrc": "jdeslip:350:54aaf5",
             "y": [
                 "Clive Illenden",
                 "",
@@ -1787,15 +1738,8 @@ var figure = {
                 "2580"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -1803,14 +1747,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "M"
+                    "x": "Date",
+                    "y": "YaBoyTwiz"
                 }
             },
             "mode": "markers+lines",
-            "name": "YaBoyTwiz",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1913,7 +1857,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:04db21",
+            "ysrc": "jdeslip:350:a44ef9",
             "y": [
                 "YaBoyTwiz",
                 "",
@@ -2012,15 +1956,8 @@ var figure = {
                 "2140"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -2028,14 +1965,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "N"
+                    "x": "Date",
+                    "y": "Cloud Gaming Xtreme"
                 }
             },
             "mode": "markers+lines",
-            "name": "Cloud Gaming Xtreme",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2138,7 +2075,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:a0a3a0",
+            "ysrc": "jdeslip:350:392a32",
             "y": [
                 "Cloud Gaming Xtreme",
                 "",
@@ -2237,15 +2174,8 @@ var figure = {
                 "3600"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -2253,14 +2183,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "O"
+                    "x": "Date",
+                    "y": "esStadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "esStadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2363,7 +2293,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:babd7c",
+            "ysrc": "jdeslip:350:501aee",
             "y": [
                 "esStadia",
                 "",
@@ -2462,15 +2392,8 @@ var figure = {
                 "1980"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -2478,14 +2401,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "P"
+                    "x": "Date",
+                    "y": "ShadowraithXI"
                 }
             },
             "mode": "markers+lines",
-            "name": "ShadowraithXI",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2588,7 +2511,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:2af941",
+            "ysrc": "jdeslip:350:fdfbdd",
             "y": [
                 "ShadowraithXI",
                 "",
@@ -2687,15 +2610,8 @@ var figure = {
                 "1820"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -2703,14 +2619,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "Q"
+                    "x": "Date",
+                    "y": "Rokk"
                 }
             },
             "mode": "markers+lines",
-            "name": "Rokk",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2813,7 +2729,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:fe0792",
+            "ysrc": "jdeslip:350:f8c979",
             "y": [
                 "Rokk",
                 "",
@@ -2912,15 +2828,8 @@ var figure = {
                 "1570"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -2928,14 +2837,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "R"
+                    "x": "Date",
+                    "y": "Karim Jovian Games"
                 }
             },
             "mode": "markers+lines",
-            "name": "Karim Jovian Games",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3038,7 +2947,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:b26023",
+            "ysrc": "jdeslip:350:2d4f33",
             "y": [
                 "Karim Jovian Games",
                 "",
@@ -3137,15 +3046,8 @@ var figure = {
                 "1410"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -3153,14 +3055,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "S"
+                    "x": "Date",
+                    "y": "AndyMorphs"
                 }
             },
             "mode": "markers+lines",
-            "name": "AndyMorphs",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3263,7 +3165,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:d2b8e2",
+            "ysrc": "jdeslip:350:d74b89",
             "y": [
                 "AndyMorphs",
                 "",
@@ -3362,15 +3264,8 @@ var figure = {
                 "1480"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -3378,14 +3273,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "T"
+                    "x": "Date",
+                    "y": "Stadia Outcast"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Outcast",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3488,7 +3383,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:ae698f",
+            "ysrc": "jdeslip:350:30613b",
             "y": [
                 "Stadia Outcast",
                 "",
@@ -3587,15 +3482,8 @@ var figure = {
                 "1300"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -3603,14 +3491,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "U"
+                    "x": "Date",
+                    "y": "Meg Atron"
                 }
             },
             "mode": "markers+lines",
-            "name": "Meg Atron",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3713,7 +3601,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:f9f9e6",
+            "ysrc": "jdeslip:350:e1e2f2",
             "y": [
                 "Meg Atron",
                 "",
@@ -3812,15 +3700,8 @@ var figure = {
                 "1200"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -3828,14 +3709,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "V"
+                    "x": "Date",
+                    "y": "StadiaVetGaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "StadiaVetGaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3938,7 +3819,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:82d137",
+            "ysrc": "jdeslip:350:8bf6d0",
             "y": [
                 "StadiaVetGaming",
                 "",
@@ -4037,15 +3918,8 @@ var figure = {
                 "1240"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -4053,14 +3927,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "W"
+                    "x": "Date",
+                    "y": "Stadia Source"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Source",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4163,7 +4037,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:42d60a",
+            "ysrc": "jdeslip:350:5ffd08",
             "y": [
                 "Stadia Source",
                 "",
@@ -4262,15 +4136,8 @@ var figure = {
                 "1350"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -4278,14 +4145,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "X"
+                    "x": "Date",
+                    "y": "The Glory of Stadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "The Glory of Stadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4388,7 +4255,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:e430a3",
+            "ysrc": "jdeslip:350:e8d38e",
             "y": [
                 "The Glory of Stadia",
                 "",
@@ -4487,15 +4354,8 @@ var figure = {
                 "766"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -4503,14 +4363,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "Y"
+                    "x": "Date",
+                    "y": "Stadia Dosage"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Dosage",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4613,7 +4473,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:833ab9",
+            "ysrc": "jdeslip:350:6bac04",
             "y": [
                 "Stadia Dosage",
                 "",
@@ -4712,15 +4572,8 @@ var figure = {
                 "940"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -4728,14 +4581,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "Z"
+                    "x": "Date",
+                    "y": "Eddie Player 1"
                 }
             },
             "mode": "markers+lines",
-            "name": "Eddie Player 1",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4838,7 +4691,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:511f09",
+            "ysrc": "jdeslip:350:6be555",
             "y": [
                 "Eddie Player 1",
                 "",
@@ -4937,15 +4790,8 @@ var figure = {
                 "1020"
             ],
             "marker": {
-                "line": {
-                    "width": 0
-                },
                 "size": 8,
                 "opacity": 0.75
-            },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
             },
             "stackgroup": null,
             "connectgaps": true
@@ -4953,14 +4799,14 @@ var figure = {
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AA"
+                    "x": "Date",
+                    "y": "State of Stadia (Deutsch)"
                 }
             },
             "mode": "markers+lines",
-            "name": "State of Stadia (Deutsch)",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5063,7 +4909,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:6691cf",
+            "ysrc": "jdeslip:350:cae73e",
             "y": [
                 "State of Stadia (Deutsch)",
                 "",
@@ -5165,24 +5011,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AB"
+                    "x": "Date",
+                    "y": "Sounds of Stadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "Sounds of Stadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5285,7 +5127,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:cf95b9",
+            "ysrc": "jdeslip:350:77b19a",
             "y": [
                 "Sounds of Stadia",
                 "",
@@ -5387,24 +5229,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AC"
+                    "x": "Date",
+                    "y": "Gem Stadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "Gem Stadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5507,7 +5345,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:673973",
+            "ysrc": "jdeslip:350:3a761b",
             "y": [
                 "Gem Stadia",
                 "",
@@ -5609,24 +5447,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AD"
+                    "x": "Date",
+                    "y": "AndNowYour MommaKnows"
                 }
             },
             "mode": "markers+lines",
-            "name": "AndNowYour MommaKnows",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5729,7 +5563,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:7c8cfe",
+            "ysrc": "jdeslip:350:abad29",
             "y": [
                 "AndNowYour MommaKnows",
                 "",
@@ -5831,24 +5665,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AE"
+                    "x": "Date",
+                    "y": "BATPixi"
                 }
             },
             "mode": "markers+lines",
-            "name": "BATPixi",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5951,7 +5781,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:4fbc2d",
+            "ysrc": "jdeslip:350:31a1fe",
             "y": [
                 "BATPixi",
                 "",
@@ -6053,24 +5883,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AF"
+                    "x": "Date",
+                    "y": "Stadia Revolution"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Revolution",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6173,7 +5999,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:36e37a",
+            "ysrc": "jdeslip:350:dd042a",
             "y": [
                 "Stadia Revolution",
                 "",
@@ -6275,24 +6101,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AG"
+                    "x": "Date",
+                    "y": "LinkTV"
                 }
             },
             "mode": "markers+lines",
-            "name": "LinkTV",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6395,7 +6217,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:778eef",
+            "ysrc": "jdeslip:350:4f8eff",
             "y": [
                 "LinkTV",
                 "",
@@ -6497,24 +6319,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AH"
+                    "x": "Date",
+                    "y": "Bibbity Bop"
                 }
             },
             "mode": "markers+lines",
-            "name": "Bibbity Bop",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6617,7 +6435,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:d2d4d8",
+            "ysrc": "jdeslip:350:356ce2",
             "y": [
                 "Bibbity Bop",
                 "",
@@ -6719,24 +6537,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AI"
+                    "x": "Date",
+                    "y": "Raph Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "Raph Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6839,7 +6653,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:9c50a7",
+            "ysrc": "jdeslip:350:593a89",
             "y": [
                 "Raph Gaming",
                 "",
@@ -6941,24 +6755,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AJ"
+                    "x": "Date",
+                    "y": "PedderYT"
                 }
             },
             "mode": "markers+lines",
-            "name": "PedderYT",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7061,7 +6871,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:fe9857",
+            "ysrc": "jdeslip:350:00e495",
             "y": [
                 "PedderYT",
                 "",
@@ -7163,24 +6973,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AK"
+                    "x": "Date",
+                    "y": "Ray Sherrod"
                 }
             },
             "mode": "markers+lines",
-            "name": "Ray Sherrod",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7283,7 +7089,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:0fca3a",
+            "ysrc": "jdeslip:350:47ce1c",
             "y": [
                 "Ray Sherrod",
                 "",
@@ -7385,24 +7191,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AL"
+                    "x": "Date",
+                    "y": "Cloudy w/ a Chance of Games"
                 }
             },
             "mode": "markers+lines",
-            "name": "Cloudy w/ a Chance of Games",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7505,7 +7307,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:38c50f",
+            "ysrc": "jdeslip:350:1451ae",
             "y": [
                 "Cloudy w/ a Chance of Games",
                 "",
@@ -7607,24 +7409,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AM"
+                    "x": "Date",
+                    "y": "Lord Kensai of Stadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "Lord Kensal of Stadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7727,7 +7525,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:54d05a",
+            "ysrc": "jdeslip:350:f5754a",
             "y": [
                 "Lord Kensai of Stadia",
                 "",
@@ -7829,24 +7627,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AN"
+                    "x": "Date",
+                    "y": "The Stadia Universe"
                 }
             },
             "mode": "markers+lines",
-            "name": "The Stadia Universe",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7949,7 +7743,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:6256ad",
+            "ysrc": "jdeslip:350:541e04",
             "y": [
                 "The Stadia Universe",
                 "",
@@ -8051,24 +7845,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AO"
+                    "x": "Date",
+                    "y": "Stadia Talk"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Talk",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -8171,7 +7961,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:bac609",
+            "ysrc": "jdeslip:350:de8aca",
             "y": [
                 "Stadia Talk",
                 "",
@@ -8273,24 +8063,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AP"
+                    "x": "Date",
+                    "y": "Happy Cloud Gamer"
                 }
             },
             "mode": "markers+lines",
-            "name": "Happy Cloud Gamer",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -8393,7 +8179,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:40ddb4",
+            "ysrc": "jdeslip:350:f74c0f",
             "y": [
                 "Happy Cloud Gamer",
                 "",
@@ -8490,24 +8276,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AQ"
+                    "x": "Date",
+                    "y": "Colour"
                 }
             },
             "mode": "markers+lines",
-            "name": "Colour",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -8610,7 +8392,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:29dfdf",
+            "ysrc": "jdeslip:350:67a8fc",
             "y": [
                 "Colour",
                 "",
@@ -8712,24 +8494,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AR"
+                    "x": "Date",
+                    "y": "Stefan Dehnert"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stefan Dehnert",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -8832,7 +8610,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:7a2ffe",
+            "ysrc": "jdeslip:350:266a5b",
             "y": [
                 "Stefan Dehnert",
                 "",
@@ -8934,24 +8712,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AS"
+                    "x": "Date",
+                    "y": "SammyOnStadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "SammyOnStadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -9054,7 +8828,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:7a05d2",
+            "ysrc": "jdeslip:350:3ea24b",
             "y": [
                 "SammyOnStadia",
                 "",
@@ -9156,24 +8930,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AT"
+                    "x": "Date",
+                    "y": "Ric Tone"
                 }
             },
             "mode": "markers+lines",
-            "name": "Ric Tone",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -9276,7 +9046,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:ea202b",
+            "ysrc": "jdeslip:350:b9287d",
             "y": [
                 "Ric Tone",
                 "",
@@ -9378,24 +9148,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AU"
+                    "x": "Date",
+                    "y": "Chromebook Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "Chromebook Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -9498,7 +9264,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:3ea14d",
+            "ysrc": "jdeslip:350:b7ec92",
             "y": [
                 "Chromebook Gaming",
                 "",
@@ -9600,24 +9366,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AV"
+                    "x": "Date",
+                    "y": "DadPlaysGames"
                 }
             },
             "mode": "markers+lines",
-            "name": "DadPlaysGames",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -9720,7 +9482,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:0e439c",
+            "ysrc": "jdeslip:350:bf1e72",
             "y": [
                 "DadPlaysGames",
                 "",
@@ -9822,24 +9584,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AW"
+                    "x": "Date",
+                    "y": "CloudGamer201"
                 }
             },
             "mode": "markers+lines",
-            "name": "CloudGamer201",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -9942,7 +9700,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:ae0931",
+            "ysrc": "jdeslip:350:009fe1",
             "y": [
                 "CloudGamer201",
                 "",
@@ -10044,24 +9802,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AX"
+                    "x": "Date",
+                    "y": "Dr. Spaceman"
                 }
             },
             "mode": "markers+lines",
-            "name": "Dr. Spaceman",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -10164,7 +9918,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:a84ca4",
+            "ysrc": "jdeslip:350:670172",
             "y": [
                 "Dr. Spaceman",
                 "",
@@ -10266,24 +10020,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AY"
+                    "x": "Date",
+                    "y": "Bluebobz"
                 }
             },
             "mode": "markers+lines",
-            "name": "Bluebobz",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -10386,7 +10136,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:08c646",
+            "ysrc": "jdeslip:350:b60a7a",
             "y": [
                 "Bluebobz",
                 "",
@@ -10488,24 +10238,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "AZ"
+                    "x": "Date",
+                    "y": "Hell Monkey 88"
                 }
             },
             "mode": "markers+lines",
-            "name": "Hell Monkey 88",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -10608,7 +10354,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:d9036c",
+            "ysrc": "jdeslip:350:aa13e9",
             "y": [
                 "Hell Monkey 88",
                 "",
@@ -10710,24 +10456,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BA"
+                    "x": "Date",
+                    "y": "Ejahmix"
                 }
             },
             "mode": "markers+lines",
-            "name": "Ejahmix",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -10830,7 +10572,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:da5d4a",
+            "ysrc": "jdeslip:350:5c94dc",
             "y": [
                 "Ejahmix",
                 "",
@@ -10932,24 +10674,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BB"
+                    "x": "Date",
+                    "y": "Stadia Pro Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Pro Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -11052,7 +10790,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:37ea83",
+            "ysrc": "jdeslip:350:f7fa45",
             "y": [
                 "Stadia Pro Gaming",
                 "",
@@ -11154,24 +10892,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BC"
+                    "x": "Date",
+                    "y": "Drei Keikens Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "Drei Keikens Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -11274,7 +11008,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:618d28",
+            "ysrc": "jdeslip:350:74c691",
             "y": [
                 "Drei Keikens Gaming",
                 "",
@@ -11376,24 +11110,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BD"
+                    "x": "Date",
+                    "y": "Inevitable Space - Stadia"
                 }
             },
             "mode": "markers+lines",
-            "name": "Inevitable Space - Stadia",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -11496,7 +11226,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:b03529",
+            "ysrc": "jdeslip:350:c587af",
             "y": [
                 "Inevitable Space - Stadia",
                 "",
@@ -11598,24 +11328,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BE"
+                    "x": "Date",
+                    "y": "NaytonTech Gaming"
                 }
             },
             "mode": "markers+lines",
-            "name": "NaytonTech Gaming",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -11718,7 +11444,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:d0c5a6",
+            "ysrc": "jdeslip:350:e43565",
             "y": [
                 "NaytonTech Gaming",
                 "",
@@ -11820,24 +11546,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BF"
+                    "x": "Date",
+                    "y": "Stadia Dosage 2"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Dosage 2",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -11940,7 +11662,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:9e0eea",
+            "ysrc": "jdeslip:350:41828f",
             "y": [
                 "Stadia Dosage 2",
                 "",
@@ -12042,24 +11764,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BG"
+                    "x": "Date",
+                    "y": "The Stadia Life"
                 }
             },
             "mode": "markers+lines",
-            "name": "The Stadia Life",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -12162,7 +11880,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:296fc2",
+            "ysrc": "jdeslip:350:56ba1f",
             "y": [
                 "The Stadia Life",
                 "",
@@ -12264,24 +11982,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BH"
+                    "x": "Date",
+                    "y": "Stadia Hunters"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Hunters",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -12384,7 +12098,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:c5f216",
+            "ysrc": "jdeslip:350:35602d",
             "y": [
                 "Stadia Hunters",
                 "",
@@ -12486,24 +12200,20 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
-                    "x": "A",
-                    "y": "BI"
+                    "x": "Date",
+                    "y": "Stadia Captures"
                 }
             },
             "mode": "markers+lines",
-            "name": "Stadia Captures",
+            "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:346:0a6ec5",
+            "xsrc": "jdeslip:350:726726",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -12606,7 +12316,7 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01"
             ],
-            "ysrc": "jdeslip:346:6fedfb",
+            "ysrc": "jdeslip:350:65ea50",
             "y": [
                 "Stadia Captures",
                 "",
@@ -12708,69 +12418,35 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
-            "visible": true,
-            "hoverlabel": {
-                "namelength": -1
-            },
             "stackgroup": null,
             "connectgaps": true
         }
     ],
     "layout": {
-        "font": {
-            "size": 12
-        },
         "title": {
-            "x": 0.12,
-            "font": {
-                "size": 21
-            },
-            "text": "<b>Stadia Centric Youtube Content Creator </b><br><b>Subscribers vs. Time</b>"
+            "text": "Stadia YouTube Subscriber Counts vs. Time"
         },
-        "width": 700,
         "xaxis": {
             "type": "date",
             "range": [
-                "2020-06-04 14:47:56.6744",
-                "2020-12-03 09:12:03.3256"
+                "2020-06-05 14:07:21.2364",
+                "2020-12-02 09:52:38.7636"
             ],
             "title": {
                 "text": "Date"
             },
-            "autorange": true,
-            "showspikes": false
+            "autorange": true
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                -543.5747663551402,
-                9768.574766355141
+                -802.8245192307694,
+                10027.82451923077
             ],
             "title": {
                 "text": "Subscriber Count"
             },
-            "autorange": true,
-            "showspikes": false
-        },
-        "height": 1400,
-        "legend": {
-            "x": 1,
-            "y": 1,
-            "xanchor": "left",
-            "yanchor": "auto",
-            "itemsizing": "trace",
-            "borderwidth": 0,
-            "orientation": "v"
-        },
-        "margin": {
-            "b": 100,
-            "l": 80,
-            "r": 40,
-            "t": 100,
-            "pad": 0
-        },
-        "modebar": {
-            "orientation": "h"
+            "autorange": true
         },
         "autosize": true,
         "template": {
@@ -13309,8 +12985,7 @@ var figure = {
                 }
             },
             "themeRef": "PLOTLY_WHITE"
-        },
-        "showlegend": true
+        }
     },
     "frames": []
 }
