@@ -1,4 +1,15 @@
 <!doctype html>
+
+<style>
+html,body{
+    height:100%;
+}
+
+.flex-fill {
+    flex:1;
+}
+</style>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -58,10 +69,10 @@
         </div>
       </div>
     </div>
-    
+  
     <!-- Plot Content -->
-    <div class="container h-100">
-      <div class="row h-100">
+    <div class="container-fluid d-flex h-100 flex-column">
+      <div class="row flex-fill d-flex">
         <div class="col">
           <br>
           <div id="myplotlyplot" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
