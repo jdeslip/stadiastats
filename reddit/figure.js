@@ -1988,15 +1988,15 @@ var figure = {
                 "2020-12-18 23:47:11.238"
             ],
             "title": {
-                "text": "Date"
+                "text": ""
             },
             "autorange": true
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                -5756.217368829155,
-                88626.21736882915
+                -5703.360088910843,
+                88573.36008891085
             ],
             "title": {
                 "text": "Members"
@@ -2005,7 +2005,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
             "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
