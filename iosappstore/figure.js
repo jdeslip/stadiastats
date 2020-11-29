@@ -209,7 +209,8 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
+            "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
         "autosize": true,
