@@ -170,7 +170,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "A",
-                    "y": "Number of Pro Games\n Claimable at Time"
+                    "y": "Number of Pro Games Claimable at Time"
                 }
             },
             "mode": "markers+lines",
@@ -211,7 +211,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:358:81d550",
             "y": [
-                "Number of Pro Games\n Claimable at Time",
+                "Number of Pro Games Claimable at Time",
                 "5",
                 "5",
                 "5",
@@ -268,8 +268,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -2.703339147769749,
-                123.70333914776975
+                -2.6342217991432637,
+                123.63422179914326
             ],
             "title": {
                 "text": "Number of Games"
@@ -278,7 +278,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
             "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
