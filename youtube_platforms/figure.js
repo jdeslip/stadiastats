@@ -672,15 +672,15 @@ var figure = {
                 "2020-12-09 09:40:09.9859"
             ],
             "title": {
-                "text": "Date"
+                "text": ""
             },
             "autorange": true
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                -17795.93408921007,
-                286546.93408921006
+                -17629.523798191334,
+                286380.52379819134
             ],
             "title": {
                 "text": "Subscribers"
@@ -689,7 +689,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
             "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
