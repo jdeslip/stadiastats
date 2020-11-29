@@ -257,24 +257,30 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2019-12-24 23:14:47.4591",
-                "2020-12-24 00:45:12.5409"
+                "2019-12-25 18:11:50.6901",
+                "2020-12-23 05:48:09.3099"
             ],
             "title": {
-                "text": "Date"
+                "text": ""
             },
             "autorange": true
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                -5.10702875399361,
-                126.1070287539936
+                -2.703339147769749,
+                123.70333914776975
             ],
             "title": {
                 "text": "Number of Games"
             },
             "autorange": true
+        },
+        "legend": {
+            "x": 0,
+            "y": -0.15,
+            "bgcolor": "rgba(255, 255, 255, 0.01)",
+            "orientation": "h"
         },
         "autosize": true,
         "template": {
