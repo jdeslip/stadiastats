@@ -1009,8 +1009,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -812.7545877487726,
-                29327.754587748772
+                -795.8749073845395,
+                29310.87490738454
             ],
             "title": {
                 "text": "Number of Reviews"
@@ -1019,7 +1019,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
             "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
