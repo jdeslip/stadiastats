@@ -761,8 +761,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -1397.4293098991989,
-                22265.4293098992
+                -1384.1773277352434,
+                22252.177327735244
             ],
             "title": {
                 "text": "Number of Users"
@@ -771,7 +771,8 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
+            "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
         "autosize": true,
