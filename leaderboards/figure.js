@@ -2402,8 +2402,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -7823.192125104719,
-                117901.19212510472
+                -7904.109096226968,
+                117982.10909622697
             ],
             "title": {
                 "text": "Leaderboard Size"
@@ -2412,10 +2412,11 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.1,
+            "y": -0.15,
             "font": {
                 "size": 10
             },
+            "bgcolor": "rgba(255, 255, 255, 0.01)",
             "borderwidth": 0,
             "orientation": "h"
         },
