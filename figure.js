@@ -211,12 +211,14 @@ var figure = {
                 "8430",
                 "8540",
                 "8590",
-                "8690"
+                "8690",
+                "8820"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -431,12 +433,14 @@ var figure = {
                 "9050",
                 "9210",
                 "9290",
-                "9400"
+                "9400",
+                "9530"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -651,12 +655,14 @@ var figure = {
                 "5560",
                 "5660",
                 "5730",
-                "5840"
+                "5840",
+                "5950"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -871,12 +877,14 @@ var figure = {
                 "3470",
                 "3500",
                 "3500",
+                "3510",
                 "3510"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -1091,12 +1099,14 @@ var figure = {
                 "3420",
                 "3490",
                 "3520",
-                "3570"
+                "3570",
+                "3630"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -1311,12 +1321,14 @@ var figure = {
                 "3850",
                 "3880",
                 "3930",
-                "3970"
+                "3970",
+                "3990"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -1531,12 +1543,14 @@ var figure = {
                 "2790",
                 "2860",
                 "2870",
-                "2900"
+                "2900",
+                "2930"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -1751,12 +1765,14 @@ var figure = {
                 "2500",
                 "2580",
                 "2590",
-                "2610"
+                "2610",
+                "2630"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -1971,12 +1987,14 @@ var figure = {
                 "2140",
                 "2140",
                 "2150",
-                "2140"
+                "2140",
+                "2150"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -2191,12 +2209,14 @@ var figure = {
                 "3450",
                 "3600",
                 "3650",
-                "3730"
+                "3730",
+                "3790"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -2411,12 +2431,14 @@ var figure = {
                 "1940",
                 "1980",
                 "2000",
-                "2020"
+                "2020",
+                "2040"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -2631,12 +2653,14 @@ var figure = {
                 "1810",
                 "1820",
                 "1820",
-                "1830"
+                "1830",
+                "1860"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -2851,12 +2875,14 @@ var figure = {
                 "1550",
                 "1570",
                 "1570",
-                "1570"
+                "1570",
+                "1580"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -3071,12 +3097,14 @@ var figure = {
                 "1410",
                 "1410",
                 "1410",
+                "1410",
                 "1410"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -3291,12 +3319,14 @@ var figure = {
                 "1460",
                 "1480",
                 "1490",
-                "1490"
+                "1490",
+                "1500"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -3511,12 +3541,14 @@ var figure = {
                 "1300",
                 "1300",
                 "1300",
+                "1300",
                 "1300"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -3731,12 +3763,14 @@ var figure = {
                 "1190",
                 "1200",
                 "1210",
-                "1210"
+                "1210",
+                "1220"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -3951,12 +3985,14 @@ var figure = {
                 "1230",
                 "1240",
                 "1240",
-                "1240"
+                "1240",
+                "1250"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -4171,12 +4207,14 @@ var figure = {
                 "1270",
                 "1350",
                 "1360",
-                "1360"
+                "1360",
+                "1370"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -4397,6 +4435,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -4611,12 +4650,14 @@ var figure = {
                 "921",
                 "940",
                 "948",
-                "951"
+                "951",
+                "966"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -4831,12 +4872,14 @@ var figure = {
                 "1010",
                 "1020",
                 "1020",
-                "1030"
+                "1030",
+                "1040"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -5051,12 +5094,14 @@ var figure = {
                 "846",
                 "895",
                 "920",
-                "956"
+                "956",
+                "994"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -5271,12 +5316,14 @@ var figure = {
                 "756",
                 "806",
                 "815",
-                "822"
+                "822",
+                "829"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -5491,12 +5538,14 @@ var figure = {
                 "1330",
                 "1370",
                 "1380",
-                "1400"
+                "1400",
+                "1410"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -5504,7 +5553,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "AndNowYour MommaKnows"
+                    "y": "ANY MommaKnows"
                 }
             },
             "mode": "markers+lines",
@@ -5615,7 +5664,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:350:abad29",
             "y": [
-                "AndNowYour MommaKnows",
+                "ANY MommaKnows",
                 "",
                 "",
                 "",
@@ -5711,12 +5760,14 @@ var figure = {
                 "",
                 "787",
                 "787",
-                "791"
+                "791",
+                "795"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -5931,12 +5982,14 @@ var figure = {
                 "512",
                 "537",
                 "538",
-                "537"
+                "537",
+                "540"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -6151,12 +6204,14 @@ var figure = {
                 "387",
                 "400",
                 "407",
-                "409"
+                "409",
+                "410"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -6371,12 +6426,14 @@ var figure = {
                 "379",
                 "415",
                 "410",
-                "414"
+                "414",
+                "415"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -6591,12 +6648,14 @@ var figure = {
                 "331",
                 "344",
                 "340",
-                "341"
+                "341",
+                "344"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -6811,12 +6870,14 @@ var figure = {
                 "297",
                 "295",
                 "295",
+                "293",
                 "293"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -7031,12 +7092,14 @@ var figure = {
                 "289",
                 "297",
                 "295",
-                "296"
+                "296",
+                "297"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -7251,12 +7314,14 @@ var figure = {
                 "189",
                 "207",
                 "207",
-                "209"
+                "209",
+                "212"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -7471,12 +7536,14 @@ var figure = {
                 "274",
                 "279",
                 "292",
-                "294"
+                "294",
+                "297"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -7691,12 +7758,14 @@ var figure = {
                 "177",
                 "181",
                 "181",
+                "181",
                 "181"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -7911,12 +7980,14 @@ var figure = {
                 "173",
                 "175",
                 "180",
-                "181"
+                "181",
+                "187"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -8131,12 +8202,14 @@ var figure = {
                 "206",
                 "211",
                 "212",
-                "215"
+                "215",
+                "220"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -8350,6 +8423,7 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -8564,12 +8638,14 @@ var figure = {
                 "164",
                 "226",
                 "232",
-                "234"
+                "234",
+                "237"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -8784,12 +8860,14 @@ var figure = {
                 "",
                 "175",
                 "174",
+                "176",
                 "176"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -9004,12 +9082,14 @@ var figure = {
                 "124",
                 "139",
                 "142",
+                "142",
                 "142"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -9224,12 +9304,14 @@ var figure = {
                 "127",
                 "129",
                 "129",
-                "132"
+                "132",
+                "133"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -9444,12 +9526,14 @@ var figure = {
                 "74",
                 "76",
                 "76",
-                "76"
+                "76",
+                "77"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -9664,12 +9748,14 @@ var figure = {
                 "55",
                 "56",
                 "56",
+                "56",
                 "56"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -9884,12 +9970,14 @@ var figure = {
                 "57",
                 "69",
                 "68",
+                "68",
                 "68"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -10104,12 +10192,14 @@ var figure = {
                 "157",
                 "171",
                 "179",
-                "197"
+                "197",
+                "201"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -10324,12 +10414,14 @@ var figure = {
                 "97",
                 "116",
                 "112",
-                "111"
+                "111",
+                "112"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -10544,12 +10636,14 @@ var figure = {
                 "73",
                 "100",
                 "101",
-                "101"
+                "101",
+                "102"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -10764,12 +10858,14 @@ var figure = {
                 "65",
                 "67",
                 "79",
-                "79"
+                "79",
+                "81"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -10984,12 +11080,14 @@ var figure = {
                 "54",
                 "58",
                 "66",
-                "71"
+                "71",
+                "76"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -11204,12 +11302,14 @@ var figure = {
                 "",
                 "66",
                 "66",
-                "68"
+                "68",
+                "70"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -11217,7 +11317,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Inevitable Space - Stadia"
+                    "y": "Inevitable Space"
                 }
             },
             "mode": "markers+lines",
@@ -11328,7 +11428,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:350:c587af",
             "y": [
-                "Inevitable Space - Stadia",
+                "Inevitable Space",
                 "",
                 "",
                 "",
@@ -11424,12 +11524,14 @@ var figure = {
                 "43",
                 "43",
                 "43",
+                "43",
                 "43"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -11644,12 +11746,14 @@ var figure = {
                 "",
                 "54",
                 "52",
+                "51",
                 "51"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -11864,12 +11968,14 @@ var figure = {
                 "",
                 "44",
                 "45",
-                "48"
+                "48",
+                "52"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -12084,12 +12190,14 @@ var figure = {
                 "32",
                 "68",
                 "63",
-                "64"
+                "64",
+                "63"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -12304,12 +12412,14 @@ var figure = {
                 "21",
                 "23",
                 "22",
+                "22",
                 "22"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         },
@@ -12524,12 +12634,14 @@ var figure = {
                 "20",
                 "19",
                 "19",
+                "19",
                 "19"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": true,
             "stackgroup": null,
             "connectgaps": true
         }
@@ -12541,24 +12653,35 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2020-06-05 12:50:25.6809",
-                "2020-12-06 11:09:34.3191"
+                "2020-06-05 14:19:50.0141",
+                "2020-12-09 09:40:09.9859"
             ],
             "title": {
-                "text": "Date"
+                "text": ""
             },
             "autorange": true
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                -628.1233948167173,
-                10043.123394816717
+                -1068.2922350472193,
+                10613.29223504722
             ],
             "title": {
                 "text": "Subscriber Count"
             },
             "autorange": true
+        },
+        "legend": {
+            "x": 0,
+            "y": -0.15,
+            "font": {
+                "size": 10
+            },
+            "bgcolor": "rgba(255, 255, 255, 0.01)",
+            "yanchor": "top",
+            "borderwidth": 0,
+            "orientation": "h"
         },
         "autosize": true,
         "template": {
