@@ -741,15 +741,15 @@ var figure = {
                 "2020-12-09 09:40:09.9859"
             ],
             "title": {
-                "text": "A"
+                "text": ""
             },
             "autorange": true
         },
         "yaxis": {
             "type": "linear",
             "range": [
-                -6302.034983853605,
-                107693.0349838536
+                -6233.026694045175,
+                107624.02669404517
             ],
             "title": {
                 "text": "Number of Users"
@@ -758,7 +758,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": -0.1,
             "bgcolor": "rgba(255, 255, 255, 0.01)",
             "orientation": "h"
         },
