@@ -4,6 +4,246 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
+                    "y": "Kevintendo"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:350:726726",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-06-17",
+                "2020-6-18",
+                "2020-06-19",
+                "2020-06-20",
+                "2020-06-21",
+                "2020-06-22",
+                "2020-06-23",
+                "2020-06-24",
+                "2020-06-25",
+                "2020-06-26",
+                "2020-06-28",
+                "2020-07-01",
+                "2020-07-03",
+                "2020-07-05",
+                "2020-07-07",
+                "2020-07-08",
+                "2020-07-09",
+                "2020-07-10",
+                "2020-07-11",
+                "2020-07-12",
+                "2020-07-13",
+                "2020-07-14",
+                "2020-07-15",
+                "2020-07-16",
+                "2020-07-17",
+                "2020-07-18",
+                "2020-07-19",
+                "2020-07-21",
+                "2020-07-22",
+                "2020-07-23",
+                "2020-07-24",
+                "2020-07-25",
+                "2020-07-26",
+                "2020-07-27",
+                "2020-07-28",
+                "2020-07-29",
+                "2020-07-30",
+                "2020-07-31",
+                "2020-08-01",
+                "2020-08-02",
+                "2020-08-03",
+                "2020-08-04",
+                "2020-08-06",
+                "2020-08-07",
+                "2020-08-09",
+                "2020-08-11",
+                "2020-08-13",
+                "2020-08-16",
+                "2020-08-18",
+                "2020-08-20",
+                "2020-08-23",
+                "2020-08-25",
+                "2020-08-27",
+                "2020-08-30",
+                "2020-09-01",
+                "2020-09-03",
+                "2020-09-06",
+                "2020-09-08",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-15",
+                "2020-09-17",
+                "2020-09-20",
+                "2020-09-22",
+                "2020-09-24",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-01",
+                "2020-10-04",
+                "2020-10-06",
+                "2020-10-08",
+                "2020-10-11",
+                "2020-10-13",
+                "2020-10-15",
+                "2020-10-18",
+                "2020-10-20",
+                "2020-10-22",
+                "2020-10-25",
+                "2020-10-27",
+                "2020-10-28",
+                "2020-10-29",
+                "2020-10-31",
+                "2020-11-01",
+                "2020-11-03",
+                "2020-11-05",
+                "2020-11-08",
+                "2020-11-10",
+                "2020-11-12",
+                "2020-11-15",
+                "2020-11-17",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-24",
+                "2020-11-26",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-03",
+                "2020-12-06",
+                "2020-12-08",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-15",
+                "2020-12-17",
+                "2020-12-20",
+                "2020-12-22",
+                "2020-12-24",
+                "2020-12-27",
+                "2020-12-29",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:350:af05bf",
+            "y": [
+                "Kevintendo",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "11800"
+            ],
+            "marker": {
+                "size": 8,
+                "opacity": 0.75
+            },
+            "stackgroup": null,
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
                     "y": "NerdNest"
                 }
             },
@@ -229,7 +469,8 @@ var figure = {
                 "8820",
                 "8860",
                 "8888",
-                "8920"
+                "8920",
+                "8980"
             ],
             "marker": {
                 "size": 8,
@@ -237,7 +478,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -468,7 +710,8 @@ var figure = {
                 "9530",
                 "9610",
                 "9690",
-                "9840"
+                "9840",
+                "9940"
             ],
             "marker": {
                 "size": 8,
@@ -476,7 +719,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -707,7 +951,8 @@ var figure = {
                 "5950",
                 "5970",
                 "6010",
-                "6060"
+                "6060",
+                "6130"
             ],
             "marker": {
                 "size": 8,
@@ -715,7 +960,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -946,7 +1192,8 @@ var figure = {
                 "3510",
                 "3510",
                 "3510",
-                "3520"
+                "3520",
+                "3530"
             ],
             "marker": {
                 "size": 8,
@@ -954,7 +1201,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1185,7 +1433,8 @@ var figure = {
                 "3630",
                 "3660",
                 "3690",
-                "3740"
+                "3740",
+                "3770"
             ],
             "marker": {
                 "size": 8,
@@ -1193,7 +1442,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1424,7 +1674,8 @@ var figure = {
                 "3990",
                 "3990",
                 "4010",
-                "4040"
+                "4040",
+                "4070"
             ],
             "marker": {
                 "size": 8,
@@ -1432,7 +1683,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1663,7 +1915,8 @@ var figure = {
                 "2930",
                 "2940",
                 "2960",
-                "2970"
+                "2970",
+                "2990"
             ],
             "marker": {
                 "size": 8,
@@ -1671,7 +1924,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1902,7 +2156,8 @@ var figure = {
                 "2630",
                 "2640",
                 "2660",
-                "2670"
+                "2670",
+                "2690"
             ],
             "marker": {
                 "size": 8,
@@ -1910,7 +2165,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -2141,6 +2397,7 @@ var figure = {
                 "2150",
                 "2150",
                 "2150",
+                "2150",
                 "2150"
             ],
             "marker": {
@@ -2149,7 +2406,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -2380,7 +2638,8 @@ var figure = {
                 "3790",
                 "3820",
                 "3850",
-                "3880"
+                "3880",
+                "3950"
             ],
             "marker": {
                 "size": 8,
@@ -2388,7 +2647,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -2619,7 +2879,8 @@ var figure = {
                 "2040",
                 "2050",
                 "2060",
-                "2080"
+                "2080",
+                "2110"
             ],
             "marker": {
                 "size": 8,
@@ -2627,7 +2888,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -2858,7 +3120,8 @@ var figure = {
                 "1860",
                 "1870",
                 "1870",
-                "1890"
+                "1890",
+                "1900"
             ],
             "marker": {
                 "size": 8,
@@ -2866,7 +3129,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -3097,7 +3361,8 @@ var figure = {
                 "1580",
                 "1600",
                 "1610",
-                "1610"
+                "1610",
+                "1620"
             ],
             "marker": {
                 "size": 8,
@@ -3105,7 +3370,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -3336,7 +3602,8 @@ var figure = {
                 "1410",
                 "1410",
                 "1410",
-                "1410"
+                "1410",
+                "1580"
             ],
             "marker": {
                 "size": 8,
@@ -3344,7 +3611,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -3575,6 +3843,7 @@ var figure = {
                 "1500",
                 "1510",
                 "1510",
+                "1520",
                 "1520"
             ],
             "marker": {
@@ -3583,7 +3852,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -3814,6 +4084,7 @@ var figure = {
                 "1300",
                 "1300",
                 "1300",
+                "1300",
                 "1300"
             ],
             "marker": {
@@ -3822,7 +4093,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -4053,7 +4325,8 @@ var figure = {
                 "1220",
                 "1220",
                 "1220",
-                "1230"
+                "1230",
+                "1240"
             ],
             "marker": {
                 "size": 8,
@@ -4061,7 +4334,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -4292,6 +4566,7 @@ var figure = {
                 "1250",
                 "1250",
                 "1250",
+                "1250",
                 "1250"
             ],
             "marker": {
@@ -4300,7 +4575,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -4531,7 +4807,8 @@ var figure = {
                 "1370",
                 "1370",
                 "1370",
-                "1390"
+                "1390",
+                "1400"
             ],
             "marker": {
                 "size": 8,
@@ -4539,7 +4816,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -4774,7 +5052,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -5005,7 +5284,8 @@ var figure = {
                 "966",
                 "974",
                 "978",
-                "987"
+                "987",
+                "1000"
             ],
             "marker": {
                 "size": 8,
@@ -5013,7 +5293,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -5244,7 +5525,8 @@ var figure = {
                 "1040",
                 "1040",
                 "1040",
-                "1050"
+                "1050",
+                "1070"
             ],
             "marker": {
                 "size": 8,
@@ -5252,7 +5534,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -5483,7 +5766,8 @@ var figure = {
                 "994",
                 "1020",
                 "1040",
-                "1070"
+                "1070",
+                "1100"
             ],
             "marker": {
                 "size": 8,
@@ -5491,7 +5775,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -5722,7 +6007,8 @@ var figure = {
                 "829",
                 "832",
                 "836",
-                "840"
+                "840",
+                "852"
             ],
             "marker": {
                 "size": 8,
@@ -5730,7 +6016,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -5961,7 +6248,8 @@ var figure = {
                 "1410",
                 "1420",
                 "1420",
-                "1430"
+                "1430",
+                "1450"
             ],
             "marker": {
                 "size": 8,
@@ -5969,7 +6257,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -6200,7 +6489,8 @@ var figure = {
                 "795",
                 "796",
                 "803",
-                "812"
+                "812",
+                "823"
             ],
             "marker": {
                 "size": 8,
@@ -6208,7 +6498,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -6439,7 +6730,8 @@ var figure = {
                 "540",
                 "544",
                 "544",
-                "544"
+                "544",
+                "547"
             ],
             "marker": {
                 "size": 8,
@@ -6447,7 +6739,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -6678,7 +6971,8 @@ var figure = {
                 "410",
                 "411",
                 "410",
-                "413"
+                "413",
+                "415"
             ],
             "marker": {
                 "size": 8,
@@ -6686,7 +6980,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -6917,7 +7212,8 @@ var figure = {
                 "415",
                 "415",
                 "415",
-                "417"
+                "417",
+                "419"
             ],
             "marker": {
                 "size": 8,
@@ -6925,7 +7221,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -7156,7 +7453,8 @@ var figure = {
                 "344",
                 "345",
                 "345",
-                "347"
+                "347",
+                "349"
             ],
             "marker": {
                 "size": 8,
@@ -7164,7 +7462,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -7395,6 +7694,7 @@ var figure = {
                 "293",
                 "294",
                 "294",
+                "295",
                 "295"
             ],
             "marker": {
@@ -7403,7 +7703,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -7634,7 +7935,8 @@ var figure = {
                 "297",
                 "297",
                 "297",
-                "299"
+                "299",
+                "303"
             ],
             "marker": {
                 "size": 8,
@@ -7642,7 +7944,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -7873,7 +8176,8 @@ var figure = {
                 "212",
                 "212",
                 "213",
-                "214"
+                "214",
+                "215"
             ],
             "marker": {
                 "size": 8,
@@ -7881,7 +8185,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -8112,7 +8417,8 @@ var figure = {
                 "297",
                 "297",
                 "300",
-                "303"
+                "303",
+                "306"
             ],
             "marker": {
                 "size": 8,
@@ -8120,7 +8426,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -8351,7 +8658,8 @@ var figure = {
                 "181",
                 "182",
                 "183",
-                "183"
+                "183",
+                "182"
             ],
             "marker": {
                 "size": 8,
@@ -8359,7 +8667,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -8590,7 +8899,8 @@ var figure = {
                 "187",
                 "188",
                 "189",
-                "191"
+                "191",
+                "205"
             ],
             "marker": {
                 "size": 8,
@@ -8598,7 +8908,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -8829,7 +9140,8 @@ var figure = {
                 "220",
                 "222",
                 "223",
-                "226"
+                "226",
+                "235"
             ],
             "marker": {
                 "size": 8,
@@ -8837,7 +9149,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -9065,7 +9378,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -9296,7 +9610,8 @@ var figure = {
                 "237",
                 "239",
                 "242",
-                "246"
+                "246",
+                "249"
             ],
             "marker": {
                 "size": 8,
@@ -9304,246 +9619,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "Stefan Dehnert"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:350:726726",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-06-17",
-                "2020-6-18",
-                "2020-06-19",
-                "2020-06-20",
-                "2020-06-21",
-                "2020-06-22",
-                "2020-06-23",
-                "2020-06-24",
-                "2020-06-25",
-                "2020-06-26",
-                "2020-06-28",
-                "2020-07-01",
-                "2020-07-03",
-                "2020-07-05",
-                "2020-07-07",
-                "2020-07-08",
-                "2020-07-09",
-                "2020-07-10",
-                "2020-07-11",
-                "2020-07-12",
-                "2020-07-13",
-                "2020-07-14",
-                "2020-07-15",
-                "2020-07-16",
-                "2020-07-17",
-                "2020-07-18",
-                "2020-07-19",
-                "2020-07-21",
-                "2020-07-22",
-                "2020-07-23",
-                "2020-07-24",
-                "2020-07-25",
-                "2020-07-26",
-                "2020-07-27",
-                "2020-07-28",
-                "2020-07-29",
-                "2020-07-30",
-                "2020-07-31",
-                "2020-08-01",
-                "2020-08-02",
-                "2020-08-03",
-                "2020-08-04",
-                "2020-08-06",
-                "2020-08-07",
-                "2020-08-09",
-                "2020-08-11",
-                "2020-08-13",
-                "2020-08-16",
-                "2020-08-18",
-                "2020-08-20",
-                "2020-08-23",
-                "2020-08-25",
-                "2020-08-27",
-                "2020-08-30",
-                "2020-09-01",
-                "2020-09-03",
-                "2020-09-06",
-                "2020-09-08",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-15",
-                "2020-09-17",
-                "2020-09-20",
-                "2020-09-22",
-                "2020-09-24",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-01",
-                "2020-10-04",
-                "2020-10-06",
-                "2020-10-08",
-                "2020-10-11",
-                "2020-10-13",
-                "2020-10-15",
-                "2020-10-18",
-                "2020-10-20",
-                "2020-10-22",
-                "2020-10-25",
-                "2020-10-27",
-                "2020-10-28",
-                "2020-10-29",
-                "2020-10-31",
-                "2020-11-01",
-                "2020-11-03",
-                "2020-11-05",
-                "2020-11-08",
-                "2020-11-10",
-                "2020-11-12",
-                "2020-11-15",
-                "2020-11-17",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-24",
-                "2020-11-26",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-03",
-                "2020-12-06",
-                "2020-12-08",
-                "2020-12-10",
-                "2020-12-13",
-                "2020-12-15",
-                "2020-12-17",
-                "2020-12-20",
-                "2020-12-22",
-                "2020-12-24",
-                "2020-12-27",
-                "2020-12-29",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:350:266a5b",
-            "y": [
-                "Stefan Dehnert",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "175",
-                "174",
-                "176",
-                "176",
-                "176",
-                "176",
-                "177"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "visible": true,
-            "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -9774,7 +9851,8 @@ var figure = {
                 "142",
                 "143",
                 "144",
-                "147"
+                "147",
+                "150"
             ],
             "marker": {
                 "size": 8,
@@ -9782,7 +9860,249 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "Stefan Dehnert"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:350:726726",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-06-17",
+                "2020-6-18",
+                "2020-06-19",
+                "2020-06-20",
+                "2020-06-21",
+                "2020-06-22",
+                "2020-06-23",
+                "2020-06-24",
+                "2020-06-25",
+                "2020-06-26",
+                "2020-06-28",
+                "2020-07-01",
+                "2020-07-03",
+                "2020-07-05",
+                "2020-07-07",
+                "2020-07-08",
+                "2020-07-09",
+                "2020-07-10",
+                "2020-07-11",
+                "2020-07-12",
+                "2020-07-13",
+                "2020-07-14",
+                "2020-07-15",
+                "2020-07-16",
+                "2020-07-17",
+                "2020-07-18",
+                "2020-07-19",
+                "2020-07-21",
+                "2020-07-22",
+                "2020-07-23",
+                "2020-07-24",
+                "2020-07-25",
+                "2020-07-26",
+                "2020-07-27",
+                "2020-07-28",
+                "2020-07-29",
+                "2020-07-30",
+                "2020-07-31",
+                "2020-08-01",
+                "2020-08-02",
+                "2020-08-03",
+                "2020-08-04",
+                "2020-08-06",
+                "2020-08-07",
+                "2020-08-09",
+                "2020-08-11",
+                "2020-08-13",
+                "2020-08-16",
+                "2020-08-18",
+                "2020-08-20",
+                "2020-08-23",
+                "2020-08-25",
+                "2020-08-27",
+                "2020-08-30",
+                "2020-09-01",
+                "2020-09-03",
+                "2020-09-06",
+                "2020-09-08",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-15",
+                "2020-09-17",
+                "2020-09-20",
+                "2020-09-22",
+                "2020-09-24",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-01",
+                "2020-10-04",
+                "2020-10-06",
+                "2020-10-08",
+                "2020-10-11",
+                "2020-10-13",
+                "2020-10-15",
+                "2020-10-18",
+                "2020-10-20",
+                "2020-10-22",
+                "2020-10-25",
+                "2020-10-27",
+                "2020-10-28",
+                "2020-10-29",
+                "2020-10-31",
+                "2020-11-01",
+                "2020-11-03",
+                "2020-11-05",
+                "2020-11-08",
+                "2020-11-10",
+                "2020-11-12",
+                "2020-11-15",
+                "2020-11-17",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-24",
+                "2020-11-26",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-03",
+                "2020-12-06",
+                "2020-12-08",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-15",
+                "2020-12-17",
+                "2020-12-20",
+                "2020-12-22",
+                "2020-12-24",
+                "2020-12-27",
+                "2020-12-29",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:350:266a5b",
+            "y": [
+                "Stefan Dehnert",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "175",
+                "174",
+                "176",
+                "176",
+                "176",
+                "176",
+                "177",
+                "178"
+            ],
+            "marker": {
+                "size": 8,
+                "opacity": 0.75
+            },
+            "visible": true,
+            "stackgroup": null,
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -10013,7 +10333,8 @@ var figure = {
                 "133",
                 "135",
                 "136",
-                "138"
+                "138",
+                "139"
             ],
             "marker": {
                 "size": 8,
@@ -10021,7 +10342,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -10252,7 +10574,8 @@ var figure = {
                 "77",
                 "77",
                 "77",
-                "79"
+                "79",
+                "80"
             ],
             "marker": {
                 "size": 8,
@@ -10260,7 +10583,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -10491,7 +10815,8 @@ var figure = {
                 "56",
                 "57",
                 "57",
-                "59"
+                "59",
+                "60"
             ],
             "marker": {
                 "size": 8,
@@ -10499,7 +10824,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -10730,7 +11056,8 @@ var figure = {
                 "68",
                 "68",
                 "67",
-                "69"
+                "69",
+                "71"
             ],
             "marker": {
                 "size": 8,
@@ -10738,7 +11065,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -10969,7 +11297,8 @@ var figure = {
                 "201",
                 "200",
                 "199",
-                "203"
+                "203",
+                "210"
             ],
             "marker": {
                 "size": 8,
@@ -10977,7 +11306,248 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "JoueurSansFromage"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:350:726726",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-06-17",
+                "2020-6-18",
+                "2020-06-19",
+                "2020-06-20",
+                "2020-06-21",
+                "2020-06-22",
+                "2020-06-23",
+                "2020-06-24",
+                "2020-06-25",
+                "2020-06-26",
+                "2020-06-28",
+                "2020-07-01",
+                "2020-07-03",
+                "2020-07-05",
+                "2020-07-07",
+                "2020-07-08",
+                "2020-07-09",
+                "2020-07-10",
+                "2020-07-11",
+                "2020-07-12",
+                "2020-07-13",
+                "2020-07-14",
+                "2020-07-15",
+                "2020-07-16",
+                "2020-07-17",
+                "2020-07-18",
+                "2020-07-19",
+                "2020-07-21",
+                "2020-07-22",
+                "2020-07-23",
+                "2020-07-24",
+                "2020-07-25",
+                "2020-07-26",
+                "2020-07-27",
+                "2020-07-28",
+                "2020-07-29",
+                "2020-07-30",
+                "2020-07-31",
+                "2020-08-01",
+                "2020-08-02",
+                "2020-08-03",
+                "2020-08-04",
+                "2020-08-06",
+                "2020-08-07",
+                "2020-08-09",
+                "2020-08-11",
+                "2020-08-13",
+                "2020-08-16",
+                "2020-08-18",
+                "2020-08-20",
+                "2020-08-23",
+                "2020-08-25",
+                "2020-08-27",
+                "2020-08-30",
+                "2020-09-01",
+                "2020-09-03",
+                "2020-09-06",
+                "2020-09-08",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-15",
+                "2020-09-17",
+                "2020-09-20",
+                "2020-09-22",
+                "2020-09-24",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-01",
+                "2020-10-04",
+                "2020-10-06",
+                "2020-10-08",
+                "2020-10-11",
+                "2020-10-13",
+                "2020-10-15",
+                "2020-10-18",
+                "2020-10-20",
+                "2020-10-22",
+                "2020-10-25",
+                "2020-10-27",
+                "2020-10-28",
+                "2020-10-29",
+                "2020-10-31",
+                "2020-11-01",
+                "2020-11-03",
+                "2020-11-05",
+                "2020-11-08",
+                "2020-11-10",
+                "2020-11-12",
+                "2020-11-15",
+                "2020-11-17",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-24",
+                "2020-11-26",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-03",
+                "2020-12-06",
+                "2020-12-08",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-15",
+                "2020-12-17",
+                "2020-12-20",
+                "2020-12-22",
+                "2020-12-24",
+                "2020-12-27",
+                "2020-12-29",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:350:5120c3",
+            "y": [
+                "JoueurSansFromage",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "197"
+            ],
+            "marker": {
+                "size": 8,
+                "opacity": 0.75
+            },
+            "stackgroup": null,
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -11208,7 +11778,8 @@ var figure = {
                 "112",
                 "112",
                 "112",
-                "114"
+                "114",
+                "115"
             ],
             "marker": {
                 "size": 8,
@@ -11216,7 +11787,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -11447,6 +12019,7 @@ var figure = {
                 "102",
                 "102",
                 "102",
+                "102",
                 "102"
             ],
             "marker": {
@@ -11455,7 +12028,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -11686,7 +12260,8 @@ var figure = {
                 "81",
                 "81",
                 "81",
-                "82"
+                "82",
+                "92"
             ],
             "marker": {
                 "size": 8,
@@ -11694,7 +12269,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -11925,6 +12501,7 @@ var figure = {
                 "76",
                 "76",
                 "78",
+                "83",
                 "83"
             ],
             "marker": {
@@ -11933,7 +12510,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -12164,7 +12742,8 @@ var figure = {
                 "70",
                 "70",
                 "71",
-                "71"
+                "71",
+                "74"
             ],
             "marker": {
                 "size": 8,
@@ -12172,7 +12751,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -12403,7 +12983,8 @@ var figure = {
                 "43",
                 "43",
                 "43",
-                "44"
+                "44",
+                "43"
             ],
             "marker": {
                 "size": 8,
@@ -12411,7 +12992,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -12642,7 +13224,8 @@ var figure = {
                 "51",
                 "51",
                 "51",
-                "53"
+                "53",
+                "55"
             ],
             "marker": {
                 "size": 8,
@@ -12650,7 +13233,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -12881,6 +13465,7 @@ var figure = {
                 "52",
                 "52",
                 "52",
+                "53",
                 "53"
             ],
             "marker": {
@@ -12889,7 +13474,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -13120,7 +13706,8 @@ var figure = {
                 "63",
                 "63",
                 "63",
-                "64"
+                "64",
+                "70"
             ],
             "marker": {
                 "size": 8,
@@ -13128,7 +13715,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -13359,6 +13947,7 @@ var figure = {
                 "22",
                 "22",
                 "22",
+                "24",
                 "24"
             ],
             "marker": {
@@ -13367,7 +13956,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -13598,7 +14188,8 @@ var figure = {
                 "19",
                 "19",
                 "19",
-                "21"
+                "21",
+                "23"
             ],
             "marker": {
                 "size": 8,
@@ -13606,7 +14197,8 @@ var figure = {
             },
             "visible": true,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -13837,7 +14429,8 @@ var figure = {
                 null,
                 "",
                 "19",
-                "20"
+                "20",
+                "21"
             ],
             "marker": {
                 "size": 8,
@@ -13845,7 +14438,8 @@ var figure = {
             },
             "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         }
     ],
     "layout": {
@@ -13855,8 +14449,8 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2020-06-05 08:18:51.9421",
-                "2020-12-13 15:41:08.0579"
+                "2020-06-05 03:48:08.3882",
+                "2020-12-16 20:11:51.6118"
             ],
             "title": {
                 "text": ""
@@ -13866,8 +14460,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -759.7902684563759,
-                10614.790268456376
+                -1585.8526011560696,
+                13400.85260115607
             ],
             "title": {
                 "text": "Subscriber Count"
