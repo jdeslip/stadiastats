@@ -229,13 +229,15 @@ var figure = {
                 "268000",
                 "268000",
                 "268000",
-                "268000"
+                "268000",
+                "269000"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
-            "stackgroup": null
+            "stackgroup": null,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -466,13 +468,15 @@ var figure = {
                 "31200",
                 "31200",
                 "31200",
+                "31200",
                 "31200"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
-            "stackgroup": null
+            "stackgroup": null,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -703,13 +707,15 @@ var figure = {
                 "1200",
                 "1210",
                 "1210",
-                "1230"
+                "1230",
+                "1250"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
-            "stackgroup": null
+            "stackgroup": null,
+            "hovertemplate": "%{x}, %{y}"
         }
     ],
     "layout": {
@@ -719,8 +725,8 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2020-06-05 08:18:51.9421",
-                "2020-12-13 15:41:08.0579"
+                "2020-06-05 03:48:08.3882",
+                "2020-12-16 20:11:51.6118"
             ],
             "title": {
                 "text": ""
@@ -730,8 +736,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -17629.523798191334,
-                286380.52379819134
+                -20831.5618556701,
+                290582.5618556701
             ],
             "title": {
                 "text": "Subscribers"
