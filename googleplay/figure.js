@@ -173,14 +173,16 @@ var figure = {
                 "27479",
                 "27499",
                 "27524",
-                "27567"
+                "27567",
+                "27632"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -355,14 +357,16 @@ var figure = {
                 "24582",
                 "24610",
                 "24650",
-                "24717"
+                "24717",
+                "24786"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -537,14 +541,16 @@ var figure = {
                 "21632",
                 "21681",
                 "21764",
-                "21882"
+                "21882",
+                "22065"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -719,14 +725,16 @@ var figure = {
                 "15195",
                 "15244",
                 "15284",
-                "15366"
+                "15366",
+                "15553"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -901,14 +909,16 @@ var figure = {
                 "12344",
                 "12345",
                 "12347",
-                "12350"
+                "12350",
+                "12361"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1083,14 +1093,16 @@ var figure = {
                 "1255",
                 "1257",
                 "1260",
-                "1264"
+                "1264",
+                "1277"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         }
     ],
     "layout": {
@@ -1100,8 +1112,8 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2020-06-05 08:18:51.9421",
-                "2020-12-13 15:41:08.0579"
+                "2020-06-05 03:48:08.3882",
+                "2020-12-16 20:11:51.6118"
             ],
             "title": {
                 "text": ""
@@ -1111,8 +1123,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -801.9712274635715,
-                29404.97122746357
+                -1013.8079008520522,
+                29681.80790085205
             ],
             "title": {
                 "text": "Number of Reviews"
