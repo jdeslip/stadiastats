@@ -42,7 +42,9 @@ var figure = {
                 "2020-11-24",
                 "2020-11-30",
                 "2020-12-1",
-                "2020-12-03"
+                "2020-12-03",
+                "2020-12-08",
+                "2020-12-09"
             ],
             "ysrc": "jdeslip:358:e03fe9",
             "y": [
@@ -76,14 +78,17 @@ var figure = {
                 "108",
                 "109",
                 "114",
-                "119"
+                "119",
+                "123",
+                "127"
             ],
             "marker": {
                 "size": 8,
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -127,7 +132,9 @@ var figure = {
                 "2020-11-24",
                 "2020-11-30",
                 "2020-12-1",
-                "2020-12-03"
+                "2020-12-03",
+                "2020-12-08",
+                "2020-12-09"
             ],
             "ysrc": "jdeslip:358:5f7e72",
             "y": [
@@ -161,6 +168,8 @@ var figure = {
                 "52",
                 "52",
                 "58",
+                "60",
+                "60",
                 "60"
             ],
             "marker": {
@@ -168,7 +177,8 @@ var figure = {
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -212,7 +222,9 @@ var figure = {
                 "2020-11-24",
                 "2020-11-30",
                 "2020-12-1",
-                "2020-12-03"
+                "2020-12-03",
+                "2020-12-08",
+                "2020-12-09"
             ],
             "ysrc": "jdeslip:358:81d550",
             "y": [
@@ -246,6 +258,8 @@ var figure = {
                 "30",
                 "30",
                 "31",
+                "33",
+                "33",
                 "33"
             ],
             "marker": {
@@ -253,7 +267,8 @@ var figure = {
                 "opacity": 0.75
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
         }
     ],
     "layout": {
@@ -263,8 +278,8 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2019-12-25 18:11:50.6901",
-                "2020-12-23 05:48:09.3099"
+                "2019-12-25 09:10:23.5821",
+                "2020-12-29 14:49:36.4179"
             ],
             "title": {
                 "text": ""
@@ -274,8 +289,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -2.840552118039027,
-                126.84055211803903
+                -7.666377063423109,
+                139.6663770634231
             ],
             "title": {
                 "text": "Number of Games"
