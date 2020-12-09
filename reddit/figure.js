@@ -258,7 +258,8 @@ var figure = {
                 "83104",
                 "83459",
                 "83865",
-                "84520"
+                "84520",
+                "85305"
             ],
             "marker": {
                 "size": 8
@@ -525,13 +526,15 @@ var figure = {
                 "36443",
                 "36556",
                 "36699",
-                "36929"
+                "36929",
+                "37143"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         },
         {
             "meta": {
@@ -791,13 +794,15 @@ var figure = {
                 "23442",
                 "23488",
                 "23550",
-                "23655"
+                "23655",
+                "23768"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         },
         {
             "meta": {
@@ -1057,13 +1062,15 @@ var figure = {
                 "11842",
                 "11877",
                 "11922",
-                "11978"
+                "11978",
+                "12020"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         },
         {
             "meta": {
@@ -1323,13 +1330,15 @@ var figure = {
                 "1745",
                 "1748",
                 "1746",
-                "1752"
+                "1752",
+                "1758"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         },
         {
             "meta": {
@@ -1589,13 +1598,15 @@ var figure = {
                 "800",
                 "800",
                 "801",
-                "799"
+                "799",
+                "798"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         },
         {
             "meta": {
@@ -1855,13 +1866,15 @@ var figure = {
                 "1381",
                 "1397",
                 "1434",
-                "1480"
+                "1480",
+                "1501"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         },
         {
             "meta": {
@@ -2121,13 +2134,15 @@ var figure = {
                 "203",
                 "208",
                 "223",
-                "238"
+                "238",
+                "246"
             ],
             "marker": {
                 "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true
+            "connectgaps": true,
+            "hovertemplate": "%X %Y"
         }
     ],
     "layout": {
@@ -2137,8 +2152,8 @@ var figure = {
         "xaxis": {
             "type": "date",
             "range": [
-                "2019-12-25 13:41:07.1361",
-                "2020-12-26 10:18:52.8639"
+                "2019-12-25 10:40:38.1001",
+                "2020-12-28 13:19:21.8999"
             ],
             "title": {
                 "text": ""
@@ -2148,8 +2163,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -5819.952210422327,
-                90372.95221042233
+                -5874.334156581873,
+                91212.33415658187
             ],
             "title": {
                 "text": "Members"
