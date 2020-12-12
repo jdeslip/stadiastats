@@ -238,6 +238,8 @@ var figure = {
                 "size": 8,
                 "opacity": 0.75
             },
+            "visible": "legendonly",
+            "showlegend": true,
             "stackgroup": null,
             "connectgaps": true,
             "hovertemplate": "%{x}, %{y}"
@@ -14563,6 +14565,7 @@ var figure = {
             "text": "Stadia YouTube Subscriber Counts vs. Time"
         },
         "xaxis": {
+            "side": "top",
             "type": "date",
             "range": [
                 "2020-06-04 21:47:10.3162",
@@ -14576,8 +14579,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                15,
-                11900
+                -771.513803123865,
+                11186.513803123866
             ],
             "title": {
                 "text": "Subscriber Count"
@@ -14586,7 +14589,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.15,
+            "y": 0,
             "font": {
                 "size": 10
             },
