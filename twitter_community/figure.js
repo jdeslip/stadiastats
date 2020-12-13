@@ -10,7 +10,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -34,13 +34,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:d00a9c",
+            "ysrc": "jdeslip:372:8cbe04",
             "y": [
                 "ibjade",
                 "",
@@ -63,16 +64,16 @@ var figure = {
                 "34071",
                 "34075",
                 "",
-                "34079"
+                "34079",
+                "34017",
+                "34037"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
+            "visible": "legendonly",
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -84,7 +85,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -108,13 +109,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:e64fb1",
+            "ysrc": "jdeslip:372:0f7cd8",
             "y": [
                 "MrPhilHarrison",
                 "",
@@ -137,16 +139,16 @@ var figure = {
                 "13239",
                 "13240",
                 "",
-                "13241"
+                "13241",
+                "13217",
+                "13216"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
+            "visible": "legendonly",
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -158,7 +160,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -182,13 +184,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:1688a8",
+            "ysrc": "jdeslip:372:22e1b7",
             "y": [
                 "juberti",
                 "",
@@ -211,16 +214,16 @@ var figure = {
                 "7850",
                 "7853",
                 "",
-                "7869"
+                "7869",
+                "7906",
+                "7919"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
+            "visible": "legendonly",
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -232,7 +235,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -256,13 +259,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:473405",
+            "ysrc": "jdeslip:372:81f4f8",
             "y": [
                 "StadiaFan",
                 "",
@@ -285,16 +289,16 @@ var figure = {
                 "6904",
                 "6899",
                 "",
-                "6879"
+                "6879",
+                "6852",
+                "6835"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
+            "visible": "legendonly",
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -306,7 +310,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -330,13 +334,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:5e4339",
+            "ysrc": "jdeslip:372:a87eaa",
             "y": [
                 "Nate_Ahearn",
                 "",
@@ -359,16 +364,16 @@ var figure = {
                 "4612",
                 "4609",
                 "",
-                "4608"
+                "4608",
+                "4607",
+                "4599"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
+            "visible": "legendonly",
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -380,7 +385,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -404,13 +409,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:216aef",
+            "ysrc": "jdeslip:372:b24911",
             "y": [
                 "dasme",
                 "",
@@ -433,16 +439,15 @@ var figure = {
                 "3619",
                 "3620",
                 "",
-                "3638"
+                "3638",
+                "3646",
+                "3647"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -454,7 +459,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -478,13 +483,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:bdd7f7",
+            "ysrc": "jdeslip:372:683726",
             "y": [
                 "calebjross",
                 "",
@@ -507,16 +513,15 @@ var figure = {
                 "2650",
                 "2651",
                 "",
-                "2653"
+                "2653",
+                "2656",
+                "2656"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -528,7 +533,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -552,13 +557,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:0d6cf3",
+            "ysrc": "jdeslip:372:40adf5",
             "y": [
                 "RunJumpStomp",
                 "",
@@ -581,16 +587,15 @@ var figure = {
                 "2137",
                 "2140",
                 "",
-                "2158"
+                "2158",
+                "2165",
+                "2162"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -602,7 +607,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -626,13 +631,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:202664",
+            "ysrc": "jdeslip:372:d02905",
             "y": [
                 "stadiacast",
                 "",
@@ -655,16 +661,15 @@ var figure = {
                 "1785",
                 "1791",
                 "",
-                "1826"
+                "1826",
+                "1842",
+                "1857"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -676,7 +681,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -700,13 +705,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:89ced0",
+            "ysrc": "jdeslip:372:d80177",
             "y": [
                 "StadiaSource",
                 "",
@@ -729,28 +735,27 @@ var figure = {
                 "1736",
                 "1749",
                 "",
-                "1798"
+                "1798",
+                "1859",
+                "1895"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "gyltthegame"
+                    "y": "Kevintendo"
                 }
             },
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -774,13 +779,88 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:9b9f60",
+            "ysrc": "jdeslip:372:e0fa18",
+            "y": [
+                "Kevintendo",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "1535"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "gyltthegame"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:c4a931",
             "y": [
                 "gyltthegame",
                 "",
@@ -803,28 +883,27 @@ var figure = {
                 "1422",
                 "1423",
                 "",
-                "1419"
+                "1419",
+                "1420",
+                "1422"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "StadiaWorks"
+                    "y": "esStadia"
                 }
             },
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -848,13 +927,88 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:fce7b1",
+            "ysrc": "jdeslip:372:dc4027",
+            "y": [
+                "esStadia",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "1287",
+                "1315",
+                "1333"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "StadiaWorks"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:5bc9bb",
             "y": [
                 "StadiaWorks",
                 "",
@@ -877,16 +1031,15 @@ var figure = {
                 "1311",
                 "1309",
                 "",
-                "1306"
+                "1306",
+                "1304",
+                "1304"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -898,7 +1051,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -922,13 +1075,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:b55763",
+            "ysrc": "jdeslip:372:eebcb4",
             "y": [
                 "CraytaGame",
                 "",
@@ -951,16 +1105,15 @@ var figure = {
                 "1310",
                 "1311",
                 "",
-                "1307"
+                "1307",
+                "1308",
+                "1308"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -972,7 +1125,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -996,13 +1149,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:282da0",
+            "ysrc": "jdeslip:372:82a9d3",
             "y": [
                 "MM2K",
                 "",
@@ -1025,16 +1179,15 @@ var figure = {
                 "1319",
                 "1317",
                 "",
-                "1319"
+                "1319",
+                "1332",
+                "1336"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1046,7 +1199,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1070,13 +1223,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:043d60",
+            "ysrc": "jdeslip:372:9db2dc",
             "y": [
                 "GenStadia",
                 "",
@@ -1099,89 +1253,15 @@ var figure = {
                 "1303",
                 "1303",
                 "",
-                "1323"
+                "1323",
+                "1345",
+                "1357"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "opacity": 1,
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "esStadia"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:957f04",
-            "y": [
-                "esStadia",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "",
-                "",
-                "1287"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1193,7 +1273,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1217,13 +1297,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:94e7ed",
+            "ysrc": "jdeslip:372:04b49f",
             "y": [
                 "ztlaidlaw",
                 "",
@@ -1246,16 +1327,15 @@ var figure = {
                 "992",
                 "994",
                 "",
-                "1011"
+                "1011",
+                "1017",
+                "1024"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1267,7 +1347,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1291,13 +1371,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:d45821",
+            "ysrc": "jdeslip:372:4813de",
             "y": [
                 "playoutcasters",
                 "",
@@ -1320,16 +1401,15 @@ var figure = {
                 "1267",
                 "1266",
                 "",
-                "1421"
+                "1421",
+                "1470",
+                "1482"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1341,7 +1421,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1365,13 +1445,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:8bb65d",
+            "ysrc": "jdeslip:372:8470ae",
             "y": [
                 "grace__yang",
                 "",
@@ -1394,16 +1475,15 @@ var figure = {
                 "1176",
                 "1176",
                 "",
-                "1203"
+                "1203",
+                "1269",
+                "1295"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1415,7 +1495,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1439,13 +1519,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:8e65ee",
+            "ysrc": "jdeslip:372:18a063",
             "y": [
                 "realJXR1",
                 "",
@@ -1468,16 +1549,15 @@ var figure = {
                 "1054",
                 "1056",
                 "",
-                "1059"
+                "1059",
+                "1061",
+                "1065"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1489,7 +1569,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1513,13 +1593,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:c29a62",
+            "ysrc": "jdeslip:372:ee779b",
             "y": [
                 "andymorphs",
                 "",
@@ -1542,16 +1623,15 @@ var figure = {
                 "884",
                 "882",
                 "",
-                "881"
+                "881",
+                "884",
+                "887"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1563,7 +1643,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1587,13 +1667,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:c6ff36",
+            "ysrc": "jdeslip:372:ed49f4",
             "y": [
                 "FrStadia",
                 "",
@@ -1616,16 +1697,15 @@ var figure = {
                 "968",
                 "970",
                 "",
-                "995"
+                "995",
+                "1030",
+                "1064"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1637,7 +1717,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1661,44 +1741,45 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:2d444c",
+            "ysrc": "jdeslip:372:91a232",
             "y": [
                 "jackbuser",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "964",
+                "965",
                 "964"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1710,7 +1791,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1734,13 +1815,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:83cc0e",
+            "ysrc": "jdeslip:372:e9ae64",
             "y": [
                 "GloryOfStadia",
                 "",
@@ -1763,28 +1845,27 @@ var figure = {
                 "732",
                 "731",
                 "",
-                "741"
+                "741",
+                "747",
+                "750"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Pedder_YT"
+                    "y": "Pedder_tech"
                 }
             },
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1808,15 +1889,16 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:f61d8d",
+            "ysrc": "jdeslip:372:904faf",
             "y": [
-                "Pedder_YT",
+                "Pedder_tech",
                 "",
                 "",
                 "",
@@ -1833,20 +1915,19 @@ var figure = {
                 "687",
                 "685",
                 "688",
-                null,
-                null,
                 "",
                 "",
-                "697"
+                "",
+                "",
+                "697",
+                "700",
+                "703"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1858,7 +1939,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1882,13 +1963,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:9e0768",
+            "ysrc": "jdeslip:372:7a80e8",
             "y": [
                 "shareSTADIA",
                 "",
@@ -1911,16 +1993,15 @@ var figure = {
                 "717",
                 "",
                 "",
-                "722"
+                "722",
+                "729",
+                "737"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -1932,7 +2013,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -1956,13 +2037,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:ebca9a",
+            "ysrc": "jdeslip:372:e2a916",
             "y": [
                 "BryantChappel",
                 "",
@@ -1985,16 +2067,15 @@ var figure = {
                 "819",
                 "821",
                 "",
-                "838"
+                "838",
+                "845",
+                "855"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2006,7 +2087,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2030,13 +2111,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:be57eb",
+            "ysrc": "jdeslip:372:32f1b4",
             "y": [
                 "PhantomUFCfan",
                 "",
@@ -2059,16 +2141,15 @@ var figure = {
                 "699",
                 "697",
                 "",
-                "702"
+                "702",
+                "704",
+                "709"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2080,7 +2161,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2104,13 +2185,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:9198d2",
+            "ysrc": "jdeslip:372:14c0ff",
             "y": [
                 "Stadia_aldia",
                 "",
@@ -2133,16 +2215,15 @@ var figure = {
                 "907",
                 "872",
                 "",
-                "932"
+                "932",
+                "971",
+                "986"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2154,7 +2235,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2178,13 +2259,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:b144d3",
+            "ysrc": "jdeslip:372:41b28e",
             "y": [
                 "cliveillenden",
                 "",
@@ -2207,16 +2289,15 @@ var figure = {
                 "695",
                 "695",
                 "",
-                "700"
+                "700",
+                "703",
+                "707"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2228,7 +2309,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2252,13 +2333,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:b605fe",
+            "ysrc": "jdeslip:372:4ee0f1",
             "y": [
                 "GemStadia",
                 "",
@@ -2281,16 +2363,15 @@ var figure = {
                 "824",
                 "825",
                 "",
-                "852"
+                "852",
+                "870",
+                "877"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2302,7 +2383,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2326,13 +2407,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:3a4d6a",
+            "ysrc": "jdeslip:372:3a3368",
             "y": [
                 "one2escape",
                 "",
@@ -2355,16 +2437,15 @@ var figure = {
                 "654",
                 "656",
                 "",
-                "667"
+                "667",
+                "678",
+                "680"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2376,7 +2457,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2400,13 +2481,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:7196e1",
+            "ysrc": "jdeslip:372:e8c46f",
             "y": [
                 "BryanEVOLVED",
                 "",
@@ -2429,16 +2511,15 @@ var figure = {
                 "680",
                 "680",
                 "",
-                "694"
+                "694",
+                "699",
+                "703"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2450,7 +2531,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2474,13 +2555,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:ae135b",
+            "ysrc": "jdeslip:372:52d96c",
             "y": [
                 "StadiaRokks",
                 "",
@@ -2503,16 +2585,15 @@ var figure = {
                 "658",
                 "659",
                 "",
-                "694"
+                "694",
+                "717",
+                "732"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2524,7 +2605,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2548,13 +2629,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:78d767",
+            "ysrc": "jdeslip:372:c81802",
             "y": [
                 "StadiaSaturday",
                 "",
@@ -2577,16 +2659,15 @@ var figure = {
                 "741",
                 "740",
                 "",
-                "762"
+                "762",
+                "769",
+                "779"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2598,7 +2679,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2622,13 +2703,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:48117c",
+            "ysrc": "jdeslip:372:27e2d9",
             "y": [
                 "StadiaDosage",
                 "",
@@ -2651,16 +2733,15 @@ var figure = {
                 "619",
                 "621",
                 "",
-                "640"
+                "640",
+                "665",
+                "673"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2672,7 +2753,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2696,13 +2777,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:2b85af",
+            "ysrc": "jdeslip:372:99757a",
             "y": [
                 "Cloud_Xtreme",
                 "",
@@ -2725,16 +2807,15 @@ var figure = {
                 "540",
                 "540",
                 "",
-                "545"
+                "545",
+                "553",
+                "560"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2746,7 +2827,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2770,13 +2851,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:a78261",
+            "ysrc": "jdeslip:372:07cdea",
             "y": [
                 "Sunnycloudgames",
                 "",
@@ -2799,16 +2881,15 @@ var figure = {
                 "656",
                 "661",
                 "",
-                "686"
+                "686",
+                "755",
+                "762"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2820,7 +2901,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2844,13 +2925,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:508851",
+            "ysrc": "jdeslip:372:77449d",
             "y": [
                 "Ray3473",
                 "",
@@ -2873,16 +2955,15 @@ var figure = {
                 "624",
                 "625",
                 "",
-                "647"
+                "647",
+                "660",
+                "663"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2894,7 +2975,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2918,13 +2999,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:fa7d21",
+            "ysrc": "jdeslip:372:940359",
             "y": [
                 "Eddie_Player1",
                 "",
@@ -2947,16 +3029,15 @@ var figure = {
                 "595",
                 "595",
                 "",
-                "615"
+                "615",
+                "626",
+                "627"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -2968,7 +3049,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -2992,13 +3073,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:7cbac9",
+            "ysrc": "jdeslip:372:69e2cf",
             "y": [
                 "CloudyWithGames",
                 "",
@@ -3021,16 +3103,15 @@ var figure = {
                 "619",
                 "621",
                 "",
-                "645"
+                "645",
+                "668",
+                "692"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3042,7 +3123,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3066,13 +3147,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:ed6fb0",
+            "ysrc": "jdeslip:372:bf46fc",
             "y": [
                 "StadiaFounders",
                 "",
@@ -3095,16 +3177,15 @@ var figure = {
                 "622",
                 "582",
                 "",
-                "619"
+                "619",
+                "621",
+                "623"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3116,7 +3197,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3140,13 +3221,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:f2b79a",
+            "ysrc": "jdeslip:372:9bf1d4",
             "y": [
                 "SoundsOfStadia",
                 "",
@@ -3169,16 +3251,15 @@ var figure = {
                 "549",
                 "551",
                 "",
-                "569"
+                "569",
+                "587",
+                "593"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3190,7 +3271,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3214,13 +3295,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:5c583b",
+            "ysrc": "jdeslip:372:f063ee",
             "y": [
                 "TeamStadiaPlay",
                 "",
@@ -3243,16 +3325,15 @@ var figure = {
                 "522",
                 "526",
                 "",
-                "540"
+                "540",
+                "549",
+                "558"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3264,7 +3345,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3288,13 +3369,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:484a22",
+            "ysrc": "jdeslip:372:0eafae",
             "y": [
                 "EFFTENDO",
                 "",
@@ -3317,16 +3399,15 @@ var figure = {
                 "469",
                 "467",
                 "",
-                "468"
+                "468",
+                "465",
+                "469"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3338,7 +3419,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3362,13 +3443,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:82af29",
+            "ysrc": "jdeslip:372:f4de27",
             "y": [
                 "scarlet_stream",
                 "",
@@ -3391,16 +3473,15 @@ var figure = {
                 "482",
                 "481",
                 "",
-                "489"
+                "489",
+                "507",
+                "509"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3412,7 +3493,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3436,13 +3517,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:df7266",
+            "ysrc": "jdeslip:372:b117dc",
             "y": [
                 "Meg_Atron_X",
                 "",
@@ -3465,16 +3547,15 @@ var figure = {
                 "516",
                 "517",
                 "",
-                "535"
+                "535",
+                "546",
+                "558"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3486,7 +3567,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3510,13 +3591,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:7521ad",
+            "ysrc": "jdeslip:372:afb25d",
             "y": [
                 "YaBoyTwiz",
                 "",
@@ -3539,16 +3621,15 @@ var figure = {
                 "471",
                 "471",
                 "",
-                "471"
+                "471",
+                "472",
+                "473"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3560,7 +3641,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3584,13 +3665,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:62fed5",
+            "ysrc": "jdeslip:372:2fe961",
             "y": [
                 "_RaphGaming_",
                 "",
@@ -3613,16 +3695,15 @@ var figure = {
                 "440",
                 "439",
                 "",
-                "443"
+                "443",
+                "456",
+                "456"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3634,7 +3715,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3658,13 +3739,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:1fef76",
+            "ysrc": "jdeslip:372:86fce4",
             "y": [
                 "CharmCityA",
                 "",
@@ -3687,16 +3769,15 @@ var figure = {
                 "641",
                 "641",
                 "",
-                "653"
+                "653",
+                "666",
+                "669"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3708,7 +3789,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3732,13 +3813,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:e703b2",
+            "ysrc": "jdeslip:372:28fed4",
             "y": [
                 "SFounder2019",
                 "",
@@ -3761,16 +3843,15 @@ var figure = {
                 "437",
                 "437",
                 "",
-                "447"
+                "447",
+                "457",
+                "459"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3782,7 +3863,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3806,13 +3887,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:98f256",
+            "ysrc": "jdeslip:372:4a6b19",
             "y": [
                 "dom_whatarerice",
                 "",
@@ -3835,16 +3917,15 @@ var figure = {
                 "399",
                 "398",
                 "",
-                "408"
+                "408",
+                "413",
+                "414"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3856,7 +3937,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3880,13 +3961,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:30c1a3",
+            "ysrc": "jdeslip:372:b6af93",
             "y": [
                 "LXIVGOLD",
                 "",
@@ -3909,16 +3991,15 @@ var figure = {
                 "308",
                 "308",
                 "",
-                "317"
+                "317",
+                "318",
+                "321"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -3930,7 +4011,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -3954,13 +4035,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:76ecd3",
+            "ysrc": "jdeslip:372:61a9cb",
             "y": [
                 "StadiaMania",
                 "",
@@ -3983,13 +4065,10 @@ var figure = {
                 "340"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4001,7 +4080,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4025,13 +4104,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:c1a551",
+            "ysrc": "jdeslip:372:083526",
             "y": [
                 "HappyCloudGamer",
                 "",
@@ -4054,16 +4134,15 @@ var figure = {
                 "344",
                 "345",
                 "",
-                "355"
+                "355",
+                "361",
+                "367"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4075,7 +4154,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4099,13 +4178,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:4b9942",
+            "ysrc": "jdeslip:372:e739fd",
             "y": [
                 "thenerfreport",
                 "",
@@ -4128,16 +4208,15 @@ var figure = {
                 "435",
                 "438",
                 "",
-                "447"
+                "447",
+                "449",
+                "451"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4149,7 +4228,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4173,13 +4252,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:7ee98d",
+            "ysrc": "jdeslip:372:41f48d",
             "y": [
                 "TheNephophiliac",
                 "",
@@ -4202,16 +4282,15 @@ var figure = {
                 "394",
                 "397",
                 "",
-                "407"
+                "407",
+                "416",
+                "424"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4223,7 +4302,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4247,13 +4326,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:6a5b8e",
+            "ysrc": "jdeslip:372:13d67d",
             "y": [
                 "OriginaIPenguin",
                 "",
@@ -4276,16 +4356,15 @@ var figure = {
                 "392",
                 "393",
                 "",
-                "412"
+                "412",
+                "433",
+                "446"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4297,7 +4376,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4321,44 +4400,45 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:0aef92",
+            "ysrc": "jdeslip:372:42379c",
             "y": [
                 "Kr83297",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
-                "401"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "401",
+                "416",
+                "425"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4370,7 +4450,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4394,13 +4474,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:40827e",
+            "ysrc": "jdeslip:372:02bd4d",
             "y": [
                 "LinkTV_Stadia",
                 "",
@@ -4423,16 +4504,15 @@ var figure = {
                 "318",
                 "318",
                 "",
-                "326"
+                "326",
+                "331",
+                "335"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4444,7 +4524,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4468,13 +4548,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:795249",
+            "ysrc": "jdeslip:372:51eba0",
             "y": [
                 "r_stadia",
                 "",
@@ -4497,16 +4578,15 @@ var figure = {
                 "323",
                 "327",
                 "",
-                "332"
+                "332",
+                "342",
+                "351"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4518,7 +4598,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4542,13 +4622,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:ac1f88",
+            "ysrc": "jdeslip:372:5f5b6c",
             "y": [
                 "_x2i_",
                 "",
@@ -4571,16 +4652,15 @@ var figure = {
                 "283",
                 "282",
                 "",
-                "284"
+                "284",
+                "296",
+                "298"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4592,7 +4672,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4616,13 +4696,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:38076b",
+            "ysrc": "jdeslip:372:cf4456",
             "y": [
                 "The_Ashes2Ashes",
                 "",
@@ -4645,16 +4726,15 @@ var figure = {
                 "312",
                 "312",
                 "",
-                "324"
+                "324",
+                "326",
+                "327"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4666,7 +4746,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4690,13 +4770,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:76c368",
+            "ysrc": "jdeslip:372:e279aa",
             "y": [
                 "StateOfStadia",
                 "",
@@ -4719,16 +4800,15 @@ var figure = {
                 "269",
                 "268",
                 "",
-                "271"
+                "271",
+                "274",
+                "281"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4740,7 +4820,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4764,13 +4844,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:741267",
+            "ysrc": "jdeslip:372:8ecf59",
             "y": [
                 "AdaxisLP",
                 "",
@@ -4793,16 +4874,15 @@ var figure = {
                 "254",
                 "253",
                 "",
-                "257"
+                "257",
+                "261",
+                "260"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4814,7 +4894,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4838,13 +4918,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:49df8c",
+            "ysrc": "jdeslip:372:fc4b37",
             "y": [
                 "StadiaHunters",
                 "",
@@ -4867,16 +4948,15 @@ var figure = {
                 "320",
                 "324",
                 "",
-                "350"
+                "350",
+                "358",
+                "374"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4888,7 +4968,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4912,13 +4992,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:86a706",
+            "ysrc": "jdeslip:372:ae9b6a",
             "y": [
                 "StadiaSquad",
                 "",
@@ -4941,16 +5022,15 @@ var figure = {
                 "236",
                 "235",
                 "",
-                "235"
+                "235",
+                "237",
+                "237"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -4962,7 +5042,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -4986,13 +5066,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:d4dfc7",
+            "ysrc": "jdeslip:372:35c4ab",
             "y": [
                 "DBStadia",
                 "",
@@ -5015,16 +5096,15 @@ var figure = {
                 "264",
                 "263",
                 "",
-                "276"
+                "276",
+                "280",
+                "282"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5036,7 +5116,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5060,13 +5140,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:fe61ab",
+            "ysrc": "jdeslip:372:a1b3af",
             "y": [
                 "TeamStadiaHead",
                 "",
@@ -5089,28 +5170,27 @@ var figure = {
                 "373",
                 "376",
                 "",
-                "395"
+                "395",
+                "404",
+                "416"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "StadiaUniverse"
+                    "y": "stadiausa1"
                 }
             },
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5134,13 +5214,88 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:ff63f1",
+            "ysrc": "jdeslip:372:e37341",
+            "y": [
+                "stadiausa1",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "321",
+                "330",
+                "338"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "StadiaUniverse"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:9cbe6c",
             "y": [
                 "StadiaUniverse",
                 "",
@@ -5163,89 +5318,15 @@ var figure = {
                 "299",
                 "302",
                 "",
-                "314"
+                "314",
+                "329",
+                "329"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "opacity": 1,
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "stadiausa1"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:bba6ab",
-            "y": [
-                "stadiausa1",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "",
-                "",
-                "321"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5257,7 +5338,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5281,13 +5362,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:73f70c",
+            "ysrc": "jdeslip:372:cd7aa1",
             "y": [
                 "StadiaStreamer",
                 "",
@@ -5310,16 +5392,15 @@ var figure = {
                 "210",
                 "212",
                 "",
-                "211"
+                "211",
+                "213",
+                "213"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5331,7 +5412,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5355,13 +5436,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:f85a44",
+            "ysrc": "jdeslip:372:148a08",
             "y": [
                 "_wolock_",
                 "",
@@ -5384,16 +5466,15 @@ var figure = {
                 "219",
                 "218",
                 "",
-                "223"
+                "223",
+                "222",
+                "225"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5405,7 +5486,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5429,13 +5510,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:9e10ca",
+            "ysrc": "jdeslip:372:0762bd",
             "y": [
                 "Paramedic1703",
                 "",
@@ -5458,89 +5540,15 @@ var figure = {
                 "218",
                 "220",
                 "",
-                "231"
+                "231",
+                "235",
+                "239"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "opacity": 1,
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "StadiaHeroes"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:3bebba",
-            "y": [
-                "StadiaHeroes",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "",
-                "",
-                "228"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5552,7 +5560,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5576,13 +5584,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:14e13d",
+            "ysrc": "jdeslip:372:397086",
             "y": [
                 "RichieC89",
                 "",
@@ -5605,16 +5614,15 @@ var figure = {
                 "207",
                 "208",
                 "",
-                "211"
+                "211",
+                "216",
+                "220"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5626,7 +5634,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5650,13 +5658,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:674bdf",
+            "ysrc": "jdeslip:372:2c371a",
             "y": [
                 "Stadia_Se7eN",
                 "",
@@ -5679,16 +5688,15 @@ var figure = {
                 "207",
                 "209",
                 "",
-                "212"
+                "212",
+                "214",
+                "219"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5700,7 +5708,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5724,13 +5732,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:476081",
+            "ysrc": "jdeslip:372:a227f8",
             "y": [
                 "DGSN2",
                 "",
@@ -5753,16 +5762,15 @@ var figure = {
                 "177",
                 "177",
                 "",
-                "184"
+                "184",
+                "184",
+                "186"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5774,7 +5782,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5798,13 +5806,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:338ccf",
+            "ysrc": "jdeslip:372:0ff6d2",
             "y": [
                 "BlacKai11",
                 "",
@@ -5827,16 +5836,15 @@ var figure = {
                 "158",
                 "157",
                 "",
-                "166"
+                "166",
+                "174",
+                "178"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5848,7 +5856,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5872,13 +5880,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:53d7d0",
+            "ysrc": "jdeslip:372:0a0fad",
             "y": [
                 "speakofstadia",
                 "",
@@ -5901,16 +5910,15 @@ var figure = {
                 "166",
                 "166",
                 "",
-                "175"
+                "175",
+                "183",
+                "184"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5922,7 +5930,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -5946,13 +5954,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:0e8787",
+            "ysrc": "jdeslip:372:ff7c77",
             "y": [
                 "CyberChris2077",
                 "",
@@ -5975,16 +5984,15 @@ var figure = {
                 "157",
                 "157",
                 "",
-                "163"
+                "163",
+                "169",
+                "171"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -5996,7 +6004,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6020,13 +6028,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:a6b60a",
+            "ysrc": "jdeslip:372:8ca1a1",
             "y": [
                 "mcsetty",
                 "",
@@ -6049,16 +6058,15 @@ var figure = {
                 "114",
                 "114",
                 "",
-                "117"
+                "117",
+                "117",
+                "116"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6070,7 +6078,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6094,13 +6102,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:d85967",
+            "ysrc": "jdeslip:372:5db26c",
             "y": [
                 "StadiaVetGaming",
                 "",
@@ -6123,16 +6132,15 @@ var figure = {
                 "97",
                 "97",
                 "",
-                "96"
+                "96",
+                "97",
+                "97"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6144,7 +6152,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6168,13 +6176,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:4a1785",
+            "ysrc": "jdeslip:372:71de33",
             "y": [
                 "StadiaDan",
                 "",
@@ -6197,16 +6206,15 @@ var figure = {
                 "107",
                 "108",
                 "",
-                "116"
+                "116",
+                "119",
+                "123"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6218,7 +6226,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6242,13 +6250,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:e93f11",
+            "ysrc": "jdeslip:372:8b7c45",
             "y": [
                 "StadiaSurvey",
                 "",
@@ -6271,16 +6280,15 @@ var figure = {
                 "76",
                 "77",
                 "",
-                "77"
+                "77",
+                "78",
+                "78"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6292,7 +6300,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6316,13 +6324,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:6a7703",
+            "ysrc": "jdeslip:372:869401",
             "y": [
                 "SammyOnStadia",
                 "",
@@ -6345,16 +6354,15 @@ var figure = {
                 "206",
                 "208",
                 "",
-                "223"
+                "223",
+                "240",
+                "244"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6366,7 +6374,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6390,13 +6398,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:db7837",
+            "ysrc": "jdeslip:372:5b0bf3",
             "y": [
                 "DrSpcmanGaming",
                 "",
@@ -6419,16 +6428,89 @@ var figure = {
                 "274",
                 "276",
                 "",
-                "307"
+                "307",
+                "318",
+                "327"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "StadiaHeroes"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:ef8a4a",
+            "y": [
+                "StadiaHeroes",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "228",
+                "241",
+                "250"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6440,7 +6522,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6464,44 +6546,45 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:ac1377",
+            "ysrc": "jdeslip:372:e7ff96",
             "y": [
                 "KRiTOSesp",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
-                "212"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "212",
+                "217",
+                "217"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6513,7 +6596,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6537,44 +6620,45 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:3875ee",
+            "ysrc": "jdeslip:372:36b456",
             "y": [
                 "rictone87",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
-                "196"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "196",
+                "199",
+                "200"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6586,7 +6670,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6610,44 +6694,45 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:c70435",
+            "ysrc": "jdeslip:372:11f077",
             "y": [
                 "Antonio39755149",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
-                "192"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "192",
+                "196",
+                "200"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -6659,7 +6744,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -6683,338 +6768,45 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:e0efd3",
+            "ysrc": "jdeslip:372:d9fb0a",
             "y": [
                 "Consigno10",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
-                "172"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "172",
+                "174",
+                "179"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "DreiKiekens"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:3427b7",
-            "y": [
-                "DreiKiekens",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "",
-                "",
-                "132"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "AkaashMonger"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:54f0af",
-            "y": [
-                "AkaashMonger",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                "",
-                "",
-                "130"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "StadiaGoat"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:e077d5",
-            "y": [
-                "StadiaGoat",
-                "",
-                "",
-                "",
-                "",
-                "36",
-                "44",
-                "46",
-                "49",
-                "57",
-                "64",
-                "67",
-                "73",
-                "77",
-                "76",
-                "78",
-                "81",
-                "81",
-                "84",
-                "84",
-                "",
-                "89"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "opacity": 1,
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "bluebobz"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:22a085",
-            "y": [
-                "bluebobz",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "61",
-                "64",
-                "74",
-                "74",
-                "",
-                "81"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "opacity": 1,
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         },
         {
             "meta": {
@@ -7026,7 +6818,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7050,13 +6842,14 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:013677",
+            "ysrc": "jdeslip:372:6f7ac8",
             "y": [
                 "thestadialife",
                 "",
@@ -7079,16 +6872,385 @@ var figure = {
                 "93",
                 "95",
                 "",
-                "106"
+                "106",
+                "122",
+                "132"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
-            "opacity": 1,
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "DreiKiekens"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:f270d9",
+            "y": [
+                "DreiKiekens",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "132",
+                "139",
+                "144"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "AkaashMonger"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:e9f37c",
+            "y": [
+                "AkaashMonger",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "130",
+                "133",
+                "136"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "ItsColourTV"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:a71399",
+            "y": [
+                "ItsColourTV",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "117",
+                "119",
+                "122"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "StadiaGoat"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:bd8532",
+            "y": [
+                "StadiaGoat",
+                "",
+                "",
+                "",
+                "",
+                "36",
+                "44",
+                "46",
+                "49",
+                "57",
+                "64",
+                "67",
+                "73",
+                "77",
+                "76",
+                "78",
+                "81",
+                "81",
+                "84",
+                "84",
+                "",
+                "89",
+                "93",
+                "95"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "bluebobz"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:372:36b781",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-09-09",
+                "2020-09-10",
+                "2020-09-13",
+                "2020-09-20",
+                "2020-09-27",
+                "2020-09-30",
+                "2020-10-04",
+                "2020-10-11",
+                "2020-10-18",
+                "2020-10-25",
+                "2020-10-31",
+                "2020-11-08",
+                "2020-11-11",
+                "2020-11-15",
+                "2020-11-19",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-01",
+                "2020-12-06",
+                "2020-12-10",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03"
+            ],
+            "ysrc": "jdeslip:372:da91e0",
+            "y": [
+                "bluebobz",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "61",
+                "64",
+                "74",
+                "74",
+                "",
+                "81",
+                "82",
+                "85"
+            ],
+            "marker": {
+                "size": 8
+            },
+            "stackgroup": null,
+            "connectgaps": true
         },
         {
             "meta": {
@@ -7100,7 +7262,7 @@ var figure = {
             "mode": "markers+lines",
             "name": "%{meta.columnNames.y}",
             "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
+            "xsrc": "jdeslip:372:36b781",
             "x": [
                 "Date",
                 "2020-06-16",
@@ -7124,129 +7286,57 @@ var figure = {
                 "2020-11-30",
                 "2020-12-01",
                 "2020-12-06",
+                "2020-12-10",
                 "2020-12-13",
                 "2020-12-20",
                 "2020-12-27",
                 "2020-12-31",
                 "2021-01-03"
             ],
-            "ysrc": "jdeslip:368:4f31b9",
+            "ysrc": "jdeslip:372:cb4ecc",
             "y": [
                 "rhut_virani",
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
-                null,
                 "",
                 "",
-                "44"
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "44",
+                "44",
+                "45"
             ],
             "marker": {
-                "size": 8,
-                "opacity": 0.75
+                "size": 8
             },
             "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
-        },
-        {
-            "meta": {
-                "columnNames": {
-                    "x": "Date",
-                    "y": "DWGamer10"
-                }
-            },
-            "mode": "markers+lines",
-            "name": "%{meta.columnNames.y}",
-            "type": "scatter",
-            "xsrc": "jdeslip:368:7df2e4",
-            "x": [
-                "Date",
-                "2020-06-16",
-                "2020-09-09",
-                "2020-09-10",
-                "2020-09-13",
-                "2020-09-20",
-                "2020-09-27",
-                "2020-09-30",
-                "2020-10-04",
-                "2020-10-11",
-                "2020-10-18",
-                "2020-10-25",
-                "2020-10-31",
-                "2020-11-08",
-                "2020-11-11",
-                "2020-11-15",
-                "2020-11-19",
-                "2020-11-22",
-                "2020-11-29",
-                "2020-11-30",
-                "2020-12-01",
-                "2020-12-06",
-                "2020-12-13",
-                "2020-12-20",
-                "2020-12-27",
-                "2020-12-31",
-                "2021-01-03"
-            ],
-            "ysrc": "jdeslip:368:f055a9",
-            "y": [
-                "DWGamer10",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "22",
-                "21",
-                "23",
-                "23",
-                "23",
-                "23",
-                "24",
-                "24",
-                "26",
-                "26",
-                "",
-                "27"
-            ],
-            "marker": {
-                "size": 8,
-                "opacity": 0.75
-            },
-            "opacity": 1,
-            "stackgroup": null,
-            "connectgaps": true,
-            "hovertemplate": "%{x}, %{y}"
+            "connectgaps": true
         }
     ],
     "layout": {
         "title": {
-            "text": "Stadia Community Member Twitter Subscribers vs. Time"
+            "text": "Stadia Community Member Twitter Followers vs Time"
         },
         "xaxis": {
+            "side": "top",
             "type": "date",
             "range": [
-                "2020-06-05 03:48:08.3882",
-                "2020-12-16 20:11:51.6118"
+                "2020-06-04 17:16:26.7623",
+                "2020-12-24 06:43:33.2377"
             ],
             "title": {
                 "text": ""
@@ -7256,8 +7346,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -5161.739130434782,
-                39261.739130434784
+                -283.32507903055847,
+                3954.3250790305583
             ],
             "title": {
                 "text": "Number of Followers"
@@ -7266,8 +7356,7 @@ var figure = {
         },
         "legend": {
             "x": 0,
-            "y": -0.2,
-            "bgcolor": "rgba(255, 255, 255, 0.01)",
+            "y": 0,
             "orientation": "h"
         },
         "autosize": true,
