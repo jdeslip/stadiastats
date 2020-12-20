@@ -592,7 +592,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -889,7 +889,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1186,7 +1186,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1483,7 +1483,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -1780,7 +1780,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -2077,7 +2077,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         },
         {
             "meta": {
@@ -2374,7 +2374,7 @@ var figure = {
             },
             "stackgroup": null,
             "connectgaps": true,
-            "hovertemplate": "%X %Y"
+            "hovertemplate": "%{x}, %{y}"
         }
     ],
     "layout": {
@@ -2396,8 +2396,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -7295.551579368253,
-                101596.55157936826
+                -6424.616740602383,
+                100725.61674060239
             ],
             "title": {
                 "text": "Members"
