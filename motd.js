@@ -1,3 +1,3 @@
 function setMOTD() {
-  document.getElementById("motd").innerHTML = "<font>Best Viewed on Desktop, Laptop or Tablet. Next Update: 2020-12-20 1PM Pacific</font><br><a href='https://docs.google.com/spreadsheets/d/15JSqoXgSOqdYM6D1nuRpRF69Guvpq49TeV5UrrUW0hg/edit?usp=sharing'>Raw Data</a><br><br>";
+  document.getElementById("motd").innerHTML = "<font>Best Viewed on Desktop, Laptop or Tablet. Next Update: 2020-12-22 7PM Pacific</font><br><a href='https://docs.google.com/spreadsheets/d/15JSqoXgSOqdYM6D1nuRpRF69Guvpq49TeV5UrrUW0hg/edit?usp=sharing'>Raw Data</a><br><br>";
 }
