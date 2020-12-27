@@ -644,6 +644,7 @@ var figure = {
             "marker": {
                 "size": 8
             },
+            "visible": "legendonly",
             "stackgroup": null,
             "connectgaps": true
         },
@@ -751,6 +752,7 @@ var figure = {
             "marker": {
                 "size": 8
             },
+            "visible": "legendonly",
             "stackgroup": null,
             "connectgaps": true
         },
@@ -858,6 +860,7 @@ var figure = {
             "marker": {
                 "size": 8
             },
+            "visible": "legendonly",
             "stackgroup": null,
             "connectgaps": true
         },
@@ -1500,6 +1503,7 @@ var figure = {
             "marker": {
                 "size": 8
             },
+            "visible": "legendonly",
             "stackgroup": null,
             "connectgaps": true
         },
@@ -2142,6 +2146,7 @@ var figure = {
             "marker": {
                 "size": 8
             },
+            "visible": "legendonly",
             "stackgroup": null,
             "connectgaps": true
         },
@@ -2570,6 +2575,7 @@ var figure = {
             "marker": {
                 "size": 8
             },
+            "visible": "legendonly",
             "stackgroup": null,
             "connectgaps": true
         },
@@ -10618,8 +10624,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -462.23943661971833,
-                4144.239436619719
+                -148.027397260274,
+                2224.027397260274
             ],
             "title": {
                 "text": "Number of Followers"
