@@ -245,6 +245,7 @@ var figure = {
                 "opacity": 0.75
             },
             "stackgroup": null,
+            "connectgaps": true,
             "hovertemplate": "%{x}, %{y}"
         },
         {
@@ -492,6 +493,7 @@ var figure = {
                 "opacity": 0.75
             },
             "stackgroup": null,
+            "connectgaps": true,
             "hovertemplate": "%{x}, %{y}"
         },
         {
@@ -739,6 +741,7 @@ var figure = {
                 "opacity": 0.75
             },
             "stackgroup": null,
+            "connectgaps": true,
             "hovertemplate": "%{x}, %{y}"
         }
     ],
@@ -750,8 +753,8 @@ var figure = {
             "side": "top",
             "type": "date",
             "range": [
-                "2020-06-04 00:43:47.0644",
-                "2021-01-04 23:16:12.9356"
+                "2019-12-07 10:32:53.5245",
+                "2021-01-15 13:27:06.4755"
             ],
             "title": {
                 "text": ""
@@ -761,8 +764,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -20969.999784575615,
-                295720.9997845756
+                -21125.794662549622,
+                295876.7946625496
             ],
             "title": {
                 "text": "Subscribers"
