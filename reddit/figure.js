@@ -4,7 +4,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Stadia Reddit"
+                    "y": "Stadia"
                 }
             },
             "mode": "markers+lines",
@@ -155,7 +155,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:352ddd",
             "y": [
-                "Stadia Reddit",
+                "Stadia",
                 "33750",
                 "35930",
                 "38400",
@@ -290,7 +290,8 @@ var figure = {
                 "92769",
                 "94268",
                 "95032",
-                "95682"
+                "95682",
+                "96535"
             ],
             "marker": {
                 "size": 8
@@ -303,7 +304,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "GN Reddit"
+                    "y": "GeForceNOW"
                 }
             },
             "mode": "markers+lines",
@@ -454,7 +455,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:765f0d",
             "y": [
-                "GN Reddit",
+                "GeForceNOW",
                 "5080",
                 "",
                 "",
@@ -589,7 +590,8 @@ var figure = {
                 "39162",
                 "39659",
                 "40038",
-                "40222"
+                "40222",
+                "40496"
             ],
             "marker": {
                 "size": 8
@@ -602,7 +604,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "ShadowPC Reddit"
+                    "y": "ShadowPC"
                 }
             },
             "mode": "markers+lines",
@@ -753,7 +755,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:53bec5",
             "y": [
-                "ShadowPC Reddit",
+                "ShadowPC",
                 "6950",
                 "",
                 "",
@@ -888,7 +890,8 @@ var figure = {
                 "24284",
                 "24429",
                 "24619",
-                "24689"
+                "24689",
+                "24825"
             ],
             "marker": {
                 "size": 8
@@ -901,7 +904,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "XCloud Reddit"
+                    "y": "xcloud"
                 }
             },
             "mode": "markers+lines",
@@ -1052,7 +1055,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:bbe218",
             "y": [
-                "XCloud Reddit",
+                "xcloud",
                 "494",
                 "581",
                 "690",
@@ -1187,7 +1190,8 @@ var figure = {
                 "12240",
                 "12296",
                 "12329",
-                "12345"
+                "12345",
+                "12397"
             ],
             "marker": {
                 "size": 8
@@ -1200,7 +1204,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Stadia Dadia Reddit"
+                    "y": "StadiaDadia"
                 }
             },
             "mode": "markers+lines",
@@ -1351,7 +1355,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:fc3607",
             "y": [
-                "Stadia Dadia Reddit",
+                "StadiaDadia",
                 "",
                 "",
                 "",
@@ -1486,7 +1490,8 @@ var figure = {
                 "1779",
                 "1787",
                 "1843",
-                "1845"
+                "1845",
+                "1854"
             ],
             "marker": {
                 "size": 8
@@ -1499,7 +1504,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Crayta Reddit"
+                    "y": "crayta"
                 }
             },
             "mode": "markers+lines",
@@ -1650,7 +1655,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:b0f678",
             "y": [
-                "Crayta Reddit",
+                "crayta",
                 "",
                 "",
                 "",
@@ -1785,7 +1790,8 @@ var figure = {
                 "803",
                 "803",
                 "807",
-                "810"
+                "810",
+                "811"
             ],
             "marker": {
                 "size": 8
@@ -1798,7 +1804,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Luna Reddit"
+                    "y": "LunaCloudGaming"
                 }
             },
             "mode": "markers+lines",
@@ -1949,7 +1955,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:80eed8",
             "y": [
-                "Luna Reddit",
+                "LunaCloudGaming",
                 "",
                 "",
                 "",
@@ -2084,7 +2090,8 @@ var figure = {
                 "1574",
                 "1598",
                 "1603",
-                "1602"
+                "1602",
+                "1605"
             ],
             "marker": {
                 "size": 8
@@ -2097,7 +2104,7 @@ var figure = {
             "meta": {
                 "columnNames": {
                     "x": "Date",
-                    "y": "Luna Reddit 2"
+                    "y": "AmazonLunaUnofficial"
                 }
             },
             "mode": "markers+lines",
@@ -2248,7 +2255,7 @@ var figure = {
             ],
             "ysrc": "jdeslip:354:11713d",
             "y": [
-                "Luna Reddit 2",
+                "AmazonLunaUnofficial",
                 "",
                 "",
                 "",
@@ -2383,7 +2390,8 @@ var figure = {
                 "278",
                 "283",
                 "284",
-                "286"
+                "286",
+                "290"
             ],
             "marker": {
                 "size": 8
@@ -2395,14 +2403,14 @@ var figure = {
     ],
     "layout": {
         "title": {
-            "text": "Reddit Member Counts vs. Time"
+            "text": "SubReddit Member Counts vs. Time"
         },
         "xaxis": {
             "side": "top",
             "type": "date",
             "range": [
-                "2019-10-03 14:48:07.9273",
-                "2021-01-19 09:11:52.0727"
+                "2019-10-03 10:17:24.3733",
+                "2021-01-22 13:42:35.6267"
             ],
             "title": {
                 "text": ""
@@ -2412,8 +2420,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -7023.073770491804,
-                102738.0737704918
+                -6579.966845668925,
+                103147.96684566893
             ],
             "title": {
                 "text": "Members"
