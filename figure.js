@@ -20384,11 +20384,11 @@ var figure = {
             "text": "Stadia Centric YouTube Subscriber Counts vs. Time"
         },
         "xaxis": {
-            "side": "top",
+            "side": "bottom",
             "type": "date",
             "range": [
-                "2019-12-06 10:37:52.6143",
-                "2021-02-06 13:22:07.3857"
+                "2019-12-06 01:35:09.9229",
+                "2021-02-06 22:24:50.0771"
             ],
             "title": {
                 "text": "<br>"
@@ -20398,8 +20398,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -2541.373949579832,
-                17348.373949579833
+                -1440.7536176694591,
+                16247.75361766946
             ],
             "title": {
                 "text": "Subscribers"
@@ -20407,9 +20407,9 @@ var figure = {
             "autorange": true
         },
         "legend": {
-            "x": 0,
-            "y": 0,
-            "orientation": "h"
+            "x": 1,
+            "y": 1,
+            "orientation": "v"
         },
         "autosize": true,
         "template": {
