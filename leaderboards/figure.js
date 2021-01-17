@@ -406,7 +406,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "151"
+                "151",
+                null,
+                null,
+                "154"
             ],
             "marker": {
                 "size": 8,
@@ -615,7 +618,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "5450"
+                "5450",
+                null,
+                null,
+                "5582"
             ],
             "marker": {
                 "size": 8,
@@ -824,7 +830,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "5252"
+                "5252",
+                null,
+                null,
+                "5381"
             ],
             "marker": {
                 "size": 8,
@@ -1033,7 +1042,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "112629"
+                "112629",
+                null,
+                null,
+                "112774"
             ],
             "marker": {
                 "size": 8,
@@ -1447,7 +1459,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "32533"
+                "32533",
+                null,
+                null,
+                "33647"
             ],
             "marker": {
                 "size": 8,
@@ -1656,7 +1671,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "23428"
+                "23428",
+                null,
+                null,
+                "24255"
             ],
             "marker": {
                 "size": 8,
@@ -1865,7 +1883,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "963"
+                "963",
+                null,
+                null,
+                "987"
             ],
             "marker": {
                 "size": 8,
@@ -2285,7 +2306,8 @@ var figure = {
                 "",
                 "196432",
                 "199077",
-                "201260"
+                "201260",
+                "204721"
             ],
             "marker": {
                 "size": 8,
@@ -2494,7 +2516,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "362"
+                "362",
+                null,
+                null,
+                "384"
             ],
             "marker": {
                 "size": 8,
@@ -2703,7 +2728,10 @@ var figure = {
                 null,
                 null,
                 "",
-                "294"
+                "294",
+                null,
+                null,
+                "322"
             ],
             "marker": {
                 "size": 8,
@@ -2723,8 +2751,8 @@ var figure = {
             "side": "top",
             "type": "date",
             "range": [
-                "2019-10-23 23:16:29.9492",
-                "2021-02-08 00:43:30.0508"
+                "2019-10-23 18:49:23.7493",
+                "2021-02-11 05:10:36.2507"
             ],
             "title": {
                 "text": ""
@@ -2734,8 +2762,8 @@ var figure = {
         "yaxis": {
             "type": "linear",
             "range": [
-                -16632.65236470015,
-                217892.65236470016
+                -14808.42026578073,
+                219529.42026578073
             ],
             "title": {
                 "text": "Leaderboard Size"
