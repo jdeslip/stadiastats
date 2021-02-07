@@ -59,7 +59,8 @@ var figure = {
                 "1682",
                 "1695",
                 "1706",
-                "1718"
+                "1718",
+                "1726"
             ],
             "marker": {
                 "size": 8,
@@ -128,7 +129,8 @@ var figure = {
                 "1315",
                 "1319",
                 "1327",
-                "1326"
+                "1326",
+                "1329"
             ],
             "marker": {
                 "size": 8,
@@ -197,6 +199,7 @@ var figure = {
                 "489",
                 "497",
                 "506",
+                "511",
                 "511"
             ],
             "marker": {
@@ -266,7 +269,78 @@ var figure = {
                 "331",
                 "331",
                 "335",
-                "336"
+                "336",
+                "338"
+            ],
+            "marker": {
+                "size": 8,
+                "opacity": 0.75
+            },
+            "stackgroup": null,
+            "connectgaps": true,
+            "hovertemplate": "%{x}, %{y}"
+        },
+        {
+            "meta": {
+                "columnNames": {
+                    "x": "Date",
+                    "y": "Luna Controller App Review Count"
+                }
+            },
+            "mode": "markers+lines",
+            "name": "%{meta.columnNames.y}",
+            "type": "scatter",
+            "xsrc": "jdeslip:364:384977",
+            "x": [
+                "Date",
+                "2020-06-16",
+                "2020-10-27",
+                "2020-10-29",
+                "2020-10-31",
+                "2020-11-01",
+                "2020-11-08",
+                "2020-11-15",
+                "2020-11-22",
+                "2020-11-29",
+                "2020-11-30",
+                "2020-12-06",
+                "2020-12-13",
+                "2020-12-20",
+                "2020-12-24",
+                "2020-12-27",
+                "2020-12-31",
+                "2021-01-03",
+                "2021-01-10",
+                "2021-01-17",
+                "2021-01-24",
+                "2021-01-31",
+                "2021-02-07"
+            ],
+            "ysrc": "jdeslip:364:d976ec",
+            "y": [
+                "Luna Controller App Review Count",
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                "27",
+                "27"
             ],
             "marker": {
                 "size": 8,
@@ -285,8 +359,8 @@ var figure = {
             "side": "top",
             "type": "date",
             "range": [
-                "2020-06-01 20:11:06.742",
-                "2021-02-14 03:48:53.258"
+                "2020-06-01 09:47:52.2756",
+                "2021-02-21 14:12:07.7244"
             ],
             "title": {
                 "text": ""
