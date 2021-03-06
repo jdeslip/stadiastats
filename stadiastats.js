@@ -9,7 +9,7 @@ function updatePlot(myTable,myName) {
 
   var myURL = "http://54.219.108.39/stadiastats.php";
 
-  $("#plot-div").html("<center><img src='bounce.gif';></center>");
+  $("#plot-div").html("<center><img src='bounce.gif';><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
   if (myTable) {
     myURL = myURL+"?table="+myTable;
