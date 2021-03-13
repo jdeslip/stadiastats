@@ -45,7 +45,7 @@ function updatePlot(myTable,myName) {
     allSeries=new Array();
    
     for (var i = 0; i < myNames.length; i++) {
-      allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4});
+      allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: true});
     }
 
     //console.log(myArray[myNames[0]]);
