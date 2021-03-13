@@ -70,7 +70,7 @@ function updatePlot(myTable,myName) {
             },
             tooltip: {
                 enabled: true,
-                shared: true,
+                split: true,
             },
             navigator:{
                 enabled:true,
