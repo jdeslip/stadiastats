@@ -88,7 +88,6 @@ function updatePlot(myTable,myName) {
             },
             tooltip: {
                 enabled: true,
-                split: true,
             },
             navigator:{
                 enabled:true,
