@@ -126,11 +126,12 @@ function updatePlot(myTable,myName) {
                     console.log('this index is '+String(seriesIndex));
                     console.log('length is '+String(series.length));
                     
-                    //for (var i = 0; i < series.length; i++) {
-                    //    if (series[i].index != seriesIndex) {
+                    for (var i = 0; i < series.length; i++) {
+                        if (series[i].index != seriesIndex) {
+                          console.log('Turning off series '+String(series[i].index);
                     //       series[i].visible ? series[i].hide() : series[i].show();
-                    //    }
-                    //}
+                        }
+                    }
                     return false;
                 }
               }
