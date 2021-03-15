@@ -107,6 +107,28 @@ function updatePlot(myTable,myName) {
                 maxHeight: 120,
                 verticalAlign: "bottom",
             },
+            series: {
+              events: {
+                legendItemClick: function(event) {
+                    if (!this.visible)
+                        return true;
+                    
+                    var seriesIndex = this.index;
+                    var series = this.chart.series;
+                    
+                    for (var i = 0; i < series.length; i++)
+                    {
+                        if (series[i].index != seriesIndex)
+                        {
+                            
+                            series[i].visible ? series[i].hide() : series[i].show();
+                        } 
+                    }
+                    
+                    return false;
+                }
+              }
+            },
             yAxis: {
                 title: {
                     text: 'Members'
