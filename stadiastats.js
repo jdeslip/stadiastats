@@ -129,7 +129,11 @@ function updatePlot(myTable,myName) {
                     for (var i = 0; i < series.length; i++) {
                         if (series[i].index != seriesIndex) {
                           console.log('Turning off series '+String(series[i].index));
-                             series[i].setVisible(false,false);
+                             if (series[i].visible) {
+                               series[i].setVisible(false,false); 
+                             } else {
+                               series[i].setVisible(true,false);
+                             }
                     //       series[i].visible ? series[i].hide() : series[i].show();
                         }
                     }
