@@ -112,19 +112,18 @@ function updatePlot(myTable,myName) {
               events: {
                 legendItemClick: function(event) {
                     console.log('legend item clicked')
-                    if (!this.visible)
-                        return true;
-                    var seriesIndex = this.index;
-                    var series = this.chart.series;
-                    
-                    for (var i = 0; i < series.length; i++)
-                    {
-                        if (series[i].index != seriesIndex) {
-                            series[i].visible ? series[i].hide() : series[i].show();
-                        }
-                    }
-                    
-                    return false;
+                    return true;
+                    //if (!this.visible)
+                    //    return true;
+                    //var seriesIndex = this.index;
+                    //var series = this.chart.series;
+                    // 
+                    //for (var i = 0; i < series.length; i++) {
+                    //    if (series[i].index != seriesIndex) {
+                    //       series[i].visible ? series[i].hide() : series[i].show();
+                    //    }
+                    //}
+                    //return false;
                 }
               }
              }
