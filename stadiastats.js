@@ -23,6 +23,7 @@ function updatePlot(myTable,myName) {
   myTitles['achievements'] = 'Achievement Leaderboard';
   myTitles['discord'] = 'Discord Channel';
   myTitles['misc'] = 'Miscellaneous';
+  myTitles['games'] = 'Game Availability';
   
   var myURL = "http://54.219.108.39/stadiastats.php";
 
