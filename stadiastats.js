@@ -115,13 +115,16 @@ function updatePlot(myTable,myName) {
                   
                     if (!this.visible)
                       console.log('this is not visible');
-                    //    return true;
+                      return true;
                                   
                     console.log('passed if statement');
 
-                    //var seriesIndex = this.index;
-                    //var series = this.chart.series;
-                    // 
+                    var seriesIndex = this.index;
+                    var series = this.chart.series;
+                  
+                    console.log('this index is '+str(seriesIndex));
+                    console.log('length is '+str(series.length));
+                    
                     //for (var i = 0; i < series.length; i++) {
                     //    if (series[i].index != seriesIndex) {
                     //       series[i].visible ? series[i].hide() : series[i].show();
