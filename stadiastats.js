@@ -12,7 +12,7 @@ function updatePlot(myTable,myName) {
   myTitles['youtube'] = 'YouTube Creator Channel';
   myTitles['youtubeplatforms'] = 'YouTube Platform Channel';
   myTitles['twitter'] = 'Twitter Stadia Community Member';
-  myTitles['twittterplatforms'] = 'Twitter Platform';
+  myTitles['twitterplatforms'] = 'Twitter Platform';
   myTitles['reddit'] = 'SubReddit';
   myTitles['facebook'] = 'Facebook Page';
   myTitles['facebookgroups'] = 'Facebook Group';
