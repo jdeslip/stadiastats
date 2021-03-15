@@ -62,7 +62,7 @@ function updatePlot(myTable,myName) {
     allSeries=new Array();
    
     for (var i = 0; i < myNames.length; i++) {
-      allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false});
+      allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
     }
 
     //console.log(myArray[myNames[0]]);
@@ -88,6 +88,7 @@ function updatePlot(myTable,myName) {
             },
             tooltip: {
                 enabled: true,
+                snap: 0,
             },
             navigator:{
                 enabled:true,
