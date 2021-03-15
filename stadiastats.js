@@ -88,6 +88,10 @@ function updatePlot(myTable,myName) {
             tooltip: {
                 enabled: true,
                 xDateFormat: '%Y-%m-%d',
+                dateTimeLabelFormats: {
+                  day: "%Y-%m-%e",
+                  month: "%Y-%m",
+                },
                 snap: 0,
             },
             navigator:{
