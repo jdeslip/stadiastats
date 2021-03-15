@@ -111,30 +111,29 @@ function updatePlot(myTable,myName) {
              series: {
               events: {
                 legendItemClick: function(event) {
-                    console.log('legend item clicked');
+                    //console.log('legend item clicked');
                   
                     if (!this.visible) {
                       console.log('this is not visible');
                       return true;
                     }
                                   
-                    console.log('passed if statement');
+                    //console.log('passed if statement');
 
                     var seriesIndex = this.index;
                     var series = this.chart.series;
                   
-                    console.log('this index is '+String(seriesIndex));
-                    console.log('length is '+String(series.length));
+                    //console.log('this index is '+String(seriesIndex));
+                    //console.log('length is '+String(series.length));
                     
                     for (var i = 0; i < series.length; i++) {
                         if (series[i].index != seriesIndex) {
-                          console.log('Turning off series '+String(series[i].index));
+                          //console.log('Turning off series '+String(series[i].index));
                              if (series[i].visible) {
                                series[i].setVisible(false,false); 
                              } else {
                                series[i].setVisible(true,false);
                              }
-                    //       series[i].visible ? series[i].hide() : series[i].show();
                         }
                     }
                     this.chart.redraw();
