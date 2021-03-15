@@ -87,6 +87,7 @@ function updatePlot(myTable,myName) {
             },
             tooltip: {
                 enabled: true,
+                xDateFormat: '%Y-%m-%d',
                 snap: 0,
             },
             navigator:{
