@@ -7,6 +7,23 @@ function setPlot() {
 
 function updatePlot(myTable,myName) {
 
+  var myTitles = new Array();
+  
+  myTitles['youtube'] = 'YouTube Creator Channel';
+  myTitles['youtubeplatforms'] = 'YouTube Platform Channel';
+  myTitles['twitter'] = 'Twitter Stadia Community Member';
+  myTitles['twittterplatforms'] = 'Twitter Platform';
+  myTitles['reddit'] = 'SubReddit';
+  myTitles['facebook'] = 'Facebook Page';
+  myTitles['facebookgroups'] = 'Facebook Group';
+  myTitles['twittterplatforms'] = 'Twitter Platform';
+  myTitles['gplay'] = 'Google Play Review Count';
+  myTitles['ios'] = 'iOS Review Count';
+  myTitles['leaderboards'] = 'Game Leaderboard'
+  myTitles['achievements'] = 'Achievement Leaderboard';
+  myTitles['discord'] = 'Discord Channel';
+  myTitles['misc'] = 'Miscellaneous';
+  
   var myURL = "http://54.219.108.39/stadiastats.php";
 
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
@@ -55,7 +72,7 @@ function updatePlot(myTable,myName) {
               zoomType: 'xy'
             },
             title: {
-                text: myTable + ' growth over time',
+                text: myTitles[myTable] + ' growth over time',
                 x: -20 //center
             },
             xAxis: {
@@ -84,7 +101,7 @@ function updatePlot(myTable,myName) {
                 align: "left",
                 borderWidth: 0,
                 layout: "horizontal",
-                maxHeight: 100,
+                maxHeight: 120,
                 verticalAlign: "bottom",
             },
             yAxis: {
