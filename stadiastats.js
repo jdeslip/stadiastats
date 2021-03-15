@@ -107,7 +107,8 @@ function updatePlot(myTable,myName) {
                 maxHeight: 120,
                 verticalAlign: "bottom",
             },
-            series: {
+            plotOptions: {
+             series: {
               events: {
                 legendItemClick: function(event) {
                     if (!this.visible)
@@ -128,6 +129,7 @@ function updatePlot(myTable,myName) {
                     return false;
                 }
               }
+             }
             },
             yAxis: {
                 title: {
