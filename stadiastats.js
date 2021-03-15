@@ -123,8 +123,8 @@ function updatePlot(myTable,myName) {
                     var seriesIndex = this.index;
                     var series = this.chart.series;
                   
-                    console.log('this index is '+str(seriesIndex));
-                    console.log('length is '+str(series.length));
+                    console.log('this index is '+String(seriesIndex));
+                    console.log('length is '+String(series.length));
                     
                     //for (var i = 0; i < series.length; i++) {
                     //    if (series[i].index != seriesIndex) {
