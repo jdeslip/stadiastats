@@ -88,7 +88,7 @@ function updatePlot(myTable,myName) {
             tooltip: {
                 enabled: true,
                 formatter: function () {
-                   return '<b>' + this.series.name + '</b><br>' + Highcharts.dateFormat('%Y %M %d',this.x) + '<br>' + this.y;
+                   return '<b>' + this.series.name + '</b><br>' + Highcharts.dateFormat('%Y %m %d',this.x) + '<br>' + this.y;
                 },
                 snap: 0,
             },
