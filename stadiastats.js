@@ -72,7 +72,7 @@ function updatePlot(myTable,myName) {
               zoomType: 'xy'
             },
             title: {
-                text: myTitles[myTable] + ' growth over time',
+                text: myTitles[myTable] + ' Growth Over Time',
                 x: -20 //center
             },
             xAxis: {
