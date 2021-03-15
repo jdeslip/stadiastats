@@ -87,10 +87,14 @@ function updatePlot(myTable,myName) {
             },
             tooltip: {
                 enabled: true,
-                xDateFormat: '%Y-%m-%d',
-                dateTimeLabelFormats: {
-                  day: "%Y-%m-%e",
-                  month: "%Y-%m",
+                formatter: function () {
+                // The first returned item is the header, subsequent items are the points
+                return ['<b>' + this.series.name + '</b>'].concat(
+                this.points ?
+                    this.points.map(function (point) {
+                        return point.x + ': ' + point.y;
+                    }) : []
+                );
                 },
                 snap: 0,
             },
