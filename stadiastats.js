@@ -113,9 +113,10 @@ function updatePlot(myTable,myName) {
                 legendItemClick: function(event) {
                     console.log('legend item clicked');
                   
-                    if (!this.visible)
+                    if (!this.visible) {
                       console.log('this is not visible');
                       return true;
+                    }
                                   
                     console.log('passed if statement');
 
