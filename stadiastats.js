@@ -111,10 +111,14 @@ function updatePlot(myTable,myName) {
              series: {
               events: {
                 legendItemClick: function(event) {
-                    console.log('legend item clicked')
-                    return true;
-                    //if (!this.visible)
+                    console.log('legend item clicked');
+                  
+                    if (!this.visible)
+                      console.log('this is not visible);
                     //    return true;
+                                  
+                    console.log('passed if statement');
+
                     //var seriesIndex = this.index;
                     //var series = this.chart.series;
                     // 
@@ -123,7 +127,7 @@ function updatePlot(myTable,myName) {
                     //       series[i].visible ? series[i].hide() : series[i].show();
                     //    }
                     //}
-                    //return false;
+                    return false;
                 }
               }
              }
