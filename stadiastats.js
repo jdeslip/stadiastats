@@ -88,13 +88,7 @@ function updatePlot(myTable,myName) {
             tooltip: {
                 enabled: true,
                 formatter: function () {
-                // The first returned item is the header, subsequent items are the points
-                return ['<b>' + this.series.name + '</b>'].concat(
-                this.points ?
-                    this.points.map(function (point) {
-                        return point.x + ': ' + point.y;
-                    }) : []
-                );
+                   return '<b>' + this.series.name + '</b><br>' + this.x + '<br>' + this.y;
                 },
                 snap: 0,
             },
