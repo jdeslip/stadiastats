@@ -71,7 +71,6 @@ function updatePlot(myTable,myName) {
             chart : {
               zoomType: 'xy'
             },
-            type : 'scatter',
             title: {
                 text: myTitles[myTable] + ' Growth Over Time',
                 x: -20 //center
