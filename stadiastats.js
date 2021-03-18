@@ -25,7 +25,7 @@ function updatePlot(myTable,myName) {
   myTitles['misc'] = 'Miscellaneous';
   myTitles['games'] = 'Game Availability';
   
-  var myURL = "http://54.219.108.39/stadiastats.php";
+  var myURL = "https://stats.stadiasource.com/";
 
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
