@@ -56,9 +56,9 @@ function updatePlot(myTable,myName,myDiv) {
         var value_last = parseInt(result[i-i]['value']);
         var value = parseInt(result[i]['value']);
         myArray[result[i]['name']].push(new Array(ts,value));
-        var derivative = (value-value_last)/parseInt(ts-ts_last);
+        var derivative = (value-value_last)/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,derivative));
-        console.log('value '+value+' ts '+ts+' ts-ts_last '+parseInt(ts-ts_last));
+        console.log('value-value_last '+(value-value_last)+' ts '+ts+' ts-ts_last '+(parseInt(ts-ts_last)/1000/3600/24));
       } else {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
