@@ -31,18 +31,20 @@
       </div>
       <div class="row">
         <div class="col">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Choose a Metric
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<ul class="nav nav-pills">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Metrics</a>
+    <div class="dropdown-menu">
                <a class="dropdown-item" href="/?table=youtube">YouTube Content Creators</a>
                <a class="dropdown-item" href="/?table=youtubeplatforms">YouTube Platforms</a>
+               <div class="dropdown-divider"></div>
                <a class="dropdown-item" href="/?table=twitter">Twitter Content Creators</a>
                <a class="dropdown-item" href="/?table=twitterplatforms">Twitter Platforms</a>
-               <a class="dropdown-item" href="/?table=reddit">Reddit Platforms Subreddits</a>
+               <div class="dropdown-divider"></div>
                <a class="dropdown-item" href="/?table=facebook">Facebook Pages</a>
                <a class="dropdown-item" href="/?table=facebookgroups">Facebook Groups</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="/?table=reddit">Reddit Platforms Subreddits</a>
                <a class="dropdown-item" href="/?table=gplay">Google Play App Reviews</a>
                <a class="dropdown-item" href="/?table=ios">iOS Apps Reviews</a>
                <a class="dropdown-item" href="/?table=leaderboards">Game Leaderboards</a>
@@ -50,29 +52,22 @@
                <a class="dropdown-item" href="/?table=discord">Discord Platform Channels</a>
                <a class="dropdown-item" href="/?table=games">Games Availability</a>
                <a class="dropdown-item" href="/?table=misc">Miscellaneous</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               y vs. dy/dx
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">y vs. dy/dx</a>
+    <div class="dropdown-menu">
                <a class="dropdown-item" href="javascript:setPlot(false);">Value (y)</a>
                <a class="dropdown-item" href="javascript:setPlot(true);">Derivative (dy/dx)</a>
-            </div>
-          </div>
-        </div>  
-        <div class="col">
-          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#linksModal">
-            Links
-          </button>
-        </div>
-        <div class="col">
-          <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#aboutModal">
-            About
-          </button>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#linksModal">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="# data-toggle="modal" data-target="#aboutModal"">About</a>
+  </li>
+</ul>        
         </div>
       </div>
       <div class="row">
