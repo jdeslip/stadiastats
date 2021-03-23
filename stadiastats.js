@@ -51,9 +51,11 @@ function updatePlot(myTable,myName,myDiv) {
 
     for ( var i = 0 ; i < result.length ; i++ ) {
       if (myNames.includes(result[i]['name'])) {
-        var ts_last = new Date(result[i-1]['date']).getTime();
+        //var ts_last = new Date(result[i]['date']).getTime();
+        var ts_last = myArray[result[i]['name']][myArray[result[i]['name']].length-1][0];
         var ts = new Date(result[i]['date']).getTime();
-        var value_last = parseInt(result[i-1]['value']);
+        //var value_last = parseInt(result[i]['value']);
+        var value_last = myArray[result[i]['name']][myArray[result[i]['name']].length-1][1];
         var value = parseInt(result[i]['value']);
         myArray[result[i]['name']].push(new Array(ts,value));
         var derivative = (value-value_last)/(parseInt(ts-ts_last)/1000/3600/24);
