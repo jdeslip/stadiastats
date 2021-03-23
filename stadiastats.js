@@ -1,7 +1,12 @@
-function setPlot() {
+function setPlot(showDeriv) {
   var myTable = getUrlParameter('table');
   var myName = getUrlParameter('name');
-  var myDiv = getUrlParameter('derivative');
+  var myDiv = "false";
+  if (!showDeriv) { 
+    myDiv = getUrlParameter('derivative');
+  } else {
+    myDiv ="true";
+  }
 
   updatePlot(myTable,myName,myDiv);
 }
