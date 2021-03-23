@@ -62,6 +62,7 @@ function updatePlot(myTable,myName,myDiv) {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
         myArray[result[i]['name']] = new Array();
+        myDivArray[result[i]['name']] = new Array();
         var ts = new Date(result[i]['date']).getTime();
         myArray[result[i]['name']].push(new Array(ts,parseInt(result[i]['value'])));
       }
