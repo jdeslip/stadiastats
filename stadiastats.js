@@ -58,6 +58,7 @@ function updatePlot(myTable,myName,myDiv) {
         myArray[result[i]['name']].push(new Array(ts,value));
         var derivative = (value-value_last)/parseInt(ts-ts_last);
         myDivArray[result[i]['name']].push(new Array(ts,derivative));
+        console.log('value '+value+' ts '+ts+' ts-ts_last '+parseInt(ts-ts_last));
       } else {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
