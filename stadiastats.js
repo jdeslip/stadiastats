@@ -72,7 +72,7 @@ function updatePlot(myTable,myName) {
     for (var i = 0; i < myNames.length; i++) {
       if (myDiv != "true") { 
         allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
-      else {
+      } else {
         allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       }
     }
