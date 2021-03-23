@@ -3,10 +3,10 @@ function setPlot() {
   var myName = getUrlParameter('name');
   var myDiv = getUrlParameter('derivative');
 
-  updatePlot(myTable,myName);
+  updatePlot(myTable,myName,myDiv);
 }
 
-function updatePlot(myTable,myName) {
+function updatePlot(myTable,myName,myDiv) {
 
   var myTitles = new Array();
   
