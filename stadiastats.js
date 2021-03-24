@@ -1,7 +1,21 @@
-function setPlot(showDeriv) {
-  var myTable = getUrlParameter('table');
-  var myName = getUrlParameter('name');
-  var myDiv = "false";
+var myTable = "";
+var myName = "";
+var myDiv = "";
+
+function changeTable(newTable) {
+  var nextURL = 'https://stadiastats.jdeslip.com?table='+newTable+'&name='+myName+'&derivative='+myDiv;
+  window.location = nextURL;
+}
+
+function changeDiv(newDiv) {
+  var nextURL = 'https://stadiastats.jdeslip.com?table='+myTable+'&name='+myName+'&derivative='+newDiv;
+  window.location = nextURL;
+}
+
+function setPlot() {
+  myTable = getUrlParameter('table');
+  myName = getUrlParameter('name');
+  myDiv = "false";
   if (!showDeriv) { 
     myDiv = getUrlParameter('derivative');
   } else {
@@ -9,11 +23,17 @@ function setPlot(showDeriv) {
   }
   
   $('#'+myTable).addClass('active');
+  
+  if (#myDiv == "true") {
+    $('#derivative').addClass('active');    
+  } else {
+    $('#value').addClass('active');
+  }
 
-  updatePlot(myTable,myName,myDiv);
+  updatePlot();
 }
 
-function updatePlot(myTable,myName,myDiv) {
+function updatePlot() {
 
   var myTitles = new Array();
   
