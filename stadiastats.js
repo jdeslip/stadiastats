@@ -3,13 +3,23 @@ var myName = "";
 var myDiv = "";
 
 function changeTable(newTable) {
-  var nextURL = 'https://stadiastats.jdeslip.com?table='+newTable+'&name='+myName+'&derivative='+myDiv;
+  var nextURL = "";
+  if (myName) {
+    nextURL = 'https://stadiastats.jdeslip.com?table='+newTable+'&name='+myName+'&derivative='+myDiv;
+  } else {
+    nextURL = 'https://stadiastats.jdeslip.com?table='+newTable+'&derivative='+myDiv;
+  }
   window.location = nextURL;
 }
 
 function changeDiv(newDiv) {
-  var nextURL = 'https://stadiastats.jdeslip.com?table='+myTable+'&name='+myName+'&derivative='+newDiv;
-  window.location = nextURL;
+  var nextURL = "";
+  if (myName) {
+    nextURL = 'https://stadiastats.jdeslip.com?table='+myTable+'&name='+myName+'&derivative='+newDiv;
+  } else {
+    nextURL = 'https://stadiastats.jdeslip.com?table='+myTable+'&derivative='+newDiv;
+  }
+  window.location = nextURL;  
 }
 
 function setPlot() {
