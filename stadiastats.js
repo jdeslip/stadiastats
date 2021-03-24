@@ -7,6 +7,8 @@ function setPlot(showDeriv) {
   } else {
     myDiv ="true";
   }
+  
+  $('#'+myTable).addClass('active');
 
   updatePlot(myTable,myName,myDiv);
 }
