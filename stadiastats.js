@@ -19,7 +19,7 @@ function setPlot() {
   
   $('#'+myTable).addClass('active');
   
-  if (#myDiv == "true") {
+  if (myDiv == "true") {
     $('#derivative').addClass('active');    
   } else {
     $('#value').addClass('active');
