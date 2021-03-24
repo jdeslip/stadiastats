@@ -1,6 +1,7 @@
 var myTable = "";
 var myName = "";
 var myDiv = "";
+var myMetric = "";
 
 function changeTable(newTable) {
   var nextURL = "";
@@ -30,9 +31,11 @@ function setPlot() {
   $('#'+myTable).addClass('active');
   
   if (myDiv == "true") {
-    $('#derivative').addClass('active');    
+    $('#derivative').addClass('active');
+    myMetric = "Growth Rate";
   } else {
     $('#value').addClass('active');
+    myMetric = "Growth";
   }
 
   updatePlot();
@@ -120,7 +123,7 @@ function updatePlot() {
               zoomType: 'xy'
             },
             title: {
-                text: myTitles[myTable] + ' Growth Over Time',
+                text: myTitles[myTable] + ' '+ myMetric +' Over Time',
                 x: -20 //center
             },
             xAxis: {
