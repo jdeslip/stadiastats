@@ -82,7 +82,7 @@ function updatePlot() {
         myArray[result[i]['name']].push(new Array(ts,value));
         var derivative = (value-value_last)/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,derivative));
-        console.log('value '+value+' value_last '+value_last+' ts '+ts+' ts-ts_last '+(parseInt(ts-ts_last)/1000/3600/24));
+        //console.log('value '+value+' value_last '+value_last+' ts '+ts+' ts-ts_last '+(parseInt(ts-ts_last)/1000/3600/24));
       } else {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
