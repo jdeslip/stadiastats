@@ -14,13 +14,8 @@ function changeDiv(newDiv) {
 
 function setPlot() {
   myTable = getUrlParameter('table');
-  myName = getUrlParameter('name');
-  myDiv = "false";
-  if (!showDeriv) { 
-    myDiv = getUrlParameter('derivative');
-  } else {
-    myDiv ="true";
-  }
+  myName = getUrlParameter('name'); 
+  myDiv = getUrlParameter('derivative');
   
   $('#'+myTable).addClass('active');
   
