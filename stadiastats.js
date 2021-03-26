@@ -33,6 +33,9 @@ function setPlot() {
   if (myDiv == "true") {
     $('#derivative').addClass('active');
     myMetric = "Growth Rate";
+  } else if (myDiv == "smooth") {
+    $('#smooth').addClass('active');
+    myMetric = "Growth Rate"; 
   } else {
     $('#value').addClass('active');
     myMetric = "Growth";
@@ -82,6 +85,7 @@ function updatePlot() {
     //$("#plot-div").html(result);
     var myArray = new Array();
     var myDivArray = new Array();
+    var mySmoothDivArray = new Array();
     var myNames = new Array();
 
     for ( var i = 0 ; i < result.length ; i++ ) {
@@ -95,12 +99,19 @@ function updatePlot() {
         myArray[result[i]['name']].push(new Array(ts,value));
         var derivative = (value-value_last)/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,derivative));
+        if (myArray[result[i]['name']].length > 2) {
+          ts_last = myArray[result[i]['name']][myArray[result[i]['name']].length-3][0];
+          value_last = myArray[result[i]['name']][myArray[result[i]['name']].length-3][1];
+          derivative = (value-value_last)/(parseInt(ts-ts_last)/1000/3600/24);
+          mySmoothDivArray[result[i]['name']].push(new Array(ts,derivative));
+        }
         //console.log('value '+value+' value_last '+value_last+' ts '+ts+' ts-ts_last '+(parseInt(ts-ts_last)/1000/3600/24));
       } else {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
         myArray[result[i]['name']] = new Array();
         myDivArray[result[i]['name']] = new Array();
+        mySmoothDivArray[result[i]['name']] = new Array();
         var ts = new Date(result[i]['date']).getTime();
         myArray[result[i]['name']].push(new Array(ts,parseInt(result[i]['value'])));
       }
@@ -109,10 +120,12 @@ function updatePlot() {
     allSeries=new Array();
    
     for (var i = 0; i < myNames.length; i++) {
-      if (myDiv != "true") { 
-        allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
-      } else {
+      if (myDiv == "true") { 
         allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+      } else if (myDiv == "smooth") { 
+        allSeries.push({ name: myNames[i], data: mySmoothDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+      } else {
+        allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       }
     }
 
