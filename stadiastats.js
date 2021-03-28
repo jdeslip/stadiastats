@@ -61,7 +61,8 @@ function updatePlot() {
   myTitles['leaderboards'] = 'Game Leaderboard'
   myTitles['achievements'] = 'Achievement Leaderboard';
   myTitles['discord'] = 'Discord Channel';
-  myTitles['misc'] = 'Miscellaneous';
+  myTitles['misc'] = 'Misc. Population';
+  myTitles['miscactivity'] = 'Misc. Activity';
   myTitles['games'] = 'Game Availability';
   
   var myURL = "https://stats.stadiasource.com/";
