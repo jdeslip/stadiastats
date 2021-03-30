@@ -88,6 +88,7 @@ function updatePlot() {
     var myDivArray = new Array();
     var mySmoothDivArray = new Array();
     var myNames = new Array();
+    var myUrls = new Array();
 
     for ( var i = 0 ; i < result.length ; i++ ) {
       if (myNames.includes(result[i]['name'])) {
@@ -110,6 +111,7 @@ function updatePlot() {
       } else {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
+        myUrls.push(result[i]['url']);
         myArray[result[i]['name']] = new Array();
         myDivArray[result[i]['name']] = new Array();
         mySmoothDivArray[result[i]['name']] = new Array();
@@ -117,6 +119,13 @@ function updatePlot() {
         myArray[result[i]['name']].push(new Array(ts,parseInt(result[i]['value'])));
       }
     }
+    
+    var myLinksText = '';
+    for (var i = 0; i < myUrls; i++) {
+      myLinksText = "<a href='"+myUrls[i]+"'>"+myNames[i]+"</a><br>";
+    }
+    
+    $('"#pagelinks').html(myLinksText);
 
     allSeries=new Array();
    
