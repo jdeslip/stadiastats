@@ -121,7 +121,7 @@ function updatePlot() {
     }
     
     var myLinksText = '';
-    for (var i = 0; i < myUrls; i++) {
+    for (var i = 0; i < myUrls.length; i++) {
       myLinksText = "<a href='"+myUrls[i]+"'>"+myNames[i]+"</a><br>";
     }
     
