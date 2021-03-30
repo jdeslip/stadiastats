@@ -122,7 +122,9 @@ function updatePlot() {
     
     var myLinksText = '';
     for (var i = 0; i < myUrls.length; i++) {
-      myLinksText += "<a href='"+myUrls[i][0]+"'>"+myUrls[i][1]+"</a><br>";
+      if (myUrls[i][0]) {
+        myLinksText += "<a href='"+myUrls[i][0]+"'>"+myUrls[i][1]+"</a><br>";
+      }
     }
     
     $('#pagelinks').html(myLinksText);
