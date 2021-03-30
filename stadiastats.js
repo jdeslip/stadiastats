@@ -125,7 +125,7 @@ function updatePlot() {
       myLinksText = "<a href='"+myUrls[i]+"'>"+myNames[i]+"</a><br>";
     }
     
-    $('"#pagelinks').html(myLinksText);
+    $('#pagelinks').html(myLinksText);
 
     allSeries=new Array();
    
