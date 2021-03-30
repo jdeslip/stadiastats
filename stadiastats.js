@@ -111,7 +111,7 @@ function updatePlot() {
       } else {
         //console.log(result[i]['name']);
         myNames.push(result[i]['name']);
-        myUrls.push(result[i]['url']);
+        myUrls.push([result[i]['url'],result[i]['name']]);
         myArray[result[i]['name']] = new Array();
         myDivArray[result[i]['name']] = new Array();
         mySmoothDivArray[result[i]['name']] = new Array();
@@ -122,7 +122,7 @@ function updatePlot() {
     
     var myLinksText = '';
     for (var i = 0; i < myUrls.length; i++) {
-      myLinksText = "<a href='"+myUrls[i]+"'>"+myNames[i]+"</a><br>";
+      myLinksText += "<a href='"+myUrls[i][0]+"'>"+myUrls[i][1]+"</a><br>";
     }
     
     $('#pagelinks').html(myLinksText);
