@@ -82,7 +82,7 @@ function updatePlot() {
 
   console.log(myURL);
 
-  $.ajax({url: myURL,dataType: 'json', success: function(result){
+  $.ajax({url: myURL,dataType: 'json', cache: false, success: function(result){
     //$("#plot-div").html(result);
     var myArray = new Array();
     var myDivArray = new Array();
