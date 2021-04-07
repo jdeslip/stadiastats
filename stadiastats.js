@@ -106,6 +106,13 @@ function updatePlot() {
         myDifArray[result[i]['name']].push(new Array(ts,difference));
         var derivative = difference/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,derivative));
+        if (myDiv != "week" || (parseInt(ts-ts_last)/1000/3600/24) < 7) {
+          myDifArray[result[i]['name']].push(new Array(ts,difference));
+        } else {
+          var weekDifference = derivative * 7;
+          myDifArray[result[i]['name']].push(new Array(ts,weekDifference));
+        }
+        
         //if (myArray[result[i]['name']].length > 2) {
         //  ts_last = myArray[result[i]['name']][myArray[result[i]['name']].length-3][0];
         //  value_last = myArray[result[i]['name']][myArray[result[i]['name']].length-3][1];
