@@ -89,7 +89,7 @@ function updatePlot() {
     //$("#plot-div").html(result);
     var myArray = new Array();
     var myDivArray = new Array();
-    //var mySmoothDivArray = new Array();
+    var myDifArray = new Array();
     var myNames = new Array();
     var myUrls = new Array();
 
@@ -102,7 +102,9 @@ function updatePlot() {
         var value_last = myArray[result[i]['name']][myArray[result[i]['name']].length-1][1];
         var value = parseInt(result[i]['value']);
         myArray[result[i]['name']].push(new Array(ts,value));
-        var derivative = (value-value_last)/(parseInt(ts-ts_last)/1000/3600/24);
+        var difference = (value-value_last);
+        myDifArray[result[i]['name']].push(new Array(ts,difference));
+        var derivative = difference/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,derivative));
         //if (myArray[result[i]['name']].length > 2) {
         //  ts_last = myArray[result[i]['name']][myArray[result[i]['name']].length-3][0];
@@ -117,6 +119,7 @@ function updatePlot() {
         myUrls.push([result[i]['url'],result[i]['name']]);
         myArray[result[i]['name']] = new Array();
         myDivArray[result[i]['name']] = new Array();
+        myDifArray[result[i]['name']] = new Array();
         //mySmoothDivArray[result[i]['name']] = new Array();
         var ts = new Date(result[i]['date']).getTime();
         myArray[result[i]['name']].push(new Array(ts,parseInt(result[i]['value'])));
@@ -139,9 +142,9 @@ function updatePlot() {
         allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       } else if (myDiv == "week") { 
         //allSeries.push({ name: myNames[i], data: mySmoothDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});allSeries.push({ name: myNames[i], data: mySmoothDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
-        allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, dataGrouping:{enabled:true,approximation:'sum',forced:true,units:[['week',[1]]]},lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+        allSeries.push({ name: myNames[i], data: myDifArray[myNames[i]], marker:{enabled:true, radius:4}, dataGrouping:{enabled:true,approximation:'sum',forced:true,units:[['week',[1]]]},lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       } else if (myDiv == "month") {
-        allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, dataGrouping:{enabled:true,approximation:'sum',forced:true,units:[['month',[1]]]},lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+        allSeries.push({ name: myNames[i], data: myDifArray[myNames[i]], marker:{enabled:true, radius:4}, dataGrouping:{enabled:true,approximation:'sum',forced:true,units:[['month',[1]]]},lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       } else {
         allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       }
