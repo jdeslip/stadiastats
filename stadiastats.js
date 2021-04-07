@@ -140,7 +140,7 @@ function updatePlot() {
       } else if (myDiv == "week") { 
         //allSeries.push({ name: myNames[i], data: mySmoothDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});allSeries.push({ name: myNames[i], data: mySmoothDivArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
         allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, dataGrouping:{enabled:true,approximation:'sum',forced:true,units:[['week',[1]]]},lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
-      } else if {myDiv == "month") {
+      } else if (myDiv == "month") {
         allSeries.push({ name: myNames[i], data: myDivArray[myNames[i]], marker:{enabled:true, radius:4}, dataGrouping:{enabled:true,approximation:'sum',forced:true,units:[['month',[1]]]},lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       } else {
         allSeries.push({ name: myNames[i], data: myArray[myNames[i]], marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
