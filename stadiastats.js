@@ -119,7 +119,7 @@ function updatePlot() {
         
         if (myDiv == "week") {
           if (ts < lastFridayTS) {
-            if ((parseInt(ts-ts_last)/1000/3600/24) < 7)) {
+            if ((parseInt(ts-ts_last)/1000/3600/24) < 7) {
               myDifArray[result[i]['name']].push(new Array(ts,difference));
             } else {
               var weekDifference = derivative * 7;
