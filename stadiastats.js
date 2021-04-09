@@ -7,8 +7,8 @@ var lastFriday = new Date;
 var startMonth = new Date;
 lastFriday.setDate(currentDate.getDate() - ((currentDate.getDay() - 5) % 7));
 startMonth.setDate(currentDate.getDate() - currentDate.getDate() + 1);                  
-var lastFridayTS = Math.floor(lastFriday/1000/3600/24);
-var startMonthTS = Math.floor(startMonth/1000/3600/24);
+var lastFridayTS = Math.floor(lastFriday/1000/3600/24)*1000*3600*24;
+var startMonthTS = Math.floor(startMonth/1000/3600/24)*1000*3600*24;
 
 function changeTable(newTable) {
   var nextURL = "";
