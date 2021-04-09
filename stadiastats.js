@@ -3,7 +3,7 @@ var myName = "";
 var myDiv = "";
 var myMetric = "";
 var currentDate = new Date;
-var lastSaturday = new Date;
+var lastFriday = new Date;
 var startMonth = new Date;
 lastFriday.setDate(currentDate.getDate() - ((currentDate.getDay() - 5) % 7));
 startMonth.setDate(currentDate.getDate() - currentDate.getDate() + 1);                  
