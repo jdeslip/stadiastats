@@ -3,11 +3,11 @@ var myName = "";
 var myDiv = "";
 var myMetric = "";
 var currentDate = new Date;
-var lastFriday = new Date;
+var lastMonday = new Date;
 var startMonth = new Date;
-lastFriday.setDate(currentDate.getDate() - ((currentDate.getDay() - 5) % 7));
-startMonth.setDate(currentDate.getDate() - currentDate.getDate() + 1);                  
-var lastFridayTS = Math.floor(lastFriday/1000/3600/24)*1000*3600*24;
+lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() - 1) % 7));
+startMonth.setDate(currentDate.getDate() - currentDate.getDate());                  
+var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
 var startMonthTS = Math.floor(startMonth/1000/3600/24)*1000*3600*24;
 
 function changeTable(newTable) {
@@ -114,11 +114,11 @@ function updatePlot() {
         var derivative = difference/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,parseInt(derivative)));
         
-        console.log("lastFridayTS "+lastFridayTS);
+        console.log("lastMondayTS "+lastMondayTS);
         console.log("startMonthTS "+startMonthTS);
         
         if (myDiv == "week") {
-          if (ts < lastFridayTS) {
+          if (ts < lastMondayTS) {
             if ((parseInt(ts-ts_last)/1000/3600/24) < 7) {
               myDifArray[result[i]['name']].push(new Array(ts,difference));
             } else {
