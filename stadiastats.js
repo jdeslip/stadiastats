@@ -2,6 +2,13 @@ var myTable = "";
 var myName = "";
 var myDiv = "";
 var myMetric = "";
+var currentDate = new Date;
+var lastSaturday = new Date;
+var startMonth = new Date;
+lastSaturday.setDate(currentDate - ((currentDate.getDay - 6) % 7);
+startMonth.setDate(currentDate - currentDate.getDate() + 1);                  
+var lastSaturdayTS = Math.floor(lastSaturday/1000/3600/24);
+var startMonthTS = Math.floor(startMonth/1000/3600/24);
 
 function changeTable(newTable) {
   var nextURL = "";
@@ -106,11 +113,25 @@ function updatePlot() {
         //myDifArray[result[i]['name']].push(new Array(ts,difference));
         var derivative = difference/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,parseInt(derivative)));
-        if (myDiv != "week" || (parseInt(ts-ts_last)/1000/3600/24) < 7) {
-          myDifArray[result[i]['name']].push(new Array(ts,difference));
+        
+        console.log("lastSaturdayTS "+lastSaturdayTS);
+        console.log("startMonthTS "+startMonthTS);
+        
+        if (myDiv == "week") {
+          if (ts < lastSaturdayTS) {
+            if ((parseInt(ts-ts_last)/1000/3600/24) < 7)) {
+              myDifArray[result[i]['name']].push(new Array(ts,difference));
+            } else {
+              var weekDifference = derivative * 7;
+              myDifArray[result[i]['name']].push(new Array(ts,parseInt(weekDifference)));
+            }
+          }
+        } else if (myDiv == "month") {
+          if (ts < startMonthTS) {
+            myDifArray[result[i]['name']].push(new Array(ts,difference));
+          }
         } else {
-          var weekDifference = derivative * 7;
-          myDifArray[result[i]['name']].push(new Array(ts,parseInt(weekDifference)));
+          myDifArray[result[i]['name']].push(new Array(ts,difference));
         }
         
         //if (myArray[result[i]['name']].length > 2) {
