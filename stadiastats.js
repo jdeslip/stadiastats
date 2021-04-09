@@ -114,8 +114,8 @@ function updatePlot() {
         var derivative = difference/(parseInt(ts-ts_last)/1000/3600/24);
         myDivArray[result[i]['name']].push(new Array(ts,parseInt(derivative)));
         
-        console.log("lastMondayTS "+lastMondayTS);
-        console.log("startMonthTS "+startMonthTS);
+        //console.log("lastMondayTS "+lastMondayTS);
+        //console.log("startMonthTS "+startMonthTS);
         
         if (myDiv == "week") {
           if (ts < lastMondayTS) {
