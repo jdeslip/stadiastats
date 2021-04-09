@@ -5,9 +5,9 @@ var myMetric = "";
 var currentDate = new Date;
 var lastSaturday = new Date;
 var startMonth = new Date;
-lastSaturday.setDate(currentDate - ((currentDate.getDay - 6) % 7);
+lastFriday.setDate(currentDate - ((currentDate.getDay - 5) % 7));
 startMonth.setDate(currentDate - currentDate.getDate() + 1);                  
-var lastSaturdayTS = Math.floor(lastSaturday/1000/3600/24);
+var lastFridayTS = Math.floor(lastFriday/1000/3600/24);
 var startMonthTS = Math.floor(startMonth/1000/3600/24);
 
 function changeTable(newTable) {
@@ -118,7 +118,7 @@ function updatePlot() {
         console.log("startMonthTS "+startMonthTS);
         
         if (myDiv == "week") {
-          if (ts < lastSaturdayTS) {
+          if (ts < lastFridayTS) {
             if ((parseInt(ts-ts_last)/1000/3600/24) < 7)) {
               myDifArray[result[i]['name']].push(new Array(ts,difference));
             } else {
