@@ -126,7 +126,7 @@ function updatePlot() {
               myDifArray[result[i]['name']].push(new Array(ts,parseInt(weekDifference)));
             }
           } else {
-            console.log("Too new data point "+ts+" ts_last ");
+            console.log("Too new data point "+ts+" ts_last "+ts_last);
           }
         } else if (myDiv == "month") {
           if (ts < startMonthTS) {
