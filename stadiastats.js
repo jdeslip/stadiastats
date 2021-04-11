@@ -127,6 +127,7 @@ function updatePlot() {
             }
           } else {
             console.log("Too new data point "+ts+" ts_last "+ts_last);
+            console.log("getDate "+currentDate.getDate()+" getDay "+currentDate.getDay());
           }
         } else if (myDiv == "month") {
           if (ts < startMonthTS) {
