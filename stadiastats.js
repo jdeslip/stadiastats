@@ -125,10 +125,10 @@ function updatePlot() {
               var weekDifference = derivative * 7;
               myDifArray[result[i]['name']].push(new Array(ts,parseInt(weekDifference)));
             }
-          } //else {
-            //console.log("Too new data point "+ts+" ts_last "+ts_last);
-            //console.log("getDate "+currentDate.getDate()+" getDay "+currentDate.getDay());
-          //}
+          } else {
+            console.log("Too new data point "+ts+" ts_last "+ts_last);
+            console.log("getDate "+currentDate.getDate()+" getDay "+currentDate.getDay());
+          }
         } else if (myDiv == "month") {
           if (ts < startMonthTS) {
             myDifArray[result[i]['name']].push(new Array(ts,difference));
