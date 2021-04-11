@@ -67,7 +67,8 @@ function updatePlot() {
   myTitles['twitter'] = 'Twitter Stadia Community Member';
   myTitles['twitterplatforms'] = 'Twitter Platform';
   myTitles['reddit'] = 'SubReddit';
-  myTitles['facebook'] = 'Facebook Page';
+  myTitles['facebook'] = 'Facebook Follows';
+  myTitles['facebooklikes'] = 'Facebook Likes';
   myTitles['facebookgroups'] = 'Facebook Group';
   myTitles['twittterplatforms'] = 'Twitter Platform';
   myTitles['gplay'] = 'Google Play Review Count';
