@@ -9,6 +9,7 @@ lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() - 1) % 7));
 startMonth.setDate(currentDate.getDate() - currentDate.getDate());                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
 var startMonthTS = Math.floor(startMonth/1000/3600/24)*1000*3600*24;
+console.log('last Monday '+lastMondayTS);
 
 function changeTable(newTable) {
   var nextURL = "";
