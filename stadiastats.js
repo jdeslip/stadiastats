@@ -2,6 +2,7 @@ var myTable = "";
 var myName = "";
 var myDiv = "";
 var myMetric = "";
+var myYAxis = "";
 var currentDate = new Date;
 var lastMonday = new Date;
 var startMonth = new Date;
@@ -44,15 +45,19 @@ function setPlot() {
   if (myDiv == "true") {
     $('#derivative').addClass('active');
     myMetric = "Growth Rate";
+    myYAxis = "Growth Rate Per Day";
   } else if (myDiv == "week") {
     $('#week').addClass('active');
     myMetric = "Growth Rate"; 
+    myYAxis = "Growth Rate Per Week";
   } else if (myDiv == "month") {
     $('#month').addClass('active');
     myMetric = "Growth Rate";
+    myYAxis = "Growth Rate Per Month";
   } else {
     $('#value').addClass('active');
     myMetric = "Growth";
+    myYAxis = "Members";
   }
 
   updatePlot();
@@ -265,7 +270,7 @@ function updatePlot() {
             },
             yAxis: {
                 title: {
-                    text: 'Members'
+                    text: myYAxis
                 },
                 min : 0,
                 plotLines: [{
