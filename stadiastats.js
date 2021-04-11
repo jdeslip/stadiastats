@@ -125,6 +125,8 @@ function updatePlot() {
               var weekDifference = derivative * 7;
               myDifArray[result[i]['name']].push(new Array(ts,parseInt(weekDifference)));
             }
+          } else {
+            console.log("Too new data point "+ts+" ts_last ");
           }
         } else if (myDiv == "month") {
           if (ts < startMonthTS) {
