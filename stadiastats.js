@@ -84,6 +84,7 @@ function updatePlot() {
   myTitles['misc'] = 'Misc. Population';
   myTitles['miscactivity'] = 'Misc. Activity';
   myTitles['games'] = 'Game Availability';
+  myTitles['chromeextensions'] = 'Chrome Extensions';
   
   var myURL = "https://stats.stadiasource.com/";
 
