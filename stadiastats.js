@@ -69,8 +69,8 @@ function updatePlot() {
   
   myTitles['youtube'] = 'YouTube Creator Channel';
   myTitles['youtubeplatforms'] = 'YouTube Platform Channel';
-  myTitles['twitter'] = 'Twitter Stadia Community Member';
-  myTitles['twitterplatforms'] = 'Twitter Platform';
+  myTitles['twitter'] = 'Twitter Stadia Community Member Follower';
+  myTitles['twitterplatforms'] = 'Twitter Platform Follower';
   myTitles['reddit'] = 'SubReddit';
   myTitles['facebook'] = 'Facebook Follows';
   myTitles['facebooklikes'] = 'Facebook Likes';
