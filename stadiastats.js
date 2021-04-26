@@ -85,6 +85,7 @@ function updatePlot() {
   myTitles['miscactivity'] = 'Misc. Activity';
   myTitles['games'] = 'Game Availability';
   myTitles['chromeextensions'] = 'Chrome Extensions';
+  myTitles['twitch'] = 'Twitch Creator Channel';
   
   var myURL = "https://stats.stadiasource.com/";
 
