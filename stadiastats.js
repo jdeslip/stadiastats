@@ -199,6 +199,9 @@ function updatePlot() {
             chart : {
               zoomType: 'xy'
             },
+            exporting : {
+              enabled: true,
+            },
             title: {
                 text: myTitles[myTable] + ' '+ myMetric +' Over Time',
                 x: -20 //center
