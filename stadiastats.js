@@ -277,7 +277,7 @@ function updatePlot() {
                 title: {
                     text: myYAxis
                 },
-                min : 0,
+                //min : 0,
                 plotLines: [{
                     value: 0,
                     width: 1,
