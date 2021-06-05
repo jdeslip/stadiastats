@@ -7,7 +7,7 @@ var currentDate = new Date;
 var lastMonday = new Date;
 var startMonth = new Date;
 lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() + 6) % 7));
-startMonth.setDate(currentDate.getDate() - currentDate.getDate());                  
+startMonth.setDate(1);                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
 var startMonthTS = Math.floor(startMonth/1000/3600/24)*1000*3600*24;
 console.log('getDate '+currentDate.getDate());
