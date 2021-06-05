@@ -14,6 +14,7 @@ console.log('getDate '+currentDate.getDate());
 console.log('getDay '+currentDate.getDay());
 console.log(-1%7);
 console.log('last Monday '+lastMondayTS);
+console.log('start month '+startMonthTS);
 
 function changeTable(newTable) {
   var nextURL = "";
