@@ -113,6 +113,7 @@ function updatePlot() {
     var myNames = new Array();
     var myUrls = new Array();
     var mySum = 0;
+    var mySumH = 0;
 
     for ( var i = 0 ; i < result.length ; i++ ) {
       if (myNames.includes(result[i]['name'])) {
@@ -125,7 +126,8 @@ function updatePlot() {
         myArray[result[i]['name']].push(new Array(ts,value));
         if (result[i]['name'] == "Destiny 2 Stadia Daily Users") {
           mySum = mySum + (parseInt(ts-ts_last)/1000/3600/24)*value;
-          console.log("My Sum "+mySum);
+          mySumH = mySumH = (parseInt(ts-ts_last)/1000/3600/24)*value_last;
+          console.log("My Sum "+mySum+" "+mySumH);
         }
         var difference = (value-value_last);
         //myDifArray[result[i]['name']].push(new Array(ts,difference));
