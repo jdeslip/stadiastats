@@ -78,6 +78,7 @@ function updatePlot() {
   myTitles['facebookgroups'] = 'Facebook Group';
   myTitles['twittterplatforms'] = 'Twitter Platform';
   myTitles['gplay'] = 'Google Play Review Count';
+  myTitles['gplay'] = 'Google Play Download Count (Estimated)';
   myTitles['ios'] = 'iOS Review Count';
   myTitles['leaderboards'] = 'Game Leaderboard'
   myTitles['achievements'] = 'Achievement Leaderboard';
