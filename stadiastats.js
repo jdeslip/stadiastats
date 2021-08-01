@@ -73,6 +73,7 @@ function updatePlot() {
   myTitles['twitter'] = 'Twitter Stadia Community Member Follower';
   myTitles['twitterplatforms'] = 'Twitter Platform Follower';
   myTitles['reddit'] = 'SubReddit';
+  myTitles['instagram'] = 'Instagram Follower'
   myTitles['facebook'] = 'Facebook Follows';
   myTitles['facebooklikes'] = 'Facebook Likes';
   myTitles['facebookgroups'] = 'Facebook Group';
