@@ -69,11 +69,13 @@ function updatePlot() {
   var myTitles = new Array();
   
   myTitles['youtube'] = 'YouTube Creator Channel';
+  myTitles['tiktokcreators'] = 'Tiktok Creator Channel';
   myTitles['youtubeplatforms'] = 'YouTube Platform Channel';
   myTitles['twitter'] = 'Twitter Stadia Community Member Follower';
   myTitles['twitterplatforms'] = 'Twitter Platform Follower';
   myTitles['reddit'] = 'SubReddit';
-  myTitles['instagram'] = 'Instagram Follower'
+  myTitles['instagram'] = 'Instagram Platform Follower'
+  myTitles['instagramcreators'] = 'Instragram Creator Follower'
   myTitles['facebook'] = 'Facebook Follows';
   myTitles['facebooklikes'] = 'Facebook Likes';
   myTitles['facebookgroups'] = 'Facebook Group';
@@ -83,7 +85,8 @@ function updatePlot() {
   myTitles['ios'] = 'iOS Review Count';
   myTitles['leaderboards'] = 'Game Leaderboard'
   myTitles['achievements'] = 'Achievement Leaderboard';
-  myTitles['discord'] = 'Discord Channel';
+  myTitles['discord'] = 'Discord Platform Channel';
+  myTitles['discordcreators'] = 'Discord Creator Channel';
   myTitles['misc'] = 'Misc. Population';
   myTitles['miscactivity'] = 'Misc. Activity';
   myTitles['games'] = 'Game Availability';
