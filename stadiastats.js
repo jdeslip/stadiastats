@@ -93,7 +93,7 @@ function updatePlot() {
   myTitles['chromeextensions'] = 'Chrome Extensions';
   myTitles['twitch'] = 'Twitch Creator Channel';
   
-  var myURL = "https://stats.stadiasource.com/";
+  var myURL = "https://jdeslipweb.com/stadiastats/";
 
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
