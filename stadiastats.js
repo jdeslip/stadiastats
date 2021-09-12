@@ -88,7 +88,7 @@ function updatePlot() {
   myTitles['discord'] = 'Discord Platform Channel';
   myTitles['discordcreators'] = 'Discord Creator Channel';
   myTitles['misc'] = 'Misc. Population';
-  myTitles['miscactivity'] = 'Misc. Activity';
+  myTitles['miscactivitynew'] = 'Misc. Activity';
   myTitles['games'] = 'Game Availability';
   myTitles['chromeextensions'] = 'Chrome Extensions';
   myTitles['twitch'] = 'Twitch Creator Channel';
