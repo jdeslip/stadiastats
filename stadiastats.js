@@ -100,7 +100,9 @@ function updatePlot() {
   if (myTable) {
     myURL = myURL+"?table="+myTable;
   } else {
-    myTable="youtube";
+    myTable = myTitles[Math.floor(Math.random()*items.length)];
+    console.log("Doing a random table"+myTable);
+    //myTable="youtube";
     myURL = myURL+"?table=youtube";
   }
 
