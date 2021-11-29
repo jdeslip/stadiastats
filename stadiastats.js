@@ -67,6 +67,7 @@ function setPlot() {
 function updatePlot() {
 
   var myTitles = new Array();
+  var items = ['youtube','tiktokcreators','youtubeplatforms','twitter','twitterplatforms','reddit','instagram','instagramcreators','facebook','facebooklikes','facebookgroups','gplay','gplaydownloads','ios','leaderboards','achievements','discord','discordcreators','misc','miscactivitynew','games','chromeextensions','twitch'];
   
   myTitles['youtube'] = 'YouTube Creator Channel';
   myTitles['tiktokcreators'] = 'Tiktok Creator Channel';
@@ -100,10 +101,10 @@ function updatePlot() {
   if (myTable) {
     myURL = myURL+"?table="+myTable;
   } else {
-    myTable = myTitles[Math.floor(Math.random()*myTable.length)];
-    console.log("Doing a random table"+myTable);
+    myTable = items[Math.floor(Math.random()*items.length)];
+    console.log("Doing a random table "+myTable);
     //myTable="youtube";
-    myURL = myURL+"?table=youtube";
+    myURL = myURL+"?table="+myTable;
   }
 
   if (myName) {
