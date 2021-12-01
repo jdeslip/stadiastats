@@ -105,6 +105,7 @@ function updatePlot() {
     console.log("Doing a random table "+myTable);
     //myTable="youtube";
     myURL = myURL+"?table="+myTable;
+    $('#'+myTable).addClass('active');
   }
 
   if (myName) {
