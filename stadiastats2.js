@@ -71,6 +71,7 @@ function setPlot() {
 function updatePlotCombined() {
   
   var myTS = '2021-01-01'
+  var globalMax = 10000;
   var myNames = new Array();
   var myURL_base = "https://jdeslipweb.com/stadiastats/?date="+myTS;
   
@@ -99,13 +100,15 @@ function updatePlotCombined() {
 
         var myArray = new Array();
         var minVal = 0;
+        var maxVal = parseInt(result[result.length-1]['value']);
+        
         for ( var i = 0 ; i < result.length ; i++ ) {
           var ts = new Date(result[i]['date']).getTime();
           var value = parseInt(result[i]['value']);
           if ( i == 0 ) {
             minVal = value;
           }
-          value = value - minVal;
+          value = (value - minVal)*globalMax/maxVal;
           myArray.push(new Array(ts,value));
         }
         allSeries.push({ name: myTableC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
