@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1R5H4Q7M9N"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-1R5H4Q7M9N');
+    </script>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"crossorigin="anonymous">
+
+    <title>Stadia(™) community stats</title>
+  </head>
+  <body onLoad="setPlot();"> 
+    <div style="padding: 15px;">
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+            <h1>Stadia(™) Community Stats</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+<ul class="nav nav-pills">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Metrics</a>
+    <div class="dropdown-menu">
+               <a class="dropdown-item" id="youtubeplatforms" href="javascript:changeTable('youtubeplatforms');">YouTube Platforms</a>
+               <a class="dropdown-item" id="youtube" href="javascript:changeTable('youtube');">YouTube Content Creators</a>
+               <a class="dropdown-item" id="tiktokcreators" href="javascript:changeTable('tiktokcreators');">Tiktok Content Creators</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" id="twitterplatforms" href="javascript:changeTable('twitterplatforms');">Twitter Platforms</a>
+               <a class="dropdown-item" id="twitter" href="javascript:changeTable('twitter');">Twitter Content Creators</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" id="facebook" href="javascript:changeTable('facebook');">Facebook Follows</a>
+               <a class="dropdown-item" id="facebooklikes" href="javascript:changeTable('facebooklikes');">Facebook Likes</a>      
+               <a class="dropdown-item" id="facebookgroups" href="javascript:changeTable('facebookgroups');">Facebook Platform Groups</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" id="gplay" href="javascript:changeTable('gplay');">Google Play App Reviews</a>
+               <a class="dropdown-item" id="gplaydownloads" href="javascript:changeTable('gplaydownloads');">Google Play Downloads</a>
+               <a class="dropdown-item" id="ios" href="javascript:changeTable('ios');">iOS Apps Reviews</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" id="discord" href="javascript:changeTable('discord');">Discord Platform Channels</a>
+               <a class="dropdown-item" id="discordcreators" href="javascript:changeTable('discordcreators');">Discord Creator Channels</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" id="instagram" href="javascript:changeTable('instagram');">Instagram Platform Followers</a>                             
+               <a class="dropdown-item" id="instagramcreators" href="javascript:changeTable('instagramcreators');">Instagram Creator Followers</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" id="games" href="javascript:changeTable('games');">Games Availability</a>
+               <a class="dropdown-item" id="leaderboards" href="javascript:changeTable('leaderboards');">Game Leaderboards</a>
+               <a class="dropdown-item" id="achievements" href="javascript:changeTable('achievements');">Achievement Leaderboards</a>
+               <div class="dropdown-divider"></div>                                                                                                                                                                 
+               <a class="dropdown-item" id="reddit" href="javascript:changeTable('reddit');">Reddit Platform Subreddits</a> 
+               <a class="dropdown-item" id="chromeextensions" href="javascript:changeTable('chromeextensions');">Chrome Extensions</a>
+               <a class="dropdown-item" id="misc" href="javascript:changeTable('misc');">Misc. Populations</a>
+               <a class="dropdown-item" id="miscactivitynew" href="javascript:changeTable('miscactivitynew');">Misc. Activity</a>                                                                 
+    </div>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">y vs. dy/dx</a>
+    <div class="dropdown-menu">
+               <a class="dropdown-item" id="value" href="javascript:changeDiv('false');">Value (y)</a>
+               <a class="dropdown-item" id="derivative" href="javascript:changeDiv('true');">Derivative (dy/dx) by Day</a>
+               <a class="dropdown-item" id="week" href="javascript:changeDiv('week');">Derivative (dy/dx) by Week</a> 
+               <a class="dropdown-item" id="month" href="javascript:changeDiv('month');">Derivative (dy/dx) by Month</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#linksModal">Links</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal"">About</a>
+  </li>
+</ul>        
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="motd">
+            <font size=3>
+              <br><b>Tips:</b> Click and draw a rectangle to zoom in on any area of the plot.<br>Click on an item in the legend to isolate that curve.<br><br> 
+            </font>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <!--
+          <div id="down-message-div"><center><font size=7>Sorry for the inconvenience. Stadia Stats is temporarily down. Expect return in a couple days (early September)</font></center></div>
+          -->
+          <div id="plot-div" style="width:100%;height:800px;max-width:720px;"><center><img src="bounce.gif"></center></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="aboutModalLongTitle">About stadiastats.jdeslip.com</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            This website tracks various Stadia and Stadia community related metrics. A small amount of historical data is from archive.org or <a href="https://socialblade.com">SocialBlade.com</a> - For example, https://socialblade.com/youtube/c/stadiacast/monthly<br><br>
+            Stadia, the Stadia beacon, and related marks and logos are trademarks of Google LLC.<br><br>Email stadiastats@jdeslip.com with any queries.<br><br>
+            Page Notes: Coming Soon!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="linksModal" tabindex="-1" role="dialog" aria-labelledby="linksModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="linksModalLongTitle">Links</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="linksModalBody">
+            <h5>Other Stadia Stats Sites</h5>
+            <a href="https://public.tableau.com/views/StadiaProGameMonitor/StadiaProGameMonitor?:pixelratio=3&:showVizHome=no&:embed=yes&:toolbar=no&:showShareOptions=no">Stadia Pro Game Monitor</a> by inlead<br>
+            <a href="https://stadiastats.gg/stats">StadiaStats.GG</a><br>
+            <a href="https://stadiahunters.com/stats">StadiaHunters Stats</a><br>
+            <a href="https://airtable.com/shr32bmiOThVvSGar/tblAeJTnP2bzZyews">Original Penguin Airtables</a><br>
+            <a href="https://stdb.games/">Stadia DB</a><br><br>
+            <h5>Links from this page</h5>
+            <div id="pagelinks"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"crossorigin="anonymous"></script>
+    <script src="https://code.highcharts.com/stock/highstock.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="stadiastats.js"></script>
+  </body>
+</html>
