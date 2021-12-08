@@ -19,9 +19,9 @@ console.log('start month '+startMonthTS);
 function changeTable(newTable) {
   var nextURL = "";
   if (myName) {
-    nextURL = 'https://stadiastats.jdeslip.com?table='+newTable+'&name='+myName+'&derivative='+myDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+newTable+'&name='+myName+'&derivative='+myDiv;
   } else {
-    nextURL = 'https://stadiastats.jdeslip.com?table='+newTable+'&derivative='+myDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+newTable+'&derivative='+myDiv;
   }
   window.location = nextURL;
 }
@@ -29,9 +29,9 @@ function changeTable(newTable) {
 function changeDiv(newDiv) {
   var nextURL = "";
   if (myName) {
-    nextURL = 'https://stadiastats.jdeslip.com?table='+myTable+'&name='+myName+'&derivative='+newDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+myTable+'&name='+myName+'&derivative='+newDiv;
   } else {
-    nextURL = 'https://stadiastats.jdeslip.com?table='+myTable+'&derivative='+newDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+myTable+'&derivative='+newDiv;
   }
   window.location = nextURL;  
 }
@@ -61,7 +61,148 @@ function setPlot() {
     myYAxis = "Members";
   }
 
-  updatePlot();
+  if (myTable == "combined") {
+    updatePlotCombined();
+  } else { 
+    updatePlot();
+  }
+}
+
+function updatePlotCombined() {
+ 
+  var myNames = new Array();
+  var myURL_base = "https://jdeslipweb.com/stadiastats/";
+  $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
+
+  myNames['youtubeplatforms'] = 'Stadia';
+  myNames['twitterplatforms'] = 'GoogleStadia';
+  myNames['reddit'] = 'r/Stadia';
+  myNames['instagram'] = 'googlestadia';
+  myNames['facebooklikes'] = 'Stadia'
+  myNames['gplay'] = 'Stadia'
+  myNames['ios'] = 'Stadia'
+  myNames['discord'] = 'Stadia'
+    
+  for (const [myTableC, myNameC] of Object.entries(myNames)) {
+    myURL = myURL_base+"?table="+myTableC;
+    myURL = myURL+"&name="+myNameC;
+    allSeries=new Array();
+    
+    console.log('Starting query for '+myTableC+' '+myNameC);
+    
+    $.ajax({url: myURL,dataType: 'json', cache: false, success: function(result){
+      
+        console.log('Back from '+myTableC+' '+myNameC);
+
+        for ( var i = 0 ; i < result.length ; i++ ) {
+          var myArray = new Array();
+          var ts = new Date(result[i]['date']).getTime();
+          var value = parseInt(result[i]['value']);
+          myArray.push(new Array(ts,value));
+          allSeries.push({ name: myNameC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+        }
+        
+        if (myNameC == 'discord') {
+          $('#plot-div').highcharts('StockChart',{
+            chart : {
+              zoomType: 'xy'
+            },
+            exporting : {
+              enabled: true,
+            },
+            title: {
+                text: myTitles[myTable] + ' '+ myMetric +' Over Time',
+                x: -20 //center
+            },
+            xAxis: {
+                type: 'datetime',
+                title: {
+                    text: 'Date'
+                },
+            },
+            rangeSelector:{
+                enabled:false,
+                selected:0
+            },
+            tooltip: {
+                enabled: true,
+                formatter: function () {
+                   return '<b>' + this.series.name + '</b><br>' + Highcharts.dateFormat('%Y %m %d',this.x) + '<br>' + this.y;
+                },
+                snap: 0,
+            },
+            navigator:{
+                enabled:true,
+            },
+            marginBottom: 100,
+            marginRight: 5,
+            marginLeft: 5,
+            legend: {
+                enabled: true,
+                floating: false,
+                align: "left",
+                borderWidth: 0,
+                layout: "horizontal",
+                maxHeight: 120,
+                verticalAlign: "bottom",
+            },
+            plotOptions: {
+             series: {
+              events: {
+                legendItemClick: function(event) {
+                    //console.log('legend item clicked');
+                  
+                    if (!this.visible) {
+                      console.log('this is not visible');
+                      return true;
+                    }
+                                  
+                    //console.log('passed if statement');
+
+                    var seriesIndex = this.index;
+                    var series = this.chart.series;
+                  
+                    //console.log('this index is '+String(seriesIndex));
+                    //console.log('length is '+String(series.length));
+                    
+                    for (var i = 0; i < series.length; i++) {
+                        if (series[i].index != seriesIndex) {
+                          //console.log('Turning off series '+String(series[i].index));
+                             if (series[i].visible) {
+                               series[i].setVisible(false,false); 
+                             } else {
+                               series[i].setVisible(true,false);
+                             }
+                        }
+                    }
+                    this.chart.redraw();
+                    return false;
+                }
+              }
+             }
+            },
+            yAxis: {
+                title: {
+                    text: myYAxis
+                },
+                //min : 0,
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#808080'
+                }]
+            },
+            credits: {
+              enabled: false
+            },
+            series: allSeries,
+          });
+          
+        }
+      
+    }});  
+  }  
+  
 }
 
 function updatePlot() {
