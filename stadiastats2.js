@@ -70,7 +70,7 @@ function setPlot() {
 
 function updatePlotCombined() {
   
-  var myTS = '1609459200'
+  var myTS = '2021-01-01'
   var myNames = new Array();
   var myURL_base = "https://jdeslipweb.com/stadiastats/?TS="+myTS;
   
