@@ -103,6 +103,9 @@ function updatePlotCombined() {
         }
         
         if (myNameC == 'discord') {
+          
+          console.log('Im about to create the plot');
+          
           $('#plot-div').highcharts('StockChart',{
             chart : {
               zoomType: 'xy'
