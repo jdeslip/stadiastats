@@ -125,6 +125,9 @@ function updatePlotCombined() {
             if (myTableC == 'reddit') {
               globalMax = maxVal;
             }
+            if (globalMax >= 0 && maxVal < 0) {
+              maxVal = -1 * maxVal;
+            }
           }
           value = (value - minVal)*globalMax/maxVal;
           myArray.push(new Array(ts,value));
