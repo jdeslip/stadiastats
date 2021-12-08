@@ -90,6 +90,15 @@ function updatePlotCombined() {
   myNames['gplay'] = 'Stadia'
   myNames['ios'] = 'Stadia'
   myNames['discord'] = 'Stadia'
+  
+  myTitles['reddit'] = 'r/Stadia Members';
+  //myNames['youtubeplatforms'] = 'Stadia';
+  myTitles['twitterplatforms'] = 'GoogleStadia Twitter Followers';
+  //myNames['instagram'] = 'googlestadia';
+  myTitles['facebooklikes'] = 'Stadia Facebook Likes'
+  myTitles['gplay'] = 'Stadia Reviews on Google Play'
+  myTitles['ios'] = 'Stadia Reviews on iOS App Store'
+  myTitles['discord'] = 'Stadia Discord Members'
 
   allSeries=new Array();
 
@@ -120,7 +129,7 @@ function updatePlotCombined() {
           value = (value - minVal)*globalMax/maxVal;
           myArray.push(new Array(ts,value));
         }
-        allSeries.push({ name: myTableC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+        allSeries.push({ name: myTitles[myTableC], data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       
         console.log('done aggregation for '+myTableC+' '+myNameC);
         
