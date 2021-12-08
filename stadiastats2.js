@@ -116,7 +116,7 @@ function updatePlotCombined() {
               enabled: true,
             },
             title: {
-                text: myTitles[myTable] + ' '+ myMetric +' Over Time',
+                text: 'Scaled Stadia Metrics Over Time',
                 x: -20 //center
             },
             xAxis: {
