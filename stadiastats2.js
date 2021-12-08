@@ -82,11 +82,12 @@ function updatePlotCombined() {
   myNames['gplay'] = 'Stadia'
   myNames['ios'] = 'Stadia'
   myNames['discord'] = 'Stadia'
-    
+
+  allSeries=new Array();
+
   for (const [myTableC, myNameC] of Object.entries(myNames)) {
     myURL = myURL_base+"?table="+myTableC;
     myURL = myURL+"&name="+myNameC;
-    allSeries=new Array();
     
     console.log('Starting query for '+myTableC+' '+myNameC);
     
