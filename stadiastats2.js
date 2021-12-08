@@ -91,7 +91,7 @@ function updatePlotCombined() {
     myURL = myURL_base+"&table="+myTableC;
     myURL = myURL+"&name="+myNameC;
     
-    console.log('Starting query for '+myTableC+' '+myNameC);
+    console.log('Starting query for '+myTableC+' '+myNameC+' '+myURL);
     
     $.ajax({url: myURL,dataType: 'json', async: false, cache: false, success: function(result){
       
