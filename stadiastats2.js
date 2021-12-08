@@ -76,7 +76,7 @@ function updatePlotCombined() {
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
-  myNames['youtubeplatforms'] = 'Stadia';
+  //myNames['youtubeplatforms'] = 'Stadia';
   myNames['twitterplatforms'] = 'GoogleStadia';
   myNames['reddit'] = 'r/Stadia';
   // myNames['instagram'] = 'googlestadia';
