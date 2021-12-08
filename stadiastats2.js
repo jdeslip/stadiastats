@@ -79,7 +79,7 @@ function updatePlotCombined() {
   myNames['youtubeplatforms'] = 'Stadia';
   myNames['twitterplatforms'] = 'GoogleStadia';
   myNames['reddit'] = 'r/Stadia';
-  myNames['instagram'] = 'googlestadia';
+  // myNames['instagram'] = 'googlestadia';
   myNames['facebooklikes'] = 'Stadia'
   myNames['gplay'] = 'Stadia'
   myNames['ios'] = 'Stadia'
