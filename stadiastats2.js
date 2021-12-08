@@ -6,6 +6,7 @@ var myYAxis = "";
 var currentDate = new Date;
 var lastMonday = new Date;
 var startMonth = new Date;
+var globalMax = 10000;
 lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() + 6) % 7));
 startMonth.setDate(1);                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
@@ -76,16 +77,15 @@ function updatePlotCombined() {
     console.log('Setting new start date '+myDate;
     myTS = myDate;
   }
-  var globalMax = 10000;
   var myNames = new Array();
   var myURL_base = "https://jdeslipweb.com/stadiastats/?date="+myTS;
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
+  myNames['reddit'] = 'r/Stadia';
   //myNames['youtubeplatforms'] = 'Stadia';
   myNames['twitterplatforms'] = 'GoogleStadia';
-  myNames['reddit'] = 'r/Stadia';
-  // myNames['instagram'] = 'googlestadia';
+  //myNames['instagram'] = 'googlestadia';
   myNames['facebooklikes'] = 'Stadia'
   myNames['gplay'] = 'Stadia'
   myNames['ios'] = 'Stadia'
@@ -113,6 +113,9 @@ function updatePlotCombined() {
           if ( i == 0 ) {
             minVal = value;
             maxVal = maxVal - minVal;
+            if (myTableC == 'reddit') {
+              globalMax = maxVal;
+            }
           }
           value = (value - minVal)*globalMax/maxVal;
           myArray.push(new Array(ts,value));
