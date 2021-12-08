@@ -37,6 +37,7 @@ function changeDiv(newDiv) {
 }
 
 function setPlot() {
+  myTS = getUrlParameter('date');
   myTable = getUrlParameter('table');
   myName = getUrlParameter('name'); 
   myDiv = getUrlParameter('derivative');
@@ -70,7 +71,7 @@ function setPlot() {
 
 function updatePlotCombined() {
   
-  var myTS = '2021-01-01'
+  //var myTS = '2021-01-01'
   var globalMax = 10000;
   var myNames = new Array();
   var myURL_base = "https://jdeslipweb.com/stadiastats/?date="+myTS;
