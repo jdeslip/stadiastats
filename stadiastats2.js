@@ -91,6 +91,7 @@ function updatePlotCombined() {
   myNames['ios'] = 'Stadia'
   myNames['discord'] = 'Stadia'
   
+  var myTitles = new Array();
   myTitles['reddit'] = 'r/Stadia Members';
   //myNames['youtubeplatforms'] = 'Stadia';
   myTitles['twitterplatforms'] = 'GoogleStadia Twitter Followers';
