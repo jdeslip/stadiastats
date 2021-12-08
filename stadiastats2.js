@@ -72,7 +72,7 @@ function updatePlotCombined() {
   
   var myTS = '1609459200'
   var myNames = new Array();
-  var myURL_base = "https://jdeslipweb.com/stadiastats/?my_TS="+myTS;
+  var myURL_base = "https://jdeslipweb.com/stadiastats/?TS="+myTS;
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
