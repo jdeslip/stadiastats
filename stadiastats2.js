@@ -90,17 +90,17 @@ function updatePlotCombined() {
     
     console.log('Starting query for '+myTableC+' '+myNameC);
     
-    $.ajax({url: myURL,dataType: 'json', cache: false, success: function(result){
+    $.ajax({url: myURL,dataType: 'json', async: false, cache: false, success: function(result){
       
         console.log('Back from '+myTableC+' '+myNameC);
 
+        var myArray = new Array();
         for ( var i = 0 ; i < result.length ; i++ ) {
-          var myArray = new Array();
           var ts = new Date(result[i]['date']).getTime();
           var value = parseInt(result[i]['value']);
           myArray.push(new Array(ts,value));
-          allSeries.push({ name: myNameC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
         }
+        allSeries.push({ name: myNameC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       
         console.log('done aggregation for '+myTableC+' '+myNameC);
         
