@@ -69,9 +69,11 @@ function setPlot() {
 }
 
 function updatePlotCombined() {
- 
+  
+  var myTS = '1609459200'
   var myNames = new Array();
-  var myURL_base = "https://jdeslipweb.com/stadiastats/";
+  var myURL_base = "https://jdeslipweb.com/stadiastats/?myTS="+myTS;
+  
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
   myNames['youtubeplatforms'] = 'Stadia';
@@ -86,7 +88,7 @@ function updatePlotCombined() {
   allSeries=new Array();
 
   for (const [myTableC, myNameC] of Object.entries(myNames)) {
-    myURL = myURL_base+"?table="+myTableC;
+    myURL = myURL_base+"&table="+myTableC;
     myURL = myURL+"&name="+myNameC;
     
     console.log('Starting query for '+myTableC+' '+myNameC);
@@ -101,7 +103,7 @@ function updatePlotCombined() {
           var value = parseInt(result[i]['value']);
           myArray.push(new Array(ts,value));
         }
-        allSeries.push({ name: myNameC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
+        allSeries.push({ name: myTableC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
       
         console.log('done aggregation for '+myTableC+' '+myNameC);
         
