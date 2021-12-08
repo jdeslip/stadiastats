@@ -107,6 +107,7 @@ function updatePlotCombined() {
           var value = parseInt(result[i]['value']);
           if ( i == 0 ) {
             minVal = value;
+            maxVal = maxVal - minVal;
           }
           value = (value - minVal)*globalMax/maxVal;
           myArray.push(new Array(ts,value));
