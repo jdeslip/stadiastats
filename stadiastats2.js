@@ -74,7 +74,7 @@ function updatePlotCombined() {
   
   var myTS = '2021-01-01';
   if (myDate) {
-    console.log('Setting new start date '+myDate;
+    console.log('Setting new start date '+myDate);
     myTS = myDate;
   }
   var myNames = new Array();
