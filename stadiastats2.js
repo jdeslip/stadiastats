@@ -104,7 +104,7 @@ function updatePlotCombined() {
       
         console.log('done aggregation for '+myTableC+' '+myNameC);
         
-        if (myNameC == 'discord') {
+        if (myTableC == 'discord') {
           
           console.log('Im about to create the plot');
           
