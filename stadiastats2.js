@@ -98,9 +98,14 @@ function updatePlotCombined() {
         console.log('Back from '+myTableC+' '+myNameC);
 
         var myArray = new Array();
+        var minVal = 0;
         for ( var i = 0 ; i < result.length ; i++ ) {
           var ts = new Date(result[i]['date']).getTime();
           var value = parseInt(result[i]['value']);
+          if ( i == 0 ) {
+            minVal = value;
+          }
+          value = value - minVal;
           myArray.push(new Array(ts,value));
         }
         allSeries.push({ name: myTableC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
