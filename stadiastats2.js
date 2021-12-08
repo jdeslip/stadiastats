@@ -136,7 +136,7 @@ function updatePlotCombined() {
               enabled: true,
             },
             title: {
-                text: 'Scaled Stadia Metrics Over Time',
+                text: 'Stadia Metrics Over Time (Scaled to r/Stadia Growth)',
                 x: -20 //center
             },
             xAxis: {
