@@ -101,6 +101,8 @@ function updatePlotCombined() {
           myArray.push(new Array(ts,value));
           allSeries.push({ name: myNameC, data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
         }
+      
+        console.log('done aggregation for '+myTableC+' '+myNameC);
         
         if (myNameC == 'discord') {
           
