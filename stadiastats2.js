@@ -133,7 +133,7 @@ function updatePlotCombined() {
               maxVal = -1 * maxVal;
             }
           }
-          value = parseInt((value - minVal)1000000/maxVal);
+          value = parseInt((value - minVal)*1000000/maxVal);
           myArray.push(new Array(ts,value));
         }
         allSeries.push({ name: myTitles[myTableC], data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
