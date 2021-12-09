@@ -144,9 +144,9 @@ function updatePlotCombined() {
       
         if (nComplete == nTotal) {
           
-          for myEntry in allSeries {
-            for myRow in myEntry['data'] {
-              myRow[1] = myRow[1]*globalMax;
+          for ( var i = 0 ; i < allSeries.length ; i++ ){
+            for ( var j = 0 ; j < allSeries[i]['data'].length ; j++ ) {
+              allSeries[i]['data'][j] = allSeries[i]['data'][j]*globalMax;
             }
           }
           
