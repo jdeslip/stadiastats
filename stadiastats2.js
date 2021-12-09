@@ -84,6 +84,7 @@ function updatePlotCombined() {
 
   nTotal = 6;
   nComplete = 0;
+  firstNotDone = true;
   
   myNames['reddit'] = 'r/Stadia';
   //myNames['youtubeplatforms'] = 'Stadia';
@@ -115,6 +116,13 @@ function updatePlotCombined() {
     $.ajax({url: myURL,dataType: 'json', async: true, cache: false, success: function(result){
       
         console.log('Back from '+myTableC+' '+myNameC);
+      
+        if (myTableC == 'reddit') {
+          firstNotDone = false;
+        } else {
+          while (firstNotDone) {
+          }
+        }
 
         var myArray = new Array();
         var minVal = 0;
