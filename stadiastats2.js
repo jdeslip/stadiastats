@@ -121,7 +121,7 @@ function updatePlotCombined() {
           firstNotDone = false;
         } else {
           while (firstNotDone) {
-            sleep100();
+            await sleep(100);
           }
         }
 
