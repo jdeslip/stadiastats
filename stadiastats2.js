@@ -121,7 +121,8 @@ function updatePlotCombined() {
           firstNotDone = false;
         } else {
           while (firstNotDone) {
-          sleep100();
+            sleep100();
+          }
         }
 
         var myArray = new Array();
