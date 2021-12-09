@@ -84,7 +84,6 @@ function updatePlotCombined() {
 
   nTotal = 6;
   nComplete = 0;
-  firstNotDone = true;
   
   myNames['reddit'] = 'r/Stadia';
   //myNames['youtubeplatforms'] = 'Stadia';
@@ -116,14 +115,6 @@ function updatePlotCombined() {
     $.ajax({url: myURL,dataType: 'json', async: true, cache: false, success: function(result){
       
         console.log('Back from '+myTableC+' '+myNameC);
-      
-        if (myTableC == 'reddit') {
-          firstNotDone = false;
-        } else {
-          while (firstNotDone) {
-            await sleep(100);
-          }
-        }
 
         var myArray = new Array();
         var minVal = 0;
@@ -142,7 +133,7 @@ function updatePlotCombined() {
               maxVal = -1 * maxVal;
             }
           }
-          value = parseInt((value - minVal)*globalMax/maxVal);
+          value = parseInt((value - minVal)/maxVal);
           myArray.push(new Array(ts,value));
         }
         allSeries.push({ name: myTitles[myTableC], data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
@@ -152,6 +143,12 @@ function updatePlotCombined() {
         nComplete = nComplete + 1;
       
         if (nComplete == nTotal) {
+          
+          for myEntry in allSeries {
+            for myRow in myEntry['data'] {
+              myRow[1] = myRow[1]*globalMax;
+            }
+          }
           
           console.log('Im about to create the plot');
           
