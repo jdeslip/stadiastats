@@ -121,9 +121,7 @@ function updatePlotCombined() {
           firstNotDone = false;
         } else {
           while (firstNotDone) {
-            setTimeout(function() {
-            var dummyvar=1; }, (100));
-          }
+          sleep100();
         }
 
         var myArray = new Array();
@@ -504,6 +502,14 @@ function updatePlot() {
 
 
   }}); 
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function sleep100() {
+  await sleep(100);
 }
 
 var getUrlParameter = function getUrlParameter(sParam) {
