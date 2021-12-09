@@ -82,6 +82,9 @@ function updatePlotCombined() {
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
+  nTotal = 6;
+  nComplete = 0;
+  
   myNames['reddit'] = 'r/Stadia';
   //myNames['youtubeplatforms'] = 'Stadia';
   myNames['twitterplatforms'] = 'GoogleStadia';
@@ -109,7 +112,7 @@ function updatePlotCombined() {
     
     console.log('Starting query for '+myTableC+' '+myNameC+' '+myURL);
     
-    $.ajax({url: myURL,dataType: 'json', async: false, cache: false, success: function(result){
+    $.ajax({url: myURL,dataType: 'json', async: true, cache: false, success: function(result){
       
         console.log('Back from '+myTableC+' '+myNameC);
 
@@ -137,7 +140,9 @@ function updatePlotCombined() {
       
         console.log('done aggregation for '+myTableC+' '+myNameC);
         
-        if (myTableC == 'discord') {
+        nComplete = nComplete + 1;
+      
+        if (nComplete == nTotal) {
           
           console.log('Im about to create the plot');
           
