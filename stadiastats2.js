@@ -133,7 +133,7 @@ function updatePlotCombined() {
               maxVal = -1 * maxVal;
             }
           }
-          value = parseInt((value - minVal)/maxVal);
+          value = parseInt((value - minVal)1000000/maxVal);
           myArray.push(new Array(ts,value));
         }
         allSeries.push({ name: myTitles[myTableC], data: myArray, marker:{enabled:true, radius:4}, lineWidth: 4, showCheckbox: false, stickyTracking: false, type: 'scatter'});
@@ -144,9 +144,11 @@ function updatePlotCombined() {
       
         if (nComplete == nTotal) {
           
+          console.log('Im about to rescale '+globalMax);
+          
           for ( var i = 0 ; i < allSeries.length ; i++ ){
             for ( var j = 0 ; j < allSeries[i]['data'].length ; j++ ) {
-              allSeries[i]['data'][j] = allSeries[i]['data'][j]*globalMax;
+              allSeries[i]['data'][j][1] = allSeries[i]['data'][j][1]*globalMax/1000000;
             }
           }
           
