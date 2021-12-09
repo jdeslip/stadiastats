@@ -121,6 +121,8 @@ function updatePlotCombined() {
           firstNotDone = false;
         } else {
           while (firstNotDone) {
+            setTimeout(function() {
+            var dummyvar=1; }, (100));
           }
         }
 
