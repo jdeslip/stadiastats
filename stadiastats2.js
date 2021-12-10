@@ -84,13 +84,13 @@ function updatePlotCombined() {
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
-  nTotal = 6;
+  nTotal = 7;
   nComplete = 0;
   
   myNames['reddit'] = 'r/Stadia';
   //myNames['youtubeplatforms'] = 'Stadia';
   myNames['twitterplatforms'] = 'GoogleStadia';
-  //myNames['instagram'] = 'googlestadia';
+  myNames['instagram'] = 'googlestadia';
   myNames['facebooklikes'] = 'Stadia'
   myNames['gplay'] = 'Stadia'
   myNames['ios'] = 'Stadia'
@@ -100,7 +100,7 @@ function updatePlotCombined() {
   myTitles['reddit'] = 'r/Stadia Members';
   //myNames['youtubeplatforms'] = 'Stadia';
   myTitles['twitterplatforms'] = 'GoogleStadia Twitter Followers';
-  //myNames['instagram'] = 'googlestadia';
+  myNames['instagram'] = 'googlestadia';
   myTitles['facebooklikes'] = 'Stadia Facebook Likes'
   myTitles['gplay'] = 'Stadia Reviews on Google Play'
   myTitles['ios'] = 'Stadia Reviews on iOS App Store'
