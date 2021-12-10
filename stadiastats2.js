@@ -155,11 +155,13 @@ function updatePlotCombined() {
           
           for ( var i = 0 ; i < allSeries.length ; i++ ){
             var maxDiffTS = globalMaxTS - globalMinTS;
+            var myDiffTS = ( allSeries[i]['data'][allSeries[i]['data'].length-1][0] - allSeries[i]['data'][0][0] );
             var diffTS = (allSeries[i]['data'][0][0] - globalMinTS);
             var offset = (diffTS * globalMax) / maxDiffTS;
+            var rescale = myDiffTS / maxDiffTS;
             console.log('Rescaling '+i+' '+maxDiffTS+' '+diffTS+' '+offset);
             for ( var j = 0 ; j < allSeries[i]['data'].length ; j++ ) {
-              allSeries[i]['data'][j][1] = offset + allSeries[i]['data'][j][1]*globalMax/1000000;
+              allSeries[i]['data'][j][1] = offset + rescale*allSeries[i]['data'][j][1]*globalMax/1000000;
             }
           }
           
