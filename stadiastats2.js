@@ -7,6 +7,7 @@ var currentDate = new Date;
 var lastMonday = new Date;
 var startMonth = new Date;
 var globalMax = 10000;
+var globalMinTS = 0;
 lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() + 6) % 7));
 startMonth.setDate(1);                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
@@ -118,16 +119,20 @@ function updatePlotCombined() {
 
         var myArray = new Array();
         var minVal = 0;
+        var minTS = 0;
         var maxVal = parseInt(result[result.length-1]['value']);
-        
+        var maxTS = parseInt(result[result.length-1]['ts']);
+      
         for ( var i = 0 ; i < result.length ; i++ ) {
           var ts = new Date(result[i]['date']).getTime();
           var value = parseInt(result[i]['value']);
           if ( i == 0 ) {
             minVal = value;
+            minTS = ts;
             maxVal = maxVal - minVal;
             if (myTableC == 'reddit') {
               globalMax = maxVal;
+              globalMinTS = minTS;
             }
             if (globalMax >= 0 && maxVal < 0) {
               maxVal = -1 * maxVal;
@@ -144,7 +149,7 @@ function updatePlotCombined() {
       
         if (nComplete == nTotal) {
           
-          console.log('Im about to rescale '+globalMax);
+          console.log('Im about to rescale '+globalMax+' '+globalMinTS);
           
           for ( var i = 0 ; i < allSeries.length ; i++ ){
             for ( var j = 0 ; j < allSeries[i]['data'].length ; j++ ) {
