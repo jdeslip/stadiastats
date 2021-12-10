@@ -151,12 +151,13 @@ function updatePlotCombined() {
       
         if (nComplete == nTotal) {
           
-          console.log('Im about to rescale '+globalMax+' '+globalMinTS);
+          console.log('Im about to rescale '+globalMax+' '+' '+globalMaxTS+' '+globalMinTS);
           
           for ( var i = 0 ; i < allSeries.length ; i++ ){
             var maxDiffTS = globalMaxTS - globalMinTS;
             var diffTS = (allSeries[i]['data'][0][0] - globalMinTS);
             var offset = (diffTS * globalMax) / maxDiffTS;
+            console.log('Rescaling '+i+' '+maxDiffTS+' '+diffTS+' '+offset);
             for ( var j = 0 ; j < allSeries[i]['data'].length ; j++ ) {
               allSeries[i]['data'][j][1] = offset + allSeries[i]['data'][j][1]*globalMax/1000000;
             }
