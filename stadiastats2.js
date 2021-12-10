@@ -8,6 +8,7 @@ var lastMonday = new Date;
 var startMonth = new Date;
 var globalMax = 10000;
 var globalMinTS = 0;
+var globalMaxTS = 0;
 lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() + 6) % 7));
 startMonth.setDate(1);                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
@@ -133,6 +134,7 @@ function updatePlotCombined() {
             if (myTableC == 'reddit') {
               globalMax = maxVal;
               globalMinTS = minTS;
+              globalMaxTS = maxTS;
             }
             if (globalMax >= 0 && maxVal < 0) {
               maxVal = -1 * maxVal;
@@ -152,8 +154,11 @@ function updatePlotCombined() {
           console.log('Im about to rescale '+globalMax+' '+globalMinTS);
           
           for ( var i = 0 ; i < allSeries.length ; i++ ){
+            var maxDiffTS = globalMaxTS - globalMinTS;
+            var diffTS = (allSeries[i]['data'][0][0] - globalMinTS);
+            var offset = (diffTS * globalMax) / maxDiffTS;
             for ( var j = 0 ; j < allSeries[i]['data'].length ; j++ ) {
-              allSeries[i]['data'][j][1] = allSeries[i]['data'][j][1]*globalMax/1000000;
+              allSeries[i]['data'][j][1] = offset + allSeries[i]['data'][j][1]*globalMax/1000000;
             }
           }
           
