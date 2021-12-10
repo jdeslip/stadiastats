@@ -122,7 +122,7 @@ function updatePlotCombined() {
         var minVal = 0;
         var minTS = 0;
         var maxVal = parseInt(result[result.length-1]['value']);
-        var maxTS = parseInt(result[result.length-1]['ts']);
+        var maxTS = new Date(result[result.length-1]['date']).getTime();
       
         for ( var i = 0 ; i < result.length ; i++ ) {
           var ts = new Date(result[i]['date']).getTime();
