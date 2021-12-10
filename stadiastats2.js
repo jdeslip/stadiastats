@@ -100,7 +100,7 @@ function updatePlotCombined() {
   myTitles['reddit'] = 'r/Stadia Members';
   //myNames['youtubeplatforms'] = 'Stadia';
   myTitles['twitterplatforms'] = 'GoogleStadia Twitter Followers';
-  myNames['instagram'] = 'googlestadia';
+  myTitles['instagram'] = 'Stadia Instagram followers';
   myTitles['facebooklikes'] = 'Stadia Facebook Likes'
   myTitles['gplay'] = 'Stadia Reviews on Google Play'
   myTitles['ios'] = 'Stadia Reviews on iOS App Store'
