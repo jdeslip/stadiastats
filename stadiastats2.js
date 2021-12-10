@@ -8,7 +8,7 @@ var lastMonday = new Date;
 var startMonth = new Date;
 var globalMax = 10000;
 var globalMinTS = 0;
-var globalMaxTS = 0;
+var globalMaxTS = new Date;
 lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() + 6) % 7));
 startMonth.setDate(1);                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
