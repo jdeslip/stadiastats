@@ -22,9 +22,9 @@ console.log('start month '+startMonthTS);
 function changeTable(newTable) {
   var nextURL = "";
   if (myName) {
-    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+newTable+'&name='+myName+'&derivative='+myDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index.html?table='+newTable+'&name='+myName+'&derivative='+myDiv;
   } else {
-    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+newTable+'&derivative='+myDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index.html?table='+newTable+'&derivative='+myDiv;
   }
   window.location = nextURL;
 }
@@ -32,9 +32,9 @@ function changeTable(newTable) {
 function changeDiv(newDiv) {
   var nextURL = "";
   if (myName) {
-    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+myTable+'&name='+myName+'&derivative='+newDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index.html?table='+myTable+'&name='+myName+'&derivative='+newDiv;
   } else {
-    nextURL = 'https://stadiastats.jdeslip.com/index2.html?table='+myTable+'&derivative='+newDiv;
+    nextURL = 'https://stadiastats.jdeslip.com/index.html?table='+myTable+'&derivative='+newDiv;
   }
   window.location = nextURL;  
 }
