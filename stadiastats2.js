@@ -74,7 +74,7 @@ function setPlot() {
 
 function updatePlotCombined() {
   
-  var myTS = '2021-01-01';
+  var myTS = '2020-01-01';
   if (myDate) {
     console.log('Setting new start date '+myDate);
     myTS = myDate;
