@@ -88,7 +88,7 @@ function updatePlotCombined() {
   nComplete = 0;
   
   myNames['reddit'] = 'r/Stadia';
-  //myNames['youtubeplatforms'] = 'Stadia';
+  myNames['youtubeplatforms'] = 'Stadia';
   myNames['twitterplatforms'] = 'GoogleStadia';
   myNames['instagram'] = 'googlestadia';
   myNames['facebooklikes'] = 'Stadia'
@@ -98,7 +98,7 @@ function updatePlotCombined() {
   
   var myTitles = new Array();
   myTitles['reddit'] = 'r/Stadia Members';
-  //myNames['youtubeplatforms'] = 'Stadia';
+  myTitles['youtubeplatforms'] = 'YouTube Subscribers';
   myTitles['twitterplatforms'] = 'GoogleStadia Twitter Followers';
   myTitles['instagram'] = 'Stadia Instagram followers';
   myTitles['facebooklikes'] = 'Stadia Facebook Likes'
