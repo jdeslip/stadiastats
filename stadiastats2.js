@@ -84,7 +84,7 @@ function updatePlotCombined() {
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
-  nTotal = 7;
+  nTotal = 8;
   nComplete = 0;
   
   myNames['reddit'] = 'r/Stadia';
