@@ -80,7 +80,7 @@ function updatePlotCombined() {
     myTS = myDate;
   }
   var myNames = new Array();
-  var myURL_base = "https://jdeslipweb.com/stadiastats/?date="+myTS;
+  var myURL_base = "https://stadianumbers.com?date="+myTS;
   
   $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://www.stadiastats.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
@@ -299,9 +299,9 @@ function updatePlot() {
   myTitles['chromeextensions'] = 'Chrome Extensions';
   myTitles['twitch'] = 'Twitch Creator Channel';
   
-  var myURL = "https://jdeslipweb.com/stadiastats/";
+  var myURL = "https://stadianumbers.com";
 
-  $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.jdeslip.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
+  $("#plot-div").html("<center><img src='bounce.gif'><br><br>Plots Not Loading? Try <a href='http://stadiastats.com'>the Non SSL Version</a> while we migrate to our new host.</center>");
 
   if (myTable) {
     myURL = myURL+"?table="+myTable;
