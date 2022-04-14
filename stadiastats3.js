@@ -9,6 +9,7 @@ var startMonth = new Date;
 var globalMax = 10000;
 var globalMinTS = 0;
 var globalMaxTS = new Date;
+var statsURL = 'https://stadiadosage.com/?page_id=9'
 lastMonday.setDate(currentDate.getDate() - ((currentDate.getDay() + 6) % 7));
 startMonth.setDate(1);                  
 var lastMondayTS = Math.floor(lastMonday/1000/3600/24)*1000*3600*24;
@@ -22,9 +23,9 @@ console.log('start month '+startMonthTS);
 function changeTable(newTable) {
   var nextURL = "";
   if (myName) {
-    nextURL = 'https://www.stadiastats.com/index.html?table='+newTable+'&name='+myName+'&derivative='+myDiv;
+    nextURL = statsURL+'&table='+newTable+'&name='+myName+'&derivative='+myDiv;
   } else {
-    nextURL = 'https://www.stadiastats.com/index.html?table='+newTable+'&derivative='+myDiv;
+    nextURL = statsURL+'&table='+newTable+'&derivative='+myDiv;
   }
   window.location = nextURL;
 }
@@ -32,9 +33,9 @@ function changeTable(newTable) {
 function changeDiv(newDiv) {
   var nextURL = "";
   if (myName) {
-    nextURL = 'https://www.stadiastats.com/index.html?table='+myTable+'&name='+myName+'&derivative='+newDiv;
+    nextURL = statsURL+'table='+myTable+'&name='+myName+'&derivative='+newDiv;
   } else {
-    nextURL = 'https://www.stadiastats.com/index.html?table='+myTable+'&derivative='+newDiv;
+    nextURL = statsURL+'&table='+myTable+'&derivative='+newDiv;
   }
   window.location = nextURL;  
 }
