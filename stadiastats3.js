@@ -46,22 +46,22 @@ function setPlot() {
   myName = getUrlParameter('name'); 
   myDiv = getUrlParameter('derivative');
   
-  $('#'+myTable).attr('prop',true);
+  $('#'+myTable).prop('selected',true);
   
   if (myDiv == "true") {
-    $('#derivative').attr('prop',true);
+    $('#derivative').prop('selected',true);
     myMetric = "Growth Rate";
     myYAxis = "Growth Rate Per Day";
   } else if (myDiv == "week") {
-    $('#week').attr('prop',true);
+    $('#week').prop('selected',true);
     myMetric = "Growth Rate"; 
     myYAxis = "Growth Rate Per Week";
   } else if (myDiv == "month") {
-    $('#month').attr('prop',true);
+    $('#month').prop('selected',true);
     myMetric = "Growth Rate";
     myYAxis = "Growth Rate Per Month";
   } else {
-    $('#value').attr('prop',true);
+    $('#value').prop('selected',true);
     myMetric = "Growth";
     myYAxis = "Members";
   }
@@ -311,7 +311,7 @@ function updatePlot() {
     console.log("Doing a random table "+myTable);
     //myTable="youtube";
     myURL = myURL+"?table="+myTable;
-    $('#'+myTable).attr('prop',true);
+    $('#'+myTable).prop('selected',true);
   }
 
   if (myName) {
